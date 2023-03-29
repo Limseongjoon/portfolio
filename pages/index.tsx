@@ -5,15 +5,12 @@ const Page = () => {
   return (
     <div className="flex flex-col items-center w-screen max-h-fit bg-white text-29xl font-pretendard">
       <Header />
-      <div className="h-64"></div>
-      <CustomImage src="/images/logo.png" className="w-64 pb-6 mr-5"/>
+      <div className="h-16 md:h-20 lg:h-24"></div>
+      <CustomImage src="/images/pharos_main.png" className="w-screen lg:px-12 h-auto" />
       <div className="h-16 lg:h-24"></div>
-      <div className="w-full h-[120px] lg:h-[240px] flex flex-col items-center justify-center gap-4 lg:gap-10 bg-black text-white text-center">
-        <div className="w-full text-base lg:text-10xl font-bold tracking-wider">
-          HaHaHa
-        </div>
-        <div className="text-6xs lg:text-base font-regular">
-          © WWW. ALL RIGHTS RESERVED.
+      <div className="w-full h-[120px] lg:h-[240px] text-center">
+        <div className="text-xs md:text-sm lg:text-base">
+          Copyright © IM SEONGJOON. All rights Reserved.
         </div>
       </div>
     </div>

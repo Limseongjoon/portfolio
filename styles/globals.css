@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "hrot";
+    src: url("../public/assets/HrotBasic-Medium.otf");
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;

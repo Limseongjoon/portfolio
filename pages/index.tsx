@@ -10,7 +10,7 @@ const Page = () => {
       <div className="h-16 lg:h-24"></div>
       <div className="w-full h-[120px] lg:h-[240px] flex flex-col items-center justify-center gap-4 lg:gap-10 bg-black text-white text-center">
         <div className="w-full text-base lg:text-10xl font-bold tracking-wider">
-          WHERE WE WORK
+          HaHaHa
         </div>
         <div className="text-6xs lg:text-base font-regular">
           © WWW. ALL RIGHTS RESERVED.

@@ -1,39 +1,27 @@
-import CustomImage from './CustomImage';
+import CustomImage from '../components/CustomImage';
 import Link from 'next/link';
 
 const Page = () => {
   return (
-    <div className="fixed z-50 bg-white w-full">
-      <div className="flex flex-col items-center relative">
-        <div className="h-6 lg:h-6"></div>
+    <div className="fixed z-5 w-screen px-10 lg:px-12 bg-white">
+      <div className="h-8 lg:h-10"></div>
+      <div className="flex">
         <Link href="/">
-          <CustomImage src="/images/logo.png" className="h-6 sm:h-7 w-auto" />
+          <CustomImage src="/images/logo.png" className="h-5 lg:h-6 w-auto" />
         </Link>
-        <div className="h-4 lg:h-4"></div>
-        <div className="flex-none flex flex-row items-center justify-between gap-4 lg:gap-8">
+        <div className="grow"></div>
+        <div className="flex items-end gap-4 lg:gap-8">
           <Link
             href="/#"
-            className="border-solid border-2 font-medium px-4 lg:px-8 py-1 rounded-sm hover:bg-[#FFF210] focus:bg-[#FFF210] text-xs lg:text-base"
+            className="text-sm lg:text-base"
           >
-            ABOUT
-          </Link>
-          <Link
-            href="/team"
-            className="border-solid border-2 font-medium px-4 lg:px-8 py-1 rounded-sm hover:bg-[#FFF210] focus:bg-[#FFF210] text-xs lg:text-base"
-          >
-            OUR TEAM
-          </Link>
-          <Link
-            href="/talents"
-            className="border-solid border-2 font-medium px-4 lg:px-8 py-1 rounded-sm hover:bg-[#FFF210] focus:bg-[#FFF210] text-xs lg:text-base"
-          >
-            TALENTS
+            About
           </Link>
           <Link
             href="/contact"
-            className="border-solid border-2 font-medium px-4 lg:px-8 py-1 rounded-sm hover:bg-[#FFF210] focus:bg-[#FFF210] text-xs lg:text-base"
+            className="text-sm lg:text-base"
           >
-            CONTACT
+            Contact
           </Link>
         </div>
       </div>

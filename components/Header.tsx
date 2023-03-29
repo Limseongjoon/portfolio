@@ -7,7 +7,7 @@ const Page = () => {
       <div className="h-8 lg:h-10"></div>
       <div className="flex">
         <Link href="/">
-          <CustomImage src="/images/logo.png" className="h-5 lg:h-6 w-auto" />
+          <CustomImage src="/images/logo_joon.png" className="h-5 lg:h-6 w-auto" />
         </Link>
         <div className="grow"></div>
         <div className="flex items-end gap-4 lg:gap-8">

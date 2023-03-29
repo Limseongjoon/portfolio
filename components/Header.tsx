@@ -1,3 +1,4 @@
+import CustomImage from './CustomImage';
 import Link from 'next/link';
 
 const Page = () => {
@@ -6,11 +7,7 @@ const Page = () => {
       <div className="flex flex-col items-center relative">
         <div className="h-6 lg:h-6"></div>
         <Link href="/">
-          <img
-            className="flex-none w-[300px] lg:w-[500px]"
-            alt=""
-            src="/images/logo.png"
-          />
+          <CustomImage src="/images/logo.png" className="h-6 sm:h-7 w-auto" />
         </Link>
         <div className="h-4 lg:h-4"></div>
         <div className="flex-none flex flex-row items-center justify-between gap-4 lg:gap-8">

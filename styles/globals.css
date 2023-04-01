@@ -4,7 +4,26 @@
 
 @font-face {
     font-family: "hrot";
+    font-weight: 500;
     src: url("../public/assets/HrotBasic-Medium.otf");
+}
+
+@font-face {
+    font-family: "hrot";
+    font-weight: 600;
+    src: url("../public/assets/HrotBasic-SemiBold.otf");
+}
+
+@font-face {
+    font-family: "hrot";
+    font-weight: 700;
+    src: url("../public/assets/HrotBasic-Bold.otf");
+}
+
+@font-face {
+    font-family: "hrot";
+    font-weight: 900;
+    src: url("../public/assets/HrotBasic-Black.otf");
 }
 
 :root {
@@ -15,7 +34,7 @@
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;
 
   --primary-glow: conic-gradient(

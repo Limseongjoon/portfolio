@@ -2,20 +2,30 @@ import Header from '../components/Header';
 
 const Page = () => {
   return (
-    <div className="flex flex-col items-center w-screen max-h-fit bg-white text-29xl font-pretendard">
+    <div className="flex flex-col items-center bg-white">
       <Header />
-      <div className="h-48 lg:h-64"></div>
-      <div className="text-center text-base font-light sm:text-lg sm:leading-7 tracking-wide">
-        <div className="flex sm:hidden leading-5 py-2">
-          아래 메일주소로 연락을 주시면<br></br> 성심껏 상담을 도와드리겠습니다.
+      <div className="h-32 md:h-36 lg:h-48"></div>
+        <div className="h-12 md:h-16 lg:h-20"></div>
+        <div className="font-hrot text-center text-lg md:text-xl lg:text-2xl">
+          CONTACT
         </div>
-        <div className="hidden sm:flex sm:text-lg">
-          아래 메일주소로 연락을 주시면 성심껏 상담을 도와드리겠습니다.
+        <div className="h-4"></div>
+        <div className="hidden sm:flex text-center font-light md:text-lg">
+        Please feel free to contact me with any questions you may have.<br></br>
+        I will get back to you as soon as possible.
         </div>
-      </div>
-      <div className="h-4" />
-      <div className="max-w-xl w-full text-center">
-      2023wwwstartup@gmail.com
+        <div className="sm:hidden text-center font-light md:text-lg">
+        Please feel free to contact me<br></br> with any questions you may have.<br></br>
+        I will get back to you as soon as possible.
+        </div>
+      <div className="h-10" />
+      <div className="font-hrot text-center text-sm md:text-base">
+        <a
+          href="mailto:sungjun170@gmail.com"
+          className="px-6 py-1 hover:bg-black hover:text-white focus:bg-black focus:text-white"
+        >
+          sungjun170@gmail.com
+        </a>
       </div>
       <div className="h-96 lg:h-72"></div>
       <div className="w-full h-[120px] lg:h-[240px] text-center">

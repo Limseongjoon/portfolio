@@ -1,9 +1,9 @@
 import CustomImage from '../components/CustomImage';
 import Link from 'next/link';
 
-const Page = () => {
+const Header = () => {
   return (
-    <div className="fixed z-5 w-screen px-6 lg:px-12">
+    <div className="fixed z-50 w-screen px-6 lg:px-12 bg-white">
       <div className="h-5 md:h-6 lg:h-8"></div>
       <div className="flex items-start">
         <Link href="/">
@@ -30,4 +30,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Header;

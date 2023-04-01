@@ -5,7 +5,7 @@ const Page = () => {
     <div>
       <Header />
       <div className="flex flex-col h-screen items-center">
-        <div className="h-48 md:h-56 lg:h-64" />
+        <div className="h-36 md:h-48 lg:h-56" />
           <div className="font-hrot text-center text-lg md:text-xl lg:text-2xl">
             CONTACT
           </div>

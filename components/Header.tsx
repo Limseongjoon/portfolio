@@ -10,16 +10,16 @@ const Page = () => {
           <CustomImage src="/images/logo_joon.png" className="h-4 md:h-5 lg:h-6 w-auto" />
         </Link>
         <div className="grow"></div>
-        <div className="flex items-end gap-6 lg:gap-12 lg:-my-1">
+        <div className="flex items-end gap-6 md:gap-10 lg:gap-12 -my-[4px] lg:-my-1">
           <Link
             href="/#"
-            className="font-hrot text-2xs lg:text-sm"
+            className="font-hrot text-2xs md:text-xs lg:text-sm"
           >
             ABOUT
           </Link>
           <Link
             href="/contact"
-            className="font-hrot text-2xs lg:text-sm"
+            className="font-hrot text-2xs md:text-xs lg:text-sm"
           >
             CONTACT
           </Link>

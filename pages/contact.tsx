@@ -29,10 +29,8 @@ const Page = () => {
         </div>
         <div className="grow" />
         <div className="h-36" />
-        <div className="w-full h-24 text-center">
-          <div className="text-xs md:text-sm lg:text-base">
-            Copyright © IM SEONGJOON. All rights Reserved.
-          </div>
+        <div className="h-24 text-center text-xs md:text-sm lg:text-base">
+          Copyright © IM SEONGJOON. All rights Reserved.
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Page = () => {
   return (
-    <div className="bg-[#E7FF55]">
+    <div className="bg-[#e6ff46]">
       <div className="fixed z-50 w-screen px-6 lg:px-12">
       <div className="h-5 md:h-6 lg:h-8"></div>
       <div className="flex items-start">

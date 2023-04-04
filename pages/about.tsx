@@ -3,12 +3,12 @@ import Link from 'next/link';
 
 const Page = () => {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-[#FFD7EA]">
       <div className="fixed z-50 w-screen px-6 lg:px-12">
       <div className="h-5 md:h-6 lg:h-8"></div>
       <div className="flex items-start">
         <Link href="/">
-          <CustomImage src="/images/logo_joon_white.png" className="h-4 md:h-5 lg:h-6 w-auto" />
+          <CustomImage src="/images/logo_joon_pink.png" className="h-4 md:h-5 lg:h-6 w-auto" />
         </Link>
         <div className="grow"></div>
         <div className="flex items-end gap-6 md:gap-10 lg:gap-12 -my-[4px] lg:-my-1">

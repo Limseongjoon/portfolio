@@ -3,12 +3,12 @@ import Link from 'next/link';
 
 const Page = () => {
   return (
-    <div className="bg-[#CDFF62]">
+    <div className="bg-black text-white">
       <div className="fixed z-50 w-screen px-6 lg:px-12">
       <div className="h-5 md:h-6 lg:h-8"></div>
       <div className="flex items-start">
         <Link href="/">
-          <CustomImage src="/images/logo_joon.png" className="h-4 md:h-5 lg:h-6 w-auto" />
+          <CustomImage src="/images/logo_joon_white.png" className="h-4 md:h-5 lg:h-6 w-auto" />
         </Link>
         <div className="grow"></div>
         <div className="flex items-end gap-6 md:gap-10 lg:gap-12 -my-[4px] lg:-my-1">
@@ -31,26 +31,16 @@ const Page = () => {
       <div className="flex flex-col h-screen items-center">
         <div className="h-36 md:h-48 lg:h-56" />
           <div className="font-hrot text-center text-lg md:text-xl lg:text-2xl">
-            Contact
+            My Norm
           </div>
-          <div className="h-4" />
-          <div className="hidden sm:flex text-center font-light md:text-lg">
-          Please feel free to contact me with any questions you may have.<br></br>
-          I will get back to you as soon as possible.
+          <div className="h-10" />
+          <div className="font-light w-10/12 md:3/4 lg:w-1/2 text-center text-lg md:text-xl lg::text-2xl leading-loose">
+          Essentially ahead of itself, it has projected itself upon its potentiality-for-Being before going on to any mere consideration of itself... Being-in-the-world has always expressed itself, and as Being alongside entities encountered within-the-world, it constantly expresses itself in addressing itself to the very object of its concern and discussing it.
           </div>
-          <div className="sm:hidden text-center font-light md:text-lg">
-          Please feel free to contact me<br></br> with any questions you may have.<br></br>
-          I will get back to you as soon as possible.
+          <div className="h-8"></div>
+          <div className="font-hrot text-center text-xs md:text-sm lg:text-tiny">
+          ⎯ Martin Heidegger
           </div>
-        <div className="h-10" />
-        <div className="font-hrot text-center text-sm md:text-base">
-          <a
-            href="mailto:sungjun170@gmail.com"
-            className="px-6 py-1 hover:bg-black hover:text-white focus:bg-black focus:text-white"
-          >
-            sungjun170@gmail.com
-          </a>
-        </div>
         <div className="grow" />
         <div className="h-36" />
         <div className="h-24 text-center text-xs md:text-sm lg:text-base">

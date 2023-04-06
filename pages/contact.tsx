@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Page = () => {
   return (
-    <div className="bg-[#f8ff34] bg-gradient-to-t from-[#f8ff77]">
+    <div className="bg-[#f8ff34] bg-gradient-to-t from-[#e9e9e9]">
       <div className="fixed z-50 w-screen px-6 lg:px-12">
       <div className="h-5 md:h-6 lg:h-8"></div>
       <div className="flex items-start">

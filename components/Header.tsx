@@ -7,7 +7,7 @@ const Header = () => {
       <div className="h-5 md:h-6 lg:h-8"></div>
       <div className="flex items-start">
         <Link href="/">
-          <CustomImage src="/images/logo_joon.png" className="h-4 md:h-5 lg:h-6 w-auto" />
+          <CustomImage src="/images/logo_joon_black.png" className="h-4 md:h-5 lg:h-6 w-auto" />
         </Link>
         <div className="grow"></div>
         <div className="flex items-end gap-6 md:gap-10 lg:gap-12 -my-[4px] lg:-my-1">

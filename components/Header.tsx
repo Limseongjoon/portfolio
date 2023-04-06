@@ -6,7 +6,7 @@ const Header = () => {
     <div className="fixed z-50 w-screen px-6 lg:px-12 bg-transparent">
       <div className="h-5 md:h-6 lg:h-8"></div>
       <div className="flex items-start -my-1">
-        <Link href="/">
+        <Link href="/#">
           <CustomImage src="/images/logo_joon_black.png" className="h-3 md:h-4 lg:h-5 w-auto" />
         </Link>
         <div className="grow"></div>

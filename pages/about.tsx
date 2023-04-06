@@ -34,7 +34,7 @@ const Page = () => {
             My Norm
           </div>
           <div className="h-10" />
-          <div className="font-light w-10/12 md:3/4 lg:w-1/2 text-center md:text-lg lg:text-xl leading-relaxed">
+          <div className="font-extralight w-10/12 md:3/4 lg:w-1/2 text-center md:text-lg lg:text-xl leading-relaxed">
           Essentially ahead of itself, it has projected itself upon its potentiality-for-Being before going on to any mere consideration of itself... Being-in-the-world has always expressed itself, and as Being alongside entities encountered within-the-world, it constantly expresses itself in addressing itself to the very object of its concern and discussing it.
           </div>
           <div className="h-8"></div>

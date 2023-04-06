@@ -236,7 +236,7 @@ const Page = () => {
           </div>
         </div>
         <div className="h-36" />
-        <div className="text-center text-xs md:text-sm lg:text-base">
+        <div className="h-12 text-center text-2xs lg:text-xs">
           Copyright © IM SEONGJOON. All rights Reserved.
         </div>
       </div>

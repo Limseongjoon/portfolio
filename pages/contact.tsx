@@ -34,7 +34,7 @@ const Page = () => {
             Contact
           </div>
           <div className="h-4" />
-          <div className="text-center text-[#b837fe] font-extralight md:text-lg">
+          <div className="text-center text-[#b837fe] font-extralight md:text-lg leading-snug">
           Please feel free to contact me :{')'}<br></br>
           I will get back to you as soon as possible.
           </div>

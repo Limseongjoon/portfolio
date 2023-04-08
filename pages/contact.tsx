@@ -30,7 +30,7 @@ const Page = () => {
     </div>
       <div className="flex flex-col h-screen items-center">
         <div className="h-32 md:h-48 lg:h-56" />
-          <div className="font-hrot text-[#b837fe] text-center md:text-lg lg:text-xl">
+          <div className="font-hrot text-[#b837fe] text-center md:text-lg">
             Contact
           </div>
           <div className="h-4" />

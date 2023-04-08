@@ -30,15 +30,15 @@ const Page = () => {
     </div>
       <div className="flex flex-col h-screen items-center">
         <div className="h-32 md:h-48 lg:h-56" />
-          <div className="font-hrot text-center md:text-lg lg:text-xl text-[#ffcde5]">
+          <div className="font-hrot text-center md:text-lg text-[#ffcde5]">
             My Norm
           </div>
           <div className="h-10" />
-          <div className="font-extralight w-10/12 md:3/4 lg:w-1/2 text-center md:text-lg lg:text-xl leading-relaxed text-[#ffd5e9]">
-          Essentially ahead of itself, it has projected itself upon its potentiality-for-Being before going on to any mere consideration of itself... Being-in-the-world has always expressed itself, and as Being alongside entities encountered within-the-world, it constantly expresses itself in addressing itself to the very object of its concern and discussing it.
+          <div className="font-thin w-10/12 md:3/4 lg:w-1/2 text-center md:text-lg leading-relaxed tracking-wide text-[#ffd5e9]">
+          Essentially ahead of itself, it has projected itself upon its potentiality-for-Being before going on to any mere consideration of itself. Being-in-the-world has always expressed itself, and as Being alongside entities encountered within-the-world, it constantly expresses itself in addressing itself to the very object of its concern and discussing it.
           </div>
           <div className="h-8"></div>
-          <div className="font-hrot text-center text-xs md:text-sm lg:text-tiny text-[#ffcde5]">
+          <div className="text-center text-xs md:text-sm lg:text-tiny text-[#ffcde5]">
           ⎯ Martin Heidegger
           </div>
         <div className="grow" />

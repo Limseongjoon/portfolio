@@ -7,6 +7,40 @@ const Page = () => {
     <div>
       <Header />
       <div className="flex flex-col h-screen items-center pt-14 md:pt-16 lg:pt-20">
+      <div>
+          <CustomImage src="/images/rhetoric_main.jpeg" className="w-screen lg:px-12" />
+          <div className="h-8 lg:h-10" />
+          <div className="px-6 lg:px-12">
+            <div className="flex items-baseline">
+              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">rhetoric</div>
+              <div className="text-xs lg:text-sm">2023</div>
+            </div>
+            <div className="h-3" />
+            <div className="font-light">Based in Seoul, South Korea. consulting firm that started in 2015. It consists of people who are deeply interested in the impact on our culture and society through our responsible design. design consulting firm.</div>
+            <div className="h-6" />
+            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">See More →</div>
+            <div className="h-20" />
+          </div>
+        </div>
+      <div>
+          <CustomImage src="/images/inblog_main.png" className="w-screen lg:px-12" />
+          <div className="px-6 lg:px-12">
+            <div className="divide-y divide-black opacity-40">
+                <div></div>
+                <div></div>
+            </div>
+            <div className="h-8 lg:h-10" />
+            <div className="flex items-baseline">
+              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">inblog</div>
+              <div className="text-xs lg:text-sm">2023</div>
+            </div>
+            <div className="h-3" />
+            <div className="font-light">Based in Seoul, South Korea. consulting firm that started in 2015. It consists of people who are deeply interested in the impact on our culture and society through our responsible design. design consulting firm.</div>
+            <div className="h-6" />
+            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">See More →</div>
+            <div className="h-20" />
+          </div>
+        </div>
         <div>
           <CustomImage src="/images/pharos_main.png" className="w-screen lg:px-12 " />
           <div className="h-8 lg:h-10" />
@@ -105,29 +139,6 @@ const Page = () => {
           </div>
         </div>
         <div>
-          <CustomImage src="/images/inblog_main.png" className="w-screen lg:px-12" />
-          <div className="px-6 lg:px-12">
-            <div className="divide-y divide-black opacity-40">
-                <div></div>
-                <div></div>
-            </div>
-            <div className="h-8 lg:h-10" />
-            <div className="flex items-baseline">
-              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">inblog</div>
-              <div className="text-xs lg:text-sm">2023</div>
-            </div>
-            <div className="h-3" />
-            <div className="font-light">Based in Seoul, South Korea. consulting firm that started in 2015. It consists of people who are deeply interested in the impact on our culture and society through our responsible design. design consulting firm.</div>
-            <div className="h-6" />
-            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">See More →</div>
-            <div className="h-20" />
-            <div className="divide-y divide-black opacity-40">
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-        <div>
         <div className="h-4 lg:h-6" />
           <CustomImage src="/images/font_main.jpeg" className="w-screen lg:px-12" />
           <div className="px-6 lg:px-12">
@@ -139,21 +150,6 @@ const Page = () => {
             <div className="flex items-baseline">
               <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">KOREAN TYPEFACE</div>
               <div className="text-xs lg:text-sm">2021</div>
-            </div>
-            <div className="h-3" />
-            <div className="font-light">Based in Seoul, South Korea. consulting firm that started in 2015. It consists of people who are deeply interested in the impact on our culture and society through our responsible design. design consulting firm.</div>
-            <div className="h-6" />
-            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">See More →</div>
-            <div className="h-20" />
-          </div>
-        </div>
-        <div>
-          <CustomImage src="/images/rhetoric_main.jpeg" className="w-screen lg:px-12" />
-          <div className="h-8 lg:h-10" />
-          <div className="px-6 lg:px-12">
-            <div className="flex items-baseline">
-              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">rhetoric</div>
-              <div className="text-xs lg:text-sm">2023</div>
             </div>
             <div className="h-3" />
             <div className="font-light">Based in Seoul, South Korea. consulting firm that started in 2015. It consists of people who are deeply interested in the impact on our culture and society through our responsible design. design consulting firm.</div>

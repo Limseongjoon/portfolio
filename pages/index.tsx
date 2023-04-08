@@ -1,16 +1,54 @@
 import CustomImage from '../components/CustomImage';
-import Header from '../components/Header';
 import Link from 'next/link';
 
 const Page = () => {
   return (
     <div className="bg-white text-black">
-      <Header />
-      <div className="bg-white text-black flex flex-col h-screen items-center pt-14 md:pt-16 lg:pt-20">
-      <div>
-          <CustomImage src="/images/rhetoric_main.jpeg" className="w-screen lg:px-12" />
+      <div className="fixed z-50 w-screen px-6 lg:px-10">
+        <div className="h-3 lg:h-4" />
+        <div className="flex items-start">
+          <div className="-mt-1">
+          <Link href="/" className="font-hrot text-lg md:text-xl lg:text-2xl tracking-wider text-black">JOON</Link>
+          </div>
+          <div className="grow" />
+          <div className="flex items-end gap-6 md:gap-10 lg:gap-12">
+            <Link
+              href="/about"
+              className="font-hrot text-black text-2xs lg:text-xs"
+            >
+              ABOUT
+            </Link>
+            <Link
+              href="/contact"
+              className="font-hrot text-black text-2xs lg:text-xs"
+            >
+              CONTACT
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="bg-white text-black flex flex-col h-screen items-center pt-12 md:pt-14 lg:pt-20">
+      <div className="w-screen">
+        <Link href="/rhetoric_DDP">
+          <CustomImage src="/images/rhetoric_main.jpeg" className="w-screen lg:px-10 hover:scale-105" />
+          </Link>
           <div className="h-8 lg:h-10" />
-          <div className="px-6 lg:px-12">
+          <div className="hidden md:flex px-6 lg:px-10 w-full">
+            <div className="flex flex-row w-full">
+              <div className="flex items-baseline">
+                <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">rhetoric</div>
+                <div className="text-xs lg:text-sm">2023</div>
+              </div>
+              <div className="grow"/>
+              <div>
+                <div className="font-light lg:w-1/2">Based in Seoul, South Korea. consulting firm that started in 2015. It consists of people who are deeply interested in the impact on our culture and society through our responsible design. design consulting firm.</div>
+                <div className="h-6" />
+                <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">See More →</div>
+              </div>
+            </div>
+            <div className="h-20" />
+          </div>
+          <div className="md:hidden px-6 lg:px-10">
             <div className="flex items-baseline">
               <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">rhetoric</div>
               <div className="text-xs lg:text-sm">2023</div>

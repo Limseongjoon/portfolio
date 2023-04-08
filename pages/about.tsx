@@ -1,35 +1,33 @@
-import CustomImage from '../components/CustomImage';
 import Link from 'next/link';
 
 const Page = () => {
   return (
     <div className="bg-[#090909] text-[#ffcde5]">
-      <div className="fixed z-50 w-screen px-6 lg:px-12">
-      <div className="h-5 md:h-6 lg:h-8"></div>
-      <div className="flex items-start -my-1">
-        <Link href="/">
-          <CustomImage src="/images/logo_joon_pink.png" className="h-3 md:h-4 lg:h-5 w-auto" />
-        </Link>
-        <div className="grow"></div>
-        <div className="flex items-end gap-6 md:gap-10 lg:gap-12 -my-[4px] lg:-my-2">
-          <Link
-            href="/about"
-            className="font-hrot text-2xs lg:text-xs"
-          >
-            ABOUT
-          </Link>
-          <Link
-            href="/contact"
-            className="font-hrot text-2xs lg:text-xs"
-          >
-            CONTACT
-          </Link>
+      <div className="fixed z-50 w-screen px-6 lg:px-10">
+        <div className="h-3 lg:h-4" />
+        <div className="flex items-start">
+        <div className="-mt-1">
+          <Link href="/" className="font-hrot w-screen text-lg md:text-xl lg:text-2xl tracking-wider text-[#ffcde5]">JOON</Link>
+          </div>
+          <div className="grow" />
+          <div className="flex items-end gap-6 md:gap-10 lg:gap-12">
+            <Link
+              href="/about"
+              className="font-hrot text-[#ffcde5] text-2xs lg:text-xs"
+            >
+              ABOUT
+            </Link>
+            <Link
+              href="/contact"
+              className="font-hrot text-[#ffcde5] text-2xs lg:text-xs"
+            >
+              CONTACT
+            </Link>
+          </div>
         </div>
       </div>
-      <div className="h-2"></div>
-    </div>
       <div className="flex flex-col h-screen items-center">
-        <div className="h-32 md:h-48 lg:h-56" />
+        <div className="h-32 md:h-48 xl:h-52 2xl:h-56" />
           <div className="font-hrot text-center md:text-lg text-[#ffcde5]">
             My Norm
           </div>

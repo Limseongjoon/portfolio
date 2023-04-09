@@ -107,15 +107,15 @@ const Page = () => {
         </div>
 
         <div className="bg-white text-black flex flex-col items-center">
-          <div className="w-screen md:pt-36 lg:pt-48">
-            <div className="flex items-center justify-center h-screen">
+          <div className="xl:mt-60">
+            <div className="w-auto h-screen aspect-w-16 aspect-h-9">
               <iframe
                 src="https://player.vimeo.com/video/815950390?autoplay=1&loop=1&muted=1&title=0&autopause=0&background=1"
-                className="h-full w-auto 
-                min-w-full min-h-full max-w-none"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                className="h-full w-full"
               ></iframe>
             </div>
-            <div className="hidden md:flex px-6 lg:px-10 w-full md:-mt-36 lg:-mt-10">
+            <div className="hidden md:flex px-6 lg:px-10 w-full">
               <div className="flex flex-row w-full items-baseline">
                 <div className="flex flex-col w-1/2">
                   <div className="flex items-baseline">
@@ -146,7 +146,7 @@ const Page = () => {
               </div>
               <div className="h-20" />
             </div>
-            <div className="md:hidden px-6 lg:px-10 -mt-64 sm:-mt-48">
+            <div className="md:hidden px-6 lg:px-10 -mt-60 sm:-mt-48">
               <div className="flex items-baseline">
                 <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                   rhetoric

@@ -42,7 +42,7 @@ const Page = () => {
         </div>
       </div>
       <div className="bg-white text-black flex flex-col h-screen items-center pt-12 md:pt-14 lg:pt-20">
-      <div className="grow" />
+        <div className="grow" />
         <div className="h-36" />
         <div className="h-12 text-center text-2xs lg:text-xs">
           Copyright © IM SEONGJOON. All rights Reserved.

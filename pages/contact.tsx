@@ -18,10 +18,10 @@ const Page = () => {
               ABOUT
             </Link>
             <Link
-              href="/contact"
+              href="/norms"
               className="font-hrot text-[#b837fe] text-2xs lg:text-xs"
             >
-              CONTACT
+              NORMS
             </Link>
           </div>
         </div>

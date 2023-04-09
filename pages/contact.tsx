@@ -1,3 +1,4 @@
+import CustomImage from "../components/CustomImage";
 import Link from "next/link";
 
 const Page = () => {

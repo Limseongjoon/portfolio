@@ -42,12 +42,9 @@ const Page = () => {
       <div className="bg-white text-black flex flex-col h-screen items-center pt-12 md:pt-14 lg:pt-20">
         <div className="w-screen">
           <Link href="/rhetoric_DDP">
-            <CustomImage
-              src="/images/rhetoric_main.jpeg"
-              className="w-screen lg:px-10 hover:scale-105"
-            />
+            <CustomImage src="/images/rhetoric_main.jpeg" className="w-full" />
           </Link>
-          <div className="h-8 lg:h-10" />
+          <div className="h-8 lg:h-8" />
           <div className="hidden md:flex px-6 lg:px-10 w-full">
             <div className="flex flex-row w-full items-baseline">
               <div className="flex flex-col w-1/2">
@@ -74,14 +71,14 @@ const Page = () => {
                   into wonderful patterns.
                 </div>
                 <div className="h-6" />
-                <div className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:scale-y-100 hover:scale-x-90">
+                <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">
                   See More →
                 </div>
               </div>
             </div>
             <div className="h-20" />
           </div>
-          <div className="md:hidden px-6 lg:px-10">
+          <div className="md:hidden px-6 lg:px-10 -mt-2">
             <div className="flex items-baseline">
               <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                 rhetoric
@@ -103,23 +100,22 @@ const Page = () => {
               connectivity and expand into wonderful patterns.
             </div>
             <div className="h-6" />
-            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:scale-y-100 hover:scale-x-90">
+            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">
               See More →
             </div>
           </div>
-          <div className="h-20 lg:h-40" />
         </div>
 
-        <div className="bg-white text-black flex flex-col h-screen items-center">
-          <div>
-            <Link href="/rhetoric_DDP">
+        <div className="bg-white text-black flex flex-col items-center">
+          <div className="w-screen md:pt-36 lg:pt-48">
+            <div className="flex items-center justify-center h-screen">
               <iframe
                 src="https://player.vimeo.com/video/815950390?autoplay=1&loop=1&muted=1&title=0&autopause=0&background=1"
-                className="w-screen h-full lg:px-10 hover:scale-105"
+                className="h-full w-auto 
+                min-w-full min-h-full max-w-none"
               ></iframe>
-            </Link>
-            <div className="h-8 lg:h-10" />
-            <div className="hidden md:flex px-6 lg:px-10 w-full">
+            </div>
+            <div className="hidden md:flex px-6 lg:px-10 w-full md:-mt-36 lg:-mt-10">
               <div className="flex flex-row w-full items-baseline">
                 <div className="flex flex-col w-1/2">
                   <div className="flex items-baseline">
@@ -128,35 +124,29 @@ const Page = () => {
                     </div>
                     <div className="text-xs lg:text-sm">2023</div>
                   </div>
-                  <div className="h-3" />
+                  <div className="h-2" />
                   <div className="font-hrot text-xs pr-2 lg:pr-4">
-                    For Fabric edition of<br></br>Maison Objet Paris, France
+                    Concept MG of Bojagi Ed.<br></br>Maison & Objet Paris
                   </div>
                 </div>
                 <div className="w-1/2">
                   <div className="font-light">
-                    rhetoric is a design group that aims for high environmental
-                    sensitivity and self-efficacy through design with the spirit
-                    of aesthetics and creativity in everyday life. rhetoric
-                    delivers the message through a lunch box kit that a life of
-                    self-care through daily practices is directly connected to
-                    environment. The visual identity of DDP exhibition focuses
-                    on the message based on unique visual assets of rhetoric.
-                    Circle symbolizes routine and circulation, and square
-                    symbolizes recovery and care. Those 2 flat and basic shapes
-                    are organized to express connectivity and expand into
-                    wonderful patterns.
+                    The edition is designed as a moptif of flexible Korean
+                    Bojagi which is a wrapping fabric with different patterns
+                    and uses. rhetoric suggest unique lifestyle that develops
+                    self-efficiency with a new daily routine. Lunch box and
+                    wrapping fabric are designed to commemorate Maison&Objet
+                    2022 in Paris, France.
                   </div>
                   <div className="h-6" />
-                  <div className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:scale-y-100 hover:scale-x-90">
+                  <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">
                     See More →
                   </div>
                 </div>
               </div>
               <div className="h-20" />
             </div>
-
-            <div className="md:hidden px-6 lg:px-10">
+            <div className="md:hidden px-6 lg:px-10 -mt-64 sm:-mt-48">
               <div className="flex items-baseline">
                 <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                   rhetoric
@@ -169,93 +159,60 @@ const Page = () => {
               </div>
               <div className="h-6" />
               <div className="font-light lg:w-1/2">
-                Based in Seoul, South Korea. consulting firm that started in
-                2015. It consists of people who are deeply interested in the
-                impact on our culture and society through our responsible
-                design. design consulting firm.
+                rhetoric delivers the message through a lunch box kit that a
+                life of self-care through daily practices is directly connected
+                to environment. The visual identity of DDP exhibition focuses on
+                the message based on unique visual assets of rhetoric. Circle
+                symbolizes routine and circulation, and square symbolizes
+                recovery and care. Those 2 flat and basic shapes are organized
+                to express connectivity and expand into wonderful patterns.
               </div>
               <div className="h-6" />
               <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">
                 See More →
               </div>
             </div>
+            <div className="h-64" />
           </div>
         </div>
 
-        <div className="bg-white text-black flex flex-col h-screen items-center pt-12 md:pt-14 lg:pt-20">
-          <CustomImage
-            src="/images/inblog_main.png"
-            className="w-screen lg:px-12"
-          />
-          <div className="px-6 lg:px-12">
-            <div className="divide-y divide-black opacity-40">
-              <div></div>
-              <div></div>
-            </div>
+        <div className="bg-white text-black flex flex-col items-center">
+          <div>
+            <CustomImage src="/images/pharos_main.png" className="w-screen" />
             <div className="h-8 lg:h-10" />
-            <div className="flex items-baseline">
-              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
-                inblog
+            <div className="px-6 lg:px-12">
+              <div className="flex items-baseline">
+                <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
+                  PHAROS
+                </div>
+                <div className="text-xs lg:text-sm">2022</div>
               </div>
-              <div className="text-xs lg:text-sm">2023</div>
-            </div>
-            <div className="h-3" />
-            <div className="font-light">
-              Based in Seoul, South Korea. consulting firm that started in 2015.
-              It consists of people who are deeply interested in the impact on
-              our culture and society through our responsible design. design
-              consulting firm.
-            </div>
-            <div className="h-6" />
-            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">
-              See More →
-            </div>
-            <div className="h-20" />
-          </div>
-        </div>
-        <div>
-          <CustomImage
-            src="/images/pharos_main.png"
-            className="w-screen lg:px-12 "
-          />
-          <div className="h-8 lg:h-10" />
-          <div className="px-6 lg:px-12">
-            <div className="flex items-baseline">
-              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
-                PHAROS
+              <div className="h-3" />
+              <div className="font-light">
+                PHAROS Co., Ltd. consulting firm that started in 2015. It
+                consists of people who are deeply interested in the impact on
+                our culture and society through our responsible design. design
+                consulting firm.
               </div>
-              <div className="text-xs lg:text-sm">2022</div>
-            </div>
-            <div className="h-3" />
-            <div className="font-light">
-              PHAROS Co., Ltd. consulting firm that started in 2015. It consists
-              of people who are deeply interested in the impact on our culture
-              and society through our responsible design. design consulting
-              firm.
-            </div>
-            <div className="h-6" />
-            <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">
-              See More →
-            </div>
-            <div className="h-1" />
-            <Link
-              href="http://3.35.83.107/pharosapp/templates/pharosapp/start.html"
-              target="_blank"
-              className="font-hrot text-tiny pr-2 lg:pr-4 underline"
-            >
-              Digital Booth →
-            </Link>
-            <div className="h-20" />
-            <div className="z-1 divide-y divide-black opacity-40">
-              <div></div>
-              <div></div>
+              <div className="h-6" />
+              <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">
+                See More →
+              </div>
+              <div className="h-1" />
+              <Link
+                href="http://3.35.83.107/pharosapp/templates/pharosapp/start.html"
+                target="_blank"
+                className="font-hrot text-tiny pr-2 lg:pr-4 underline"
+              >
+                Digital Booth →
+              </Link>
+              <div className="h-20" />
+              <div className="z-1 divide-y divide-black opacity-40">
+                <div></div>
+                <div></div>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div className="h-36" />
-        <div className="h-12 text-center text-2xs lg:text-xs">
-          Copyright © IM SEONGJOON. All rights Reserved.
         </div>
       </div>
     </div>

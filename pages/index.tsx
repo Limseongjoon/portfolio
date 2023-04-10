@@ -107,7 +107,7 @@ const Page = () => {
         </div>
         <div className="bg-white text-black flex flex-col items-center">
           <div>
-            <div className="h-screen md:mt-48 lg:mt-64 -mb-72 lg:-mb-64">
+            <div className="h-screen mt-10 md:mt-48 lg:mt-64 -mb-72 lg:-mb-64">
               <iframe
                 src="https://player.vimeo.com/video/815950390?autoplay=1&loop=1&muted=1&title=0&autopause=0&background=1"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -134,8 +134,8 @@ const Page = () => {
                     Bojagi which is a wrapping fabric with different patterns
                     and uses. rhetoric suggest unique lifestyle that develops
                     self-efficiency with a new daily routine. Lunch box and
-                    wrapping fabric are designed to commemorate Maison&Objet
-                    2022 in Paris, France.
+                    wrapping fabric are designed to memorate Maison&Objet 2022
+                    in Paris, France.
                   </div>
                   <div className="h-6" />
                   <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">
@@ -158,13 +158,11 @@ const Page = () => {
               </div>
               <div className="h-6" />
               <div className="font-light lg:w-1/2">
-                rhetoric delivers the message through a lunch box kit that a
-                life of self-care through daily practices is directly connected
-                to environment. The visual identity of DDP exhibition focuses on
-                the message based on unique visual assets of rhetoric. Circle
-                symbolizes routine and circulation, and square symbolizes
-                recovery and care. Those 2 flat and basic shapes are organized
-                to express connectivity and expand into wonderful patterns.
+                The edition is designed as a moptif of flexible Korean Bojagi
+                which is a wrapping fabric with different patterns and uses.
+                rhetoric suggest unique lifestyle that develops self-efficiency
+                with a new daily routine. Lunch box and wrapping fabric are
+                designed to memorate Maison&Objet 2022 in Paris, France.
               </div>
               <div className="h-6" />
               <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">

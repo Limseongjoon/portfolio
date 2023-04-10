@@ -107,7 +107,7 @@ const Page = () => {
         </div>
         <div className="bg-white text-black flex flex-col items-center">
           <div>
-            <div className="h-screen mt-10 md:mt-48 lg:mt-64 -mb-72 lg:-mb-64">
+            <div className="h-screen md:mt-48 lg:mt-64 -mb-72 lg:-mb-64">
               <iframe
                 src="https://player.vimeo.com/video/815950390?autoplay=1&loop=1&muted=1&title=0&autopause=0&background=1"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -153,7 +153,7 @@ a {
 }
 
 /* Mobile */
-@media all and (max-width: 360px) {
+@media all and (max-width: 361px) {
   iframe {
     display: block;
     padding-bottom: 0px;
@@ -164,6 +164,7 @@ a {
 @media all and (min-width: 360px) and (max-width: 500px) and (max-height: 700px) {
   iframe {
     display: block;
+    margin-top: 30px;
     padding-bottom: 180px;
   }
 }
@@ -171,7 +172,7 @@ a {
 @media all and (min-width: 360px) and (max-width: 500px) and (min-height: 700px) {
   iframe {
     display: block;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
   }
 }
 

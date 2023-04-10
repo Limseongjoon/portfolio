@@ -38,7 +38,6 @@ const Page = () => {
           </div>
         </div>
       </div>
-
       <div className="bg-white text-black flex flex-col h-screen items-center pt-12 md:pt-14 lg:pt-20">
         <div className="w-screen">
           <Link href="/rhetoric_DDP">

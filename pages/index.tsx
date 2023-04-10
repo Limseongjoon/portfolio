@@ -38,6 +38,7 @@ const Page = () => {
           </div>
         </div>
       </div>
+
       <div className="bg-white text-black flex flex-col h-screen items-center pt-12 md:pt-14 lg:pt-20">
         <div className="w-screen">
           <Link href="/rhetoric_DDP">
@@ -104,10 +105,9 @@ const Page = () => {
             </div>
           </div>
         </div>
-
         <div className="bg-white text-black flex flex-col items-center">
-          <div className="xl:mt-60">
-            <div className="w-auto h-screen aspect-w-16 aspect-h-9">
+          <div>
+            <div className="h-screen aspect-w-16 aspect-h-9 -mb-72 xl:mt-60">
               <iframe
                 src="https://player.vimeo.com/video/815950390?autoplay=1&loop=1&muted=1&title=0&autopause=0&background=1"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -145,7 +145,7 @@ const Page = () => {
               </div>
               <div className="h-20" />
             </div>
-            <div className="md:hidden px-6 lg:px-10 -mt-60 sm:-mt-48">
+            <div className="md:hidden px-6 lg:px-10">
               <div className="flex items-baseline">
                 <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                   rhetoric
@@ -172,45 +172,6 @@ const Page = () => {
               </div>
             </div>
             <div className="h-64" />
-          </div>
-        </div>
-
-        <div className="bg-white text-black flex flex-col items-center">
-          <div>
-            <CustomImage src="/images/pharos_main.png" className="w-screen" />
-            <div className="h-8 lg:h-10" />
-            <div className="px-6 lg:px-12">
-              <div className="flex items-baseline">
-                <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
-                  PHAROS
-                </div>
-                <div className="text-xs lg:text-sm">2022</div>
-              </div>
-              <div className="h-3" />
-              <div className="font-light">
-                PHAROS Co., Ltd. consulting firm that started in 2015. It
-                consists of people who are deeply interested in the impact on
-                our culture and society through our responsible design. design
-                consulting firm.
-              </div>
-              <div className="h-6" />
-              <div className="font-hrot text-tiny pr-2 lg:pr-4 underline">
-                See More →
-              </div>
-              <div className="h-1" />
-              <Link
-                href="http://3.35.83.107/pharosapp/templates/pharosapp/start.html"
-                target="_blank"
-                className="font-hrot text-tiny pr-2 lg:pr-4 underline"
-              >
-                Digital Booth →
-              </Link>
-              <div className="h-20" />
-              <div className="z-1 divide-y divide-black opacity-40">
-                <div></div>
-                <div></div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

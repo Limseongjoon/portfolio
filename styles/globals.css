@@ -3,35 +3,35 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "hrot";
-    font-weight: 500;
-    src: url("../public/assets/HrotBasic-Medium.otf");
+  font-family: "hrot";
+  font-weight: 500;
+  src: url("../public/assets/HrotBasic-Medium.otf");
 }
 
 @font-face {
-    font-family: "hrot";
-    font-weight: 600;
-    src: url("../public/assets/HrotBasic-SemiBold.otf");
+  font-family: "hrot";
+  font-weight: 600;
+  src: url("../public/assets/HrotBasic-SemiBold.otf");
 }
 
 @font-face {
-    font-family: "hrot";
-    font-weight: 700;
-    src: url("../public/assets/HrotBasic-Bold.otf");
+  font-family: "hrot";
+  font-weight: 700;
+  src: url("../public/assets/HrotBasic-Bold.otf");
 }
 
 @font-face {
-    font-family: "hrot";
-    font-weight: 900;
-    src: url("../public/assets/HrotBasic-Black.otf");
+  font-family: "hrot";
+  font-weight: 900;
+  src: url("../public/assets/HrotBasic-Black.otf");
 }
 
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 255, 255, 255;
@@ -66,6 +66,24 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  vertical-align: middle;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -131,5 +149,43 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+/* Mobile */
+@media all and (max-width: 360px) {
+  iframe {
+    display: block;
+  }
+}
+
+/* Mobile-Tablet */
+@media all and (min-width: 360px) and (max-width: 500px) and (max-height: 700px) {
+  iframe {
+    display: block;
+    padding-bottom: 180px;
+  }
+}
+
+@media all and (min-width: 360px) and (max-width: 500px) and (min-height: 700px) {
+  iframe {
+    display: block;
+    padding-bottom: 20px;
+  }
+}
+
+/* Tablet */
+@media all and (min-width: 500px) and (max-width: 1000px) {
+  iframe {
+    display: block;
+    padding-bottom: 300px;
+  }
+}
+
+/* Desktop */
+@media all and (min-width: 1000px) {
+  iframe {
+    display: block;
+    padding-bottom: 250px;
   }
 }

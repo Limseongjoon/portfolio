@@ -156,6 +156,7 @@ a {
 @media all and (max-width: 360px) {
   iframe {
     display: block;
+    padding-bottom: 0px;
   }
 }
 

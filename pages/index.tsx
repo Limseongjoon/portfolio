@@ -99,11 +99,11 @@ const Page = () => {
               See More →
             </div>
           </div>
+          <div className="h-64" />
         </div>
-
-        <div className="bg-white text-black flex flex-col items-center">
+        <div className="bg-white text-black flex flex-col items-center -pt-64">
           <div className="bg-black">
-            <div className="h-full w-screen md:mt-48 lg:mt-64">
+            <div className="h-full w-screen lg:mt-64 lg:mb-64">
               <iframe
                 src="https://player.vimeo.com/video/815950390?autoplay=1&loop=1&muted=1&title=0&autopause=0&background=1"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

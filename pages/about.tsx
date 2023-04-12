@@ -3,44 +3,30 @@ import Link from "next/link";
 const Page = () => {
   return (
     <div className="bg-[#090909] text-[#ffcde5]">
-      <div className="fixed z-50 w-screen px-6 lg:px-10">
-        <div className="h-3" />
-        <div className="flex items-start">
-          <div className="-mt-1">
+      <div className="fixed font-hrot z-50 w-screen px-4 lg:px-4">
+        <div className="h-1" />
+        <div className="flex">
+          <div>
             <Link
               href="/"
-              className="font-hrot text-lg md:text-xl tracking-wider text-[#ffcde5]"
-            >
-              JOON
-            </Link>
-          </div>
-          <div className="grow" />
-          <div className="flex items-end gap-6 md:gap-10 lg:gap-12">
-            <Link
-              href="/"
-              className="font-hrot text-[#ffcde5] text-2xs lg:text-xs"
+              className="flex font-medium text-sm lg:text-lg text-[#ffcde5]"
             >
               WORKS
             </Link>
-            <Link
-              href="/about"
-              className="font-hrot text-[#ffcde5] text-2xs lg:text-xs"
-            >
-              ABOUT
-            </Link>
-            <Link
-              href="/contact"
-              className="font-hrot text-[#ffcde5] text-2xs lg:text-xs"
-            >
-              CONTACT
-            </Link>
           </div>
+          <div className="grow" />
+          <Link
+            href="/contact"
+            className="flex font-medium text-sm lg:text-lg text-[#ffcde5]"
+          >
+            CONTACT
+          </Link>
         </div>
       </div>
       <div className="flex flex-col h-screen items-center">
         <div className="h-32 md:h-48 xl:h-52 2xl:h-56" />
         <div className="font-hrot text-center md:text-lg text-[#ffcde5]">
-          My Norm
+          Norms →
         </div>
         <div className="h-10" />
         <div className="font-thin w-10/12 md:3/4 lg:w-2/5 text-center md:text-lg leading-relaxed tracking-tight text-[#ffd5e9]">

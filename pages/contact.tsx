@@ -4,41 +4,26 @@ import Link from "next/link";
 const Page = () => {
   return (
     <div className="bg-[#f8ff34] bg-gradient-to-t from-[#e9e9e9]">
-      <div className="fixed z-50 w-screen px-6 lg:px-10">
-        <div className="h-3" />
-        <div className="flex items-start">
-          <div className="-mt-1">
+      <div className="fixed font-hrot z-50 w-screen px-4 lg:px-4">
+        <div className="h-1" />
+        <div className="flex">
+          <div>
             <Link
               href="/"
-              className="font-hrot text-lg md:text-xl tracking-wider text-black"
-            >
-              JOON
-            </Link>
-          </div>
-          <div className="grow" />
-          <div className="flex items-end gap-6 md:gap-10 lg:gap-12">
-            <Link
-              href="/"
-              className="font-hrot text-[#b837fe] text-2xs lg:text-xs"
+              className="flex font-medium text-sm lg:text-lg text-[#b837fe]"
             >
               WORKS
             </Link>
-            <Link
-              href="/about"
-              className="font-hrot text-[#b837fe] text-2xs lg:text-xs"
-            >
-              ABOUT
-            </Link>
-            <Link
-              href="/contact"
-              className="font-hrot text-[#b837fe] text-2xs lg:text-xs"
-            >
-              CONTACT
-            </Link>
           </div>
+          <div className="grow" />
+          <Link
+            href="/about"
+            className="flex font-medium text-sm lg:text-lg text-[#b837fe]"
+          >
+            ABOUT
+          </Link>
         </div>
       </div>
-
       <div className="flex flex-col h-screen items-center">
         <div className="h-32 md:h-48 lg:h-56" />
         <div className="font-hrot text-[#b837fe] text-center md:text-lg">

@@ -4,38 +4,35 @@ import Link from "next/link";
 const Page = () => {
   return (
     <div className="bg-white text-black">
-      <div className="fixed z-50 w-screen px-6 lg:px-10">
-        <div className="h-3" />
-        <div className="flex items-start">
-          <div className="-mt-1">
+      <div className="fixed font-hrot z-50 w-screen px-4 lg:px-4">
+        <div className="h-1" />
+        <div className="flex">
+          <div>
             <Link
               href="/"
-              className="font-hrot text-lg md:text-xl tracking-wider text-black"
+              className="flex font-medium text-sm lg:text-lg text-black"
             >
-              JOON
+              WORKS
             </Link>
           </div>
           <div className="grow" />
-          <div className="flex items-end gap-6 md:gap-10 lg:gap-12">
-            <Link href="/" className="font-hrot text-black text-2xs lg:text-xs">
-              WORKS
-            </Link>
+          <div className="flex gap-6 md:gap-8 lg:gap-10">
             <Link
               href="/about"
-              className="font-hrot text-black text-2xs lg:text-xs"
+              className="font-medium text-sm lg:text-lg text-black"
             >
               ABOUT
             </Link>
             <Link
               href="/contact"
-              className="font-hrot text-black text-2xs lg:text-xs"
+              className="ont-medium text-sm lg:text-lg text-black"
             >
               CONTACT
             </Link>
           </div>
         </div>
       </div>
-      <div className="h-10 md:h-14 lg:h-12" />
+      <div className="h-7 lg:h-9" />
       <div className="bg-white text-black flex flex-col h-screen items-center">
         <div className="w-screen">
           <CustomImage src="/images/rhetoric_main.jpeg" className="w-full" />
@@ -101,7 +98,7 @@ const Page = () => {
           </div>
           <div className="h-64" />
         </div>
-        <div className="bg-white text-black flex flex-col items-center -pt-64">
+        <div className="bg-white text-black flex flex-col items-center -mt">
           <div className="bg-black">
             <div className="h-full w-screen lg:mt-64 lg:mb-64">
               <iframe

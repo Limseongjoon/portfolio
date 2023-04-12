@@ -8,21 +8,21 @@ const Page = () => {
         <div className="flex items-center">
           <Link
             href="/contact"
-            className="flex text-2xs lg:text-sm text-[#ffcde5] hover:-rotate-6"
+            className="flex text-xs lg:text-sm text-[#ffcde5] hover:-rotate-6"
           >
             ← contact
           </Link>
           <div className="grow" />
           <Link
             href="#"
-            className="flex font-semibold text-2xs lg:text-sm text-[#ffcde5] hover:scale-95"
+            className="flex font-semibold text-xs lg:text-sm text-[#ffcde5] hover:scale-95"
           >
             ABOUT
           </Link>
           <div className="grow" />
           <Link
             href="/"
-            className="flex text-2xs lg:text-sm text-[#ffcde5] hover:rotate-6"
+            className="flex text-xs lg:text-sm text-[#ffcde5] hover:rotate-6"
           >
             works →
           </Link>

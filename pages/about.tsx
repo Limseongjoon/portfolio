@@ -4,29 +4,34 @@ const Page = () => {
   return (
     <div className="bg-[#090909] text-[#ffcde5]">
       <div className="fixed font-hrot z-50 w-screen px-4 lg:px-5">
-        <div className="h-1" />
-        <div className="flex">
-          <div>
-            <Link
-              href="/"
-              className="flex font-medium text-sm lg:text-lg text-[#ffcde5] hover:scale-90"
-            >
-              WORKS
-            </Link>
-          </div>
-          <div className="grow" />
+        <div className="h-1 pt-[5px]" />
+        <div className="flex items-center">
           <Link
             href="/contact"
-            className="flex font-medium text-sm lg:text-lg text-[#ffcde5] hover:scale-90"
+            className="flex text-2xs lg:text-sm text-[#ffcde5] hover:-rotate-6"
           >
-            CONTACT
+            ← contact
+          </Link>
+          <div className="grow" />
+          <Link
+            href="#"
+            className="flex font-semibold text-2xs lg:text-sm text-[#ffcde5] hover:scale-95"
+          >
+            ABOUT
+          </Link>
+          <div className="grow" />
+          <Link
+            href="/"
+            className="flex text-2xs lg:text-sm text-[#ffcde5] hover:rotate-6"
+          >
+            works →
           </Link>
         </div>
       </div>
       <div className="flex flex-col h-screen items-center">
         <div className="h-32 md:h-48 xl:h-52 2xl:h-56" />
-        <button className="font-hrot text-center md:text-lg text-[#ffcde5] hover:pl-10">
-          Norms →
+        <button className="font-hrot text-center md:text-lg text-[#ffcde5]">
+          Norms
         </button>
         <div className="h-10" />
         <div className="font-thin w-10/12 md:3/4 lg:w-2/5 text-center md:text-lg leading-relaxed tracking-tight text-[#ffd5e9]">

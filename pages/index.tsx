@@ -6,45 +6,35 @@ const Page = () => {
     <div className="bg-white text-black">
       <div className="fixed font-hrot z-50 w-screen px-3 sm:px-4 lg:px-5">
         <div className="h-1" />
-        <div className="flex">
-          <div>
-            <Link
-              href="/"
-              className="flex font-medium text-sm lg:text-lg text-black hover:scale-90"
-            >
-              WORKS
-            </Link>
-          </div>
+        <div className="flex items-center">
+          <Link
+            href="/about"
+            className="flex text-2xs lg:text-sm text-black hover:-rotate-6"
+          >
+            ← about
+          </Link>
           <div className="grow" />
-          <div className="flex gap-6 md:gap-8 lg:gap-10">
-            <Link
-              href="/about"
-              className="font-medium text-sm lg:text-lg text-black hover:scale-90"
-            >
-              ABOUT
-            </Link>
-            <Link
-              href="/contact"
-              className="ont-medium text-sm lg:text-lg text-black hover:scale-90"
-            >
-              CONTACT
-            </Link>
-          </div>
+          <Link
+            href="/"
+            className="flex font-bold text-2xs lg:text-sm text-black hover:scale-95"
+          >
+            WORKS
+          </Link>
+          <div className="grow" />
+          <Link
+            href="/contact"
+            className="flex text-2xs lg:text-sm text-black hover:rotate-6"
+          >
+            contact →
+          </Link>
         </div>
       </div>
-      <div className="h-screen w-auto">
-        <iframe
-          src="https://player.vimeo.com/video/815950390?autoplay=1&loop=1&muted=1&title=0&autopause=0&background=1"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          className="absolute h-full w-full top-[opx]"
-        ></iframe>
-      </div>
-      <div className="h-7 lg:h-9" />
+      <div className="h-7 lg:mb-[2px]" />
       <div className="bg-white text-black flex flex-col h-screen items-center">
         <div className="w-screen">
           <CustomImage src="/images/rhetoric_main.jpeg" className="w-full" />
           <div className="h-6" />
-          <div className="hidden md:flex px-6 lg:px-10 w-full">
+          <div className="hidden md:flex px-4 lg:px-10 w-full">
             <div className="flex flex-row w-full items-baseline">
               <div className="flex flex-col w-1/2">
                 <div className="flex items-baseline">
@@ -77,7 +67,7 @@ const Page = () => {
             </div>
             <div className="h-20" />
           </div>
-          <div className="md:hidden px-6 lg:px-10 -mt-2">
+          <div className="md:hidden px-4 lg:px-10 -mt-2">
             <div className="flex items-baseline">
               <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                 rhetoric
@@ -106,14 +96,14 @@ const Page = () => {
           <div className="h-64" />
         </div>
         <div>
-          <div className="h-3 sm:h-8 border-t-[1px] border-black opacity-60 mx-6 lg:mx-10" />
+          <div className="h-3 sm:h-8 border-t-[1px] border-black opacity-60 mx-4 lg:mx-10" />
           <CustomImage
             src="/images/scooter_main.jpeg"
             className="w-screen lg:px-4 xl:px-16"
           />
-          <div className="h-4 sm:h-8 border-b-[1px] border-black opacity-60 mx-6 lg:mx-10" />
+          <div className="h-4 sm:h-8 border-b-[1px] border-black opacity-60 mx-4 lg:mx-10" />
           <div className="h-6" />
-          <div className="hidden md:flex px-6 lg:px-10 w-full">
+          <div className="hidden md:flex px-4 lg:px-10 w-full">
             <div className="flex flex-row w-full items-baseline">
               <div className="h-6" />
               <div className="flex flex-col w-1/2">
@@ -146,7 +136,7 @@ const Page = () => {
             </div>
             <div className="h-20" />
           </div>
-          <div className="md:hidden px-6 lg:px-10 -mt-2">
+          <div className="md:hidden px-4 lg:px-10 -mt-2">
             <div className="flex items-baseline">
               <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                 SMEG Scooter
@@ -177,12 +167,10 @@ const Page = () => {
 
         <div>
           <div className="md:hidden">
-            <div className="border-t-[1px] border-black opacity-60 mx-6 lg:mx-10" />
             <CustomImage
               src="/images/cafemoodae_main.jpeg"
               className="w-screen lg:px-4 xl:px-16"
             />
-            <div className="border-b-[1px] border-black opacity-60 mx-6 lg:mx-10" />
             <div className="h-6" />
           </div>
           <div className="hidden md:flex border-t-[1px] border-black opacity-60 mx-6 lg:mx-10" />
@@ -227,7 +215,7 @@ const Page = () => {
               <div className="h-20" />
             </div>
           </div>
-          <div className="md:hidden px-6 lg:px-10 -mt-2">
+          <div className="md:hidden px-4 lg:px-10 -mt-2">
             <div className="flex items-baseline">
               <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                 café Moodae
@@ -252,18 +240,19 @@ const Page = () => {
             <button className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:pl-10">
               See More →
             </button>
+            <div className="h-64" />
           </div>
         </div>
 
         <div>
-          <div className="border-t-[1px] border-black opacity-60 mx-6 lg:mx-10" />
+          <div className="border-t-[1px] border-black opacity-60 mx-4 lg:mx-10" />
           <CustomImage
             src="/images/inblog_main.png"
             className="w-screen lg:px-4 xl:px-16"
           />
-          <div className="border-b-[1px] border-black opacity-60 mx-6 lg:mx-10" />
+          <div className="border-b-[1px] border-black opacity-60 mx-4 lg:mx-10" />
           <div className="h-6" />
-          <div className="hidden md:flex px-6 lg:px-10 w-full">
+          <div className="hidden md:flex px-4 lg:px-10 w-full">
             <div className="flex flex-row w-full items-baseline">
               <div className="h-6" />
               <div className="flex flex-col w-1/2">
@@ -296,7 +285,7 @@ const Page = () => {
             </div>
             <div className="h-20" />
           </div>
-          <div className="md:hidden px-6 lg:px-10 -mt-2">
+          <div className="md:hidden px-4 lg:px-10 -mt-2">
             <div className="flex items-baseline">
               <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                 inblog
@@ -328,7 +317,7 @@ const Page = () => {
         <div>
           <CustomImage src="/images/pharos_main.png" className="w-screen" />
           <div className="h-6" />
-          <div className="hidden md:flex px-6 lg:px-10 w-full">
+          <div className="hidden md:flex px-4 lg:px-10 w-full">
             <div className="flex flex-row w-full items-baseline">
               <div className="h-6" />
               <div className="flex flex-col w-1/2">
@@ -361,7 +350,7 @@ const Page = () => {
             </div>
             <div className="h-20" />
           </div>
-          <div className="md:hidden px-6 lg:px-10 -mt-2">
+          <div className="md:hidden px-4 lg:px-10 -mt-2">
             <div className="flex items-baseline">
               <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                 Pharos Co.,Ltd.
@@ -392,15 +381,15 @@ const Page = () => {
 
         <div>
           <div className="md:hidden">
-            <div className="border-t-[1px] border-black opacity-60 mx-6 lg:mx-10" />
+            <div className="border-t-[1px] border-black opacity-60 mx-4 lg:mx-10" />
             <CustomImage
               src="/images/font_main.jpeg"
               className="w-screen lg:px-4 xl:px-16"
             />
-            <div className="border-b-[1px] border-black opacity-60 mx-6 lg:mx-10" />
+            <div className="border-b-[1px] border-black opacity-60 mx-4 lg:mx-10" />
             <div className="h-6" />
           </div>
-          <div className="hidden md:flex border-t-[1px] border-black opacity-60 mx-6 lg:mx-10" />
+          <div className="hidden md:flex border-t-[1px] border-black opacity-60 mx-4 lg:mx-10" />
           <div className="hidden md:flex w-full">
             <div className="flex">
               <CustomImage src="/images/font_main.jpeg " className="w-screen" />
@@ -436,10 +425,10 @@ const Page = () => {
                   </button>
                 </div>
               </div>
-              <div className="h-20" />
+              <div className="h-64" />
             </div>
           </div>
-          <div className="md:hidden px-6 lg:px-10 -mt-2">
+          <div className="md:hidden px-4 lg:px-10 -mt-2">
             <div className="flex items-baseline">
               <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                 Korean Typeface
@@ -465,6 +454,7 @@ const Page = () => {
               See More →
             </button>
           </div>
+          <div className="h-64" />
         </div>
 
         <div className="bg-white text-black flex flex-col">
@@ -473,10 +463,10 @@ const Page = () => {
               <iframe
                 src="https://player.vimeo.com/video/815950390?autoplay=1&loop=1&muted=1&title=0&autopause=0&background=1"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                className="absolute h-full w-full left: -100%; top: 0%"
+                className="h-full w-full left: -100%; top: 0%"
               ></iframe>
             </div>
-            <div className="hidden md:flex px-6 lg:px-10 w-full">
+            <div className="hidden md:flex px-4 lg:px-10 w-full">
               <div className="flex flex-row w-full items-baseline">
                 <div className="flex flex-col w-1/2">
                   <div className="flex items-baseline">
@@ -507,7 +497,7 @@ const Page = () => {
               </div>
               <div className="h-20" />
             </div>
-            <div className="md:hidden px-6 lg:px-10">
+            <div className="md:hidden px-4 lg:px-10">
               <div className="flex items-baseline">
                 <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                   rhetoric

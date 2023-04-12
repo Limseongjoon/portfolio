@@ -5,12 +5,12 @@ const Page = () => {
   return (
     <div className="bg-[#f8ff34] bg-gradient-to-t from-[#e9e9e9]">
       <div className="fixed z-50 w-screen px-6 lg:px-10">
-        <div className="h-3 lg:h-4" />
+        <div className="h-3" />
         <div className="flex items-start">
           <div className="-mt-1">
             <Link
               href="/"
-              className="font-hrot w-screen text-lg md:text-xl lg:text-2xl tracking-wider text-[#b837fe]"
+              className="font-hrot text-lg md:text-xl tracking-wider text-black"
             >
               JOON
             </Link>
@@ -18,16 +18,22 @@ const Page = () => {
           <div className="grow" />
           <div className="flex items-end gap-6 md:gap-10 lg:gap-12">
             <Link
+              href="/"
+              className="font-hrot text-[#b837fe] text-2xs lg:text-xs"
+            >
+              WORKS
+            </Link>
+            <Link
               href="/about"
               className="font-hrot text-[#b837fe] text-2xs lg:text-xs"
             >
               ABOUT
             </Link>
             <Link
-              href="/norms"
+              href="/contact"
               className="font-hrot text-[#b837fe] text-2xs lg:text-xs"
             >
-              NORMS
+              CONTACT
             </Link>
           </div>
         </div>

@@ -5,29 +5,26 @@ const Page = () => {
   return (
     <div className="bg-white text-black">
       <div className="fixed z-50 w-screen px-6 lg:px-10">
-        <div className="h-3 lg:h-4" />
+        <div className="h-3" />
         <div className="flex items-start">
           <div className="-mt-1">
             <Link
               href="/"
-              className="font-hrot text-lg md:text-xl lg:text-2xl tracking-wider text-black"
+              className="font-hrot text-lg md:text-xl tracking-wider text-black"
             >
               JOON
             </Link>
           </div>
           <div className="grow" />
           <div className="flex items-end gap-6 md:gap-10 lg:gap-12">
+            <Link href="/" className="font-hrot text-black text-2xs lg:text-xs">
+              WORKS
+            </Link>
             <Link
               href="/about"
               className="font-hrot text-black text-2xs lg:text-xs"
             >
               ABOUT
-            </Link>
-            <Link
-              href="/norms"
-              className="font-hrot text-black text-2xs lg:text-xs"
-            >
-              NORMS
             </Link>
             <Link
               href="/contact"
@@ -38,13 +35,11 @@ const Page = () => {
           </div>
         </div>
       </div>
-
-      <div className="bg-white text-black flex flex-col h-screen items-center pt-12 md:pt-14 lg:pt-20">
+      <div className="h-10 md:h-14 lg:h-12" />
+      <div className="bg-white text-black flex flex-col h-screen items-center">
         <div className="w-screen">
-          <Link href="/rhetoric_DDP">
-            <CustomImage src="/images/rhetoric_main.jpeg" className="w-full" />
-          </Link>
-          <div className="h-8 lg:h-8" />
+          <CustomImage src="/images/rhetoric_main.jpeg" className="w-full" />
+          <div className="h-6" />
           <div className="hidden md:flex px-6 lg:px-10 w-full">
             <div className="flex flex-row w-full items-baseline">
               <div className="flex flex-col w-1/2">
@@ -105,13 +100,14 @@ const Page = () => {
             </div>
           </div>
         </div>
+
         <div className="bg-white text-black flex flex-col items-center">
-          <div>
-            <div className="h-screen md:mt-48 lg:mt-64 -mb-72 lg:-mb-64">
+          <div className="bg-black">
+            <div className="h-full w-screen md:mt-48 lg:mt-64">
               <iframe
                 src="https://player.vimeo.com/video/815950390?autoplay=1&loop=1&muted=1&title=0&autopause=0&background=1"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                className="h-full w-full"
+                className="h-full w-full bg-video__content"
               ></iframe>
             </div>
             <div className="hidden md:flex px-6 lg:px-10 w-full">

@@ -3,13 +3,13 @@ import Link from "next/link";
 const Page = () => {
   return (
     <div className="bg-[#090909] text-[#ffcde5]">
-      <div className="fixed font-hrot z-50 w-screen px-4 lg:px-4">
+      <div className="fixed font-hrot z-50 w-screen px-4 lg:px-5">
         <div className="h-1" />
         <div className="flex">
           <div>
             <Link
               href="/"
-              className="flex font-medium text-sm lg:text-lg text-[#ffcde5]"
+              className="flex font-medium text-sm lg:text-lg text-[#ffcde5] hover:scale-90"
             >
               WORKS
             </Link>
@@ -17,7 +17,7 @@ const Page = () => {
           <div className="grow" />
           <Link
             href="/contact"
-            className="flex font-medium text-sm lg:text-lg text-[#ffcde5]"
+            className="flex font-medium text-sm lg:text-lg text-[#ffcde5] hover:scale-90"
           >
             CONTACT
           </Link>
@@ -25,9 +25,9 @@ const Page = () => {
       </div>
       <div className="flex flex-col h-screen items-center">
         <div className="h-32 md:h-48 xl:h-52 2xl:h-56" />
-        <div className="font-hrot text-center md:text-lg text-[#ffcde5]">
+        <button className="font-hrot text-center md:text-lg text-[#ffcde5] hover:pl-10">
           Norms →
-        </div>
+        </button>
         <div className="h-10" />
         <div className="font-thin w-10/12 md:3/4 lg:w-2/5 text-center md:text-lg leading-relaxed tracking-tight text-[#ffd5e9]">
           Essentially ahead of itself, it has projected itself upon its

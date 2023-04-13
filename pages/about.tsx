@@ -5,24 +5,22 @@ const Page = () => {
     <div className="bg-[#090909] text-[#ffcde5]">
       <div className="fixed font-hrot z-50 w-screen px-4 lg:px-5">
         <div className="h-1 pt-[5px]" />
-        <div className="flex items-center">
+        <div className="flex justify-between">
           <Link
             href="/contact"
-            className="flex text-xs lg:text-sm text-[#ffcde5] hover:-rotate-6"
+            className="flex text-xs lg:text-sm text-[#ffcde5] hover:-rotate-6 active:-rotate-12"
           >
             ← contact
           </Link>
-          <div className="grow" />
           <Link
             href="#"
-            className="flex font-semibold text-xs lg:text-sm text-[#ffcde5] hover:scale-95"
+            className="flex font-semibold text-xs lg:text-sm text-[#ffcde5] hover:scale-95 pt-[1px] md:pt-0"
           >
             ABOUT
           </Link>
-          <div className="grow" />
           <Link
             href="/"
-            className="flex text-xs lg:text-sm text-[#ffcde5] hover:rotate-6"
+            className="flex text-xs lg:text-sm text-[#ffcde5] hover:rotate-6 active:rotate-12"
           >
             works →
           </Link>

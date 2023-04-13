@@ -6,24 +6,22 @@ const Page = () => {
     <div className="bg-white text-black">
       <div className="fixed font-hrot z-50 w-screen px-3 sm:px-4 lg:px-5">
         <div className="h-1" />
-        <div className="flex items-center">
+        <div className="flex justify-between">
           <Link
             href="/about"
-            className="flex text-xs lg:text-sm text-black hover:-rotate-6"
+            className="flex text-xs lg:text-sm text-black hover:-rotate-6 active:-rotate-12"
           >
             ← about
           </Link>
-          <div className="grow" />
           <Link
             href="/"
-            className="flex font-bold text-xs lg:text-sm text-black hover:scale-95"
+            className="flex font-bold text-xs lg:text-sm text-black hover:scale-95 pt-[1px] md:pt-0"
           >
             WORKS
           </Link>
-          <div className="grow" />
           <Link
             href="/contact"
-            className="flex text-xs lg:text-sm text-black hover:rotate-6"
+            className="flex text-xs lg:text-sm text-black hover:rotate-6 active:rotate-12"
           >
             contact →
           </Link>
@@ -60,9 +58,15 @@ const Page = () => {
                   into wonderful patterns.
                 </div>
                 <div className="h-6" />
-                <button className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:pl-10">
-                  See More →
-                </button>
+                <div className="flex flex-col items-start">
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+                    <span className="underline">See More</span> →
+                  </button>
+                  <div className="h-1"></div>
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                    <span className="underline">Digital Booth</span> →
+                  </button>
+                </div>
               </div>
             </div>
             <div className="h-20" />
@@ -89,19 +93,19 @@ const Page = () => {
               connectivity and expand into wonderful patterns.
             </div>
             <div className="h-6" />
-            <button className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:pl-10">
-              See More →
+            <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+              <span className="underline">See More</span> →
             </button>
           </div>
           <div className="h-64" />
         </div>
         <div>
-          <div className="h-3 sm:h-8 border-t-[1px] border-black opacity-60 mx-4 lg:mx-10" />
+          <div className="h-3 sm:h-8 border-t-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
           <CustomImage
             src="/images/scooter_main.jpeg"
             className="w-screen lg:px-4 xl:px-16"
           />
-          <div className="h-4 sm:h-8 border-b-[1px] border-black opacity-60 mx-4 lg:mx-10" />
+          <div className="h-4 sm:h-8 border-b-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
           <div className="h-6" />
           <div className="hidden md:flex px-4 lg:px-10 w-full">
             <div className="flex flex-row w-full items-baseline">
@@ -129,8 +133,8 @@ const Page = () => {
                   essentially unchanged.
                 </div>
                 <div className="h-6" />
-                <button className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:pl-10">
-                  See More →
+                <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+                  <span className="underline">See More</span> →
                 </button>
               </div>
             </div>
@@ -158,8 +162,8 @@ const Page = () => {
               connectivity and expand into wonderful patterns.
             </div>
             <div className="h-6" />
-            <button className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:pl-10">
-              See More →
+            <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+              <span className="underline">See More</span> →
             </button>
           </div>
           <div className="h-64" />
@@ -173,7 +177,7 @@ const Page = () => {
             />
             <div className="h-6" />
           </div>
-          <div className="hidden md:flex border-t-[1px] border-black opacity-60 mx-6 lg:mx-10" />
+          <div className="hidden md:flex border-t-[0.5px] border-black opacity-60 mx-6 lg:mx-10" />
           <div className="hidden md:flex w-full">
             <div className="flex">
               <CustomImage
@@ -207,8 +211,8 @@ const Page = () => {
                     essentially unchanged.
                   </div>
                   <div className="h-6" />
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:pl-10">
-                    See More →
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+                    <span className="underline">See More</span> →
                   </button>
                 </div>
               </div>
@@ -237,20 +241,20 @@ const Page = () => {
               connectivity and expand into wonderful patterns.
             </div>
             <div className="h-6" />
-            <button className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:pl-10">
-              See More →
+            <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+              <span className="underline">See More</span> →
             </button>
             <div className="h-64" />
           </div>
         </div>
 
         <div>
-          <div className="border-t-[1px] border-black opacity-60 mx-4 lg:mx-10" />
+          <div className="border-t-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
           <CustomImage
             src="/images/inblog_main.png"
             className="w-screen lg:px-4 xl:px-16"
           />
-          <div className="border-b-[1px] border-black opacity-60 mx-4 lg:mx-10" />
+          <div className="border-b-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
           <div className="h-6" />
           <div className="hidden md:flex px-4 lg:px-10 w-full">
             <div className="flex flex-row w-full items-baseline">
@@ -278,8 +282,8 @@ const Page = () => {
                   essentially unchanged.
                 </div>
                 <div className="h-6" />
-                <button className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:pl-10">
-                  See More →
+                <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+                  <span className="underline">See More</span> →
                 </button>
               </div>
             </div>
@@ -307,8 +311,8 @@ const Page = () => {
               connectivity and expand into wonderful patterns.
             </div>
             <div className="h-6" />
-            <button className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:pl-10">
-              See More →
+            <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+              <span className="underline">See More</span> →
             </button>
           </div>
           <div className="h-64" />
@@ -343,8 +347,8 @@ const Page = () => {
                   essentially unchanged.
                 </div>
                 <div className="h-6" />
-                <button className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:pl-10">
-                  See More →
+                <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+                  <span className="underline">See More</span> →
                 </button>
               </div>
             </div>
@@ -372,8 +376,8 @@ const Page = () => {
               connectivity and expand into wonderful patterns.
             </div>
             <div className="h-6" />
-            <button className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:pl-10">
-              See More →
+            <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+              <span className="underline">See More</span> →
             </button>
           </div>
           <div className="h-64" />
@@ -381,15 +385,15 @@ const Page = () => {
 
         <div>
           <div className="md:hidden">
-            <div className="border-t-[1px] border-black opacity-60 mx-4 lg:mx-10" />
+            <div className="border-t-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
             <CustomImage
               src="/images/font_main.jpeg"
               className="w-screen lg:px-4 xl:px-16"
             />
-            <div className="border-b-[1px] border-black opacity-60 mx-4 lg:mx-10" />
+            <div className="border-b-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
             <div className="h-6" />
           </div>
-          <div className="hidden md:flex border-t-[1px] border-black opacity-60 mx-4 lg:mx-10" />
+          <div className="hidden md:flex border-t-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
           <div className="hidden md:flex w-full">
             <div className="flex">
               <CustomImage src="/images/font_main.jpeg " className="w-screen" />
@@ -420,8 +424,8 @@ const Page = () => {
                     essentially unchanged.
                   </div>
                   <div className="h-6" />
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:pl-10">
-                    See More →
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+                    <span className="underline">See More</span> →
                   </button>
                 </div>
               </div>
@@ -450,8 +454,8 @@ const Page = () => {
               connectivity and expand into wonderful patterns.
             </div>
             <div className="h-6" />
-            <button className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:pl-10">
-              See More →
+            <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+              <span className="underline">See More</span> →
             </button>
           </div>
           <div className="h-64" />
@@ -490,8 +494,8 @@ const Page = () => {
                     in Paris, France.
                   </div>
                   <div className="h-6" />
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:pl-10">
-                    See More →
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+                    <span className="underline">See More</span> →
                   </button>
                 </div>
               </div>
@@ -517,8 +521,8 @@ const Page = () => {
                 designed to memorate Maison&Objet 2022 in Paris, France.
               </div>
               <div className="h-6" />
-              <button className="font-hrot text-tiny pr-2 lg:pr-4 underline hover:pl-10">
-                See More →
+              <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+                <span className="underline">See More</span> →
               </button>
             </div>
             <div className="h-64" />

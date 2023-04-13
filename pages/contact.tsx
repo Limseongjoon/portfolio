@@ -6,24 +6,22 @@ const Page = () => {
     <div className="bg-[#f8ff34] bg-gradient-to-t from-[#e9e9e9]">
       <div className="fixed font-hrot z-50 w-screen px-4 lg:px-5">
         <div className="h-1 pt-[5px]" />
-        <div className="flex items-center">
+        <div className="flex justify-between">
           <Link
             href="/"
-            className="flex text-xs lg:text-sm text-black hover:-rotate-6"
+            className="flex text-xs lg:text-sm text-black hover:-rotate-6 active:-rotate-12"
           >
             ← works
           </Link>
-          <div className="grow" />
           <Link
             href="/"
-            className="flex font-bold text-xs lg:text-sm text-black hover:scale-95"
+            className="flex font-bold text-xs lg:text-sm text-black hover:scale-95 pt-[1px] md:pt-0"
           >
             CONTACT
           </Link>
-          <div className="grow" />
           <Link
             href="/about"
-            className="flex text-xs lg:text-sm text-black hover:rotate-6"
+            className="flex text-xs lg:text-sm text-black hover:rotate-6 active:rotate-12"
           >
             about →
           </Link>
@@ -53,12 +51,15 @@ const Page = () => {
           as possible.
         </div>
         <div className="h-8" />
-        <a
-          href="mailto:sungjun170@gmail.com"
-          className="font-hrot text-tiny text-black text-center hover:pl-10"
-        >
-          Send email →
-        </a>
+        <div className="flex flex-col items-center">
+          <a
+            href="mailto:sungjun170@gmail.com"
+            className="font-hrot text-tiny text-black text-center hover:pt-2 active:pt-4"
+          >
+            Send email
+          </a>
+          <div>↓</div>
+        </div>
         <div className="grow" />
         <div className="h-12 text-black text-center text-2xs lg:text-xs">
           Copyright © JOON. All rights Reserved.

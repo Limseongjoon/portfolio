@@ -34,15 +34,21 @@ const Page = () => {
                 </div>
               </div>
               <div className="w-1/2">
+                <div className="font-medium">
+                  Travel with SMEG, it&apos;s Delicious.
+                </div>
+                <div className="h-2" />
                 <div className="font-light">
-                  rhetoric delivers the message through a lunch box kit that a
-                  life of self-care through daily practices is directly
-                  connected to environment. The visual identity of DDP
-                  exhibition focuses on the message based on unique visual
-                  assets of rhetoric. Circle symbolizes routine and circulation,
-                  and square symbolizes recovery and care. Those 2 flat and
-                  basic shapes are organized to express connectivity and expand
-                  into wonderful patterns.
+                  Electric scooter for short-distance picnics and would be used
+                  as a means of transportation and leisure, suggested by SMEG, a
+                  kitchen appliance brand. Based on the increasing number of
+                  young single-person households in their 20s and 30s, SMEG
+                  provides a delicious trip to solve the increasing problems by
+                  mobilities in the city. FUTRO is suitable for commute and a
+                  short break to the suburbs. You can find out the expandability
+                  of two-wheeled mobility through several items, such as
+                  electric batteries, power supply devices, small internal
+                  portable appliances, etc.
                 </div>
               </div>
             </div>
@@ -85,16 +91,47 @@ const Page = () => {
               <CustomImage src="/images/smeg_3.png" className="w-full h-auto" />
             </div>
           </div>
-
           <div className="h-8" />
           <CustomImage
             src="/images/smeg_4.png"
             className="w-screen lg:px-4 xl:px-12"
           />
+          <div className="flex flex-row gap-4 lg:px-4 xl:px-16">
+            <CustomImage src="/images/smeg_5.png" className="w-1/2 h-auto" />
+            <CustomImage src="/images/smeg_6.png" className="w-1/2 h-auto" />
+          </div>
           <CustomImage
-            src="/images/smeg_5.png"
+            src="/images/smeg_7.png"
             className="w-screen lg:px-4 xl:px-12"
           />
+          <CustomImage
+            src="/images/smeg_8.png"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/smeg_9.png"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <div className="flex flex-row gap-4 lg:px-4 xl:px-16">
+            <CustomImage src="/images/smeg_10.png" className="w-1/2 h-auto" />
+            <CustomImage src="/images/smeg_11.png" className="w-1/2 h-auto" />
+          </div>
+          <CustomImage
+            src="/images/smeg_12.png"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/smeg_13.png"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <div className="flex flex-row gap-4 lg:px-4 xl:px-16">
+            <CustomImage src="/images/smeg_14.png" className="w-1/2 h-auto" />
+            <CustomImage src="/images/smeg_15.png" className="w-1/2 h-auto" />
+          </div>
+          <div className="flex flex-row gap-4 lg:px-4 xl:px-16">
+            <CustomImage src="/images/smeg_16.png" className="w-1/2 h-auto" />
+            <CustomImage src="/images/smeg_17.png" className="w-1/2 h-auto" />
+          </div>
         </div>
         <div className="lg:hidden flex-col gap:2 lg:gap-4">
           <CustomImage
@@ -115,7 +152,55 @@ const Page = () => {
           />
           <CustomImage
             src="/images/smeg_5.png"
-            className="w-screen lg:px-4 xl:px-16"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/smeg_6.png"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/smeg_7.png"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/smeg_8.png"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/smeg_9.png"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/smeg_10.png"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/smeg_11.png"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/smeg_12.png"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/smeg_13.png"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/smeg_14.png"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/smeg_15.png"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/smeg_16.png"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/smeg_17.png"
+            className="w-screen lg:px-4 xl:px-12"
           />
         </div>
         <div className="h-12 text-center text-2xs lg:text-xs text-black">

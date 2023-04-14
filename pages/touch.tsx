@@ -4,6 +4,9 @@ import Link from "next/link";
 const Page = () => {
   return (
     <div className="bg-[#f8ff34] bg-gradient-to-t from-[#e9e9e9]">
+      <div className="fixed font-hrot font-bold text-2xs lg:text-xs text-center w-full pt-[7px]">
+        TOUCH
+      </div>
       <Header />
       <div className="flex flex-col h-screen items-center">
         <div className="h-16 md:h-24" />

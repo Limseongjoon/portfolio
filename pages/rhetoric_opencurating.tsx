@@ -46,11 +46,11 @@ const Page = () => {
                 </div>
                 <div className="h-6" />
                 <div className="flex flex-col items-start">
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                     <span className="underline">See More</span> →
                   </button>
                   <div className="h-1"></div>
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                     <span className="underline">Digital Booth</span> →
                   </button>
                 </div>
@@ -81,7 +81,7 @@ const Page = () => {
             </div>
             <div className="h-6" />
             <div className="flex flex-col items-start">
-              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                 <a href="http://3.35.83.107/pharosapp/templates/pharosapp/start.html">
                   <span className="underline">Digital 3D Booth</span>
                 </a>{" "}

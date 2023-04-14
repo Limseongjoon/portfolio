@@ -3,33 +3,46 @@ import Link from "next/link";
 const Page = () => {
   return (
     <div className="bg-[#090909] text-[#ffcde5]">
-      <div className="fixed z-50 w-screen bg-transparent font-hrot px-3 sm:px-4 lg:px-5s">
+      <div className="fixed font-hrot font-semibold text-2xs lg:text-xs text-center w-full pt-[7px]">
+        ABOUT
+      </div>
+      <Link
+        href="/"
+        className="fixed font-hrot font-semibold text-2xs lg:text-xs text-center w-full pt-[7px]"
+      >
+        ABOUT
+      </Link>
+      <div className="fixed z-50 w-screen bg-transparent font-hrot px-3 sm:px-4 lg:px-5">
         <div className="h-1" />
-        <div className="flex justify-between">
-          <Link
-            href="/"
-            className="flex text-xs lg:text-sm text-[#ffcde5] hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold"
-          >
-            ←← work
-          </Link>
-          <Link
-            href="/"
-            className="flex text-xs lg:text-sm text-[#ffcde5] hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold"
-          >
-            ← words
-          </Link>
-          <Link
-            href="/about"
-            className="flex text-xs lg:text-sm text-[#ffcde5] hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold"
-          >
-            about →
-          </Link>
-          <Link
-            href="/contact"
-            className="flex text-xs lg:text-sm text-[#ffcde5] hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold"
-          >
-            contact →→
-          </Link>
+        <div className="flex flex-row justify-between">
+          <div className="flex gap-4 sm:gap-12 lg:gap-16">
+            <Link
+              href="/"
+              className="flex text-xs lg:text-sm text-[#ffcde5] hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold"
+            >
+              ←← works
+            </Link>
+            <Link
+              href="/"
+              className="flex text-xs lg:text-sm text-[#ffcde5] hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold"
+            >
+              ← words
+            </Link>
+          </div>
+          <div className="flex gap-4 sm:gap-12 lg:gap-16">
+            <Link
+              href="/about"
+              className="flex flex-row text-xs lg:text-sm text-[#ffcde5] hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold"
+            >
+              about →
+            </Link>
+            <Link
+              href="/touch"
+              className="flex text-xs lg:text-sm text-[#ffcde5] hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold"
+            >
+              touch →→
+            </Link>
+          </div>
         </div>
       </div>
       <div className="flex flex-col h-screen items-center">

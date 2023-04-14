@@ -4,7 +4,10 @@ import Header from "../components/Header";
 
 const Page = () => {
   return (
-    <div className="bg-white text-black">
+    <div className="bg-white text-black w-screen">
+      <div className="fixed font-hrot font-bold text-2xs lg:text-xs text-center w-full pt-[7px]">
+        WORKS
+      </div>
       <Header />
       <div className="h-7 lg:mb-[2px]" />
       <div className="bg-white text-black flex flex-col h-screen items-center">
@@ -41,20 +44,20 @@ const Page = () => {
                 </div>
                 <div className="h-6" />
                 <div className="flex flex-col items-start">
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                     <Link href="/rhetoric_opencurating">
                       <span className="underline">See More</span>
                     </Link>
                     &nbsp;→
                   </button>
                   <div className="h-4" />
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                     <Link href="http://3.35.83.107/pharosapp/templates/pharosapp/start.html">
                       <span className="underline">Digital 3D Booth</span>
                     </Link>
                     &nbsp;→
                   </button>
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                     <Link href="http://pharosk.com">
                       <span className="underline">Website</span>
                     </Link>
@@ -88,20 +91,20 @@ const Page = () => {
             </div>
             <div className="h-6" />
             <div className="flex flex-col items-start">
-              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                 <Link href="/rhetoric_opencurating">
                   <span className="underline">See More</span>
                 </Link>
                 →
               </button>
               <div className="h-4" />
-              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                 <Link href="http://3.35.83.107/pharosapp/templates/pharosapp/start.html">
                   <span className="underline">Digital 3D Booth</span>
                 </Link>
                 →
               </button>
-              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                 <Link href="http://pharosk.com">
                   <span className="underline">Website</span>
                 </Link>
@@ -127,26 +130,33 @@ const Page = () => {
                   <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                     SMEG Scooter
                   </div>
-                  <div className="text-xs lg:text-sm">2023</div>
+                  <div className="text-xs lg:text-sm">2021</div>
                 </div>
                 <div className="h-3" />
                 <div className="font-hrot text-xs pr-2 lg:pr-4">
-                  Dongdaemoon Design Plaza (DDP)<br></br>Opencurating vol.23
+                  Bachelor of Design Degree<br></br>Exhibition Project
                 </div>
               </div>
               <div className="w-1/2">
+                <div className="font-medium">
+                  Travel with SMEG, it&apos;s Delicious.
+                </div>
+                <div className="h-2" />
                 <div className="font-light">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged.
+                  Electric scooter for short-distance picnics and would be used
+                  as a means of transportation and leisure, suggested by SMEG, a
+                  kitchen appliance brand. Based on the increasing number of
+                  young single-person households in their 20s and 30s, SMEG
+                  provides a delicious trip to solve the increasing problems by
+                  mobilities in the city. FUTRO is suitable for commute and a
+                  short break to the suburbs. You can find out the expandability
+                  of two-wheeled mobility through several items, such as
+                  electric batteries, power supply devices, small internal
+                  portable appliances, etc.
                 </div>
                 <div className="h-6" />
                 <div className="flex flex-col items-start">
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                     <Link href="/scooter">
                       <span className="underline">See More</span>
                     </Link>
@@ -166,21 +176,29 @@ const Page = () => {
             </div>
             <div className="h-2" />
             <div className="font-hrot text-2xs pr-2 lg:pr-4">
-              Dongdaemoon Design Plaza (DDP)<br></br>Opencurating vol.23
+              Bachelor of Design Degree<br></br>Exhibition Project
             </div>
             <div className="h-6" />
             <div className="font-light lg:w-1/2">
-              rhetoric delivers the message through a lunch box kit that a life
-              of self-care through daily practices is directly connected to
-              environment. The visual identity of DDP exhibition focuses on the
-              message based on unique visual assets of rhetoric. Circle
-              symbolizes routine and circulation, and square symbolizes recovery
-              and care. Those 2 flat and basic shapes are organized to express
-              connectivity and expand into wonderful patterns.
+              <div className="font-medium">
+                Travel with SMEG, it&apos;s Delicious.
+              </div>
+              <div className="h-2" />
+              <div className="font-light">
+                Electric scooter for short-distance picnics and would be used as
+                a means of transportation and leisure, suggested by SMEG, a
+                kitchen appliance brand. Based on the increasing number of young
+                single-person households in their 20s and 30s, SMEG provides a
+                delicious trip to solve the increasing problems by mobilities in
+                the city. FUTRO is suitable for commute and a short break to the
+                suburbs. You can find out the expandability of two-wheeled
+                mobility through several items, such as electric batteries,
+                power supply devices, small internal portable appliances, etc.
+              </div>
             </div>
             <div className="h-6" />
             <div className="flex flex-col items-start">
-              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                 <Link href="/scooter">
                   <span className="underline">See More</span>
                 </Link>
@@ -232,7 +250,7 @@ const Page = () => {
                     essentially unchanged.
                   </div>
                   <div className="h-6" />
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                     <span className="underline">See More</span> →
                   </button>
                 </div>
@@ -262,7 +280,7 @@ const Page = () => {
               connectivity and expand into wonderful patterns.
             </div>
             <div className="h-6" />
-            <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+            <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-124">
               <span className="underline">See More</span> →
             </button>
             <div className="h-64" />
@@ -302,7 +320,7 @@ const Page = () => {
                   essentially unchanged.
                 </div>
                 <div className="h-6" />
-                <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                   <Link href="http://inblog.ai">
                     <span className="underline">
                       Visit
@@ -339,7 +357,7 @@ const Page = () => {
               connectivity and expand into wonderful patterns.
             </div>
             <div className="h-6" />
-            <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+            <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
               <Link href="http://inblog.ai">
                 <span className="underline">
                   Visit
@@ -384,20 +402,20 @@ const Page = () => {
                 </div>
                 <div className="h-6" />
                 <div className="flex flex-col items-start">
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                     <Link href="/">
                       <span className="underline">See More</span>
                     </Link>
                     →
                   </button>
                   <div className="h-4" />
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                     <Link href="http://3.35.83.107/pharosapp/templates/pharosapp/start.html">
                       <span className="underline">Digital 3D Booth</span>
                     </Link>
                     →
                   </button>
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                     <Link href="http://pharosk.com">
                       <span className="underline">Website</span>
                     </Link>
@@ -430,7 +448,7 @@ const Page = () => {
               connectivity and expand into wonderful patterns.
             </div>
             <div className="h-6" />
-            <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+            <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
               <Link href="http://inblog.ai">
                 <span className="underline">Website</span>
               </Link>
@@ -481,7 +499,7 @@ const Page = () => {
                     essentially unchanged.
                   </div>
                   <div className="h-6" />
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                     <span className="underline">See More</span> →
                   </button>
                 </div>
@@ -511,7 +529,7 @@ const Page = () => {
               connectivity and expand into wonderful patterns.
             </div>
             <div className="h-6" />
-            <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+            <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
               <span className="underline">See More</span> →
             </button>
           </div>
@@ -551,7 +569,7 @@ const Page = () => {
                     in Paris, France.
                   </div>
                   <div className="h-6" />
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                     <span className="underline">See More</span> →
                   </button>
                 </div>
@@ -578,7 +596,7 @@ const Page = () => {
                 designed to memorate Maison&Objet 2022 in Paris, France.
               </div>
               <div className="h-6" />
-              <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
+              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
                 <span className="underline">See More</span> →
               </button>
             </div>

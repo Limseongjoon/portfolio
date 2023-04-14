@@ -15,7 +15,7 @@ const Page = () => {
       <div className="fixed z-50 w-screen bg-transparent font-hrot px-3 sm:px-4 lg:px-5">
         <div className="h-1" />
         <div className="flex flex-row justify-between">
-          <div className="flex gap-4 sm:gap-12 lg:gap-16">
+          <div className="flex gap-2 sm:gap-12 lg:gap-16">
             <Link
               href="/"
               className="flex text-xs lg:text-sm text-[#ffcde5] hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold"
@@ -29,7 +29,7 @@ const Page = () => {
               ← words
             </Link>
           </div>
-          <div className="flex gap-4 sm:gap-12 lg:gap-16">
+          <div className="flex gap-2 sm:gap-12 lg:gap-16">
             <Link
               href="/about"
               className="flex flex-row text-xs lg:text-sm text-[#ffcde5] hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold"

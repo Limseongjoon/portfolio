@@ -3,26 +3,32 @@ import Link from "next/link";
 const Page = () => {
   return (
     <div className="bg-[#090909] text-[#ffcde5]">
-      <div className="fixed font-hrot z-50 w-screen px-4 lg:px-5">
-        <div className="h-1 pt-[5px]" />
+      <div className="fixed z-50 w-screen bg-transparent font-hrot px-3 sm:px-4 lg:px-5s">
+        <div className="h-1" />
         <div className="flex justify-between">
           <Link
-            href="/contact"
-            className="flex text-xs lg:text-sm text-[#ffcde5] hover:-rotate-6 active:-rotate-12"
+            href="/"
+            className="flex text-xs lg:text-sm text-[#ffcde5] hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold"
           >
-            ← contact
-          </Link>
-          <Link
-            href="#"
-            className="flex font-semibold text-xs lg:text-sm text-[#ffcde5] hover:scale-95 pt-[1px] md:pt-0"
-          >
-            ABOUT
+            ←← work
           </Link>
           <Link
             href="/"
-            className="flex text-xs lg:text-sm text-[#ffcde5] hover:rotate-6 active:rotate-12"
+            className="flex text-xs lg:text-sm text-[#ffcde5] hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold"
           >
-            works →
+            ← words
+          </Link>
+          <Link
+            href="/about"
+            className="flex text-xs lg:text-sm text-[#ffcde5] hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold"
+          >
+            about →
+          </Link>
+          <Link
+            href="/contact"
+            className="flex text-xs lg:text-sm text-[#ffcde5] hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold"
+          >
+            contact →→
           </Link>
         </div>
       </div>

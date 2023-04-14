@@ -26,6 +26,18 @@
   src: url("../public/assets/HrotBasic-Black.otf");
 }
 
+@font-face {
+  font-family: "Pridi";
+  font-weight: 400;
+  src: url("../public/assets/Pridi-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Pridi";
+  font-weight: 500;
+  src: url("../public/assets/Pridi-Medium.ttf");
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;

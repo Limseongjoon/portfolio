@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         hrot: ["hrot", "sans-serif"],
+        Pridi: ["Pridi", "serif"],
       },
     },
     fontSize: {

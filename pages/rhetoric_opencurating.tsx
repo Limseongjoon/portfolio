@@ -98,30 +98,26 @@ const Page = () => {
           <div className="h-10" />
         </div>
         <div className="h-3 sm:h-8 border-t-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
-        <div>
+        <div className="flex flex-col gap-4">
           <CustomImage
             src="/images/rhetoric_opencurating_1.jpeg"
-            className="w-screen lg:px-4 xl:px-16"
+            className="w-screen lg:px-4 xl:px-12"
           />
-          <div className="h-2 sm:h-4" />
           <CustomImage
             src="/images/rhetoric_opencurating_2.jpeg"
-            className="w-screen lg:px-4 xl:px-16"
+            className="w-screen lg:px-4 xl:px-12"
           />
-          <div className="h-2 sm:h-4" />
           <CustomImage
             src="/images/rhetoric_opencurating_3.jpeg"
-            className="w-screen lg:px-4 xl:px-16"
+            className="w-screen lg:px-4 xl:px-12"
           />
-          <div className="h-2 sm:h-4" />
           <CustomImage
             src="/images/rhetoric_opencurating_4.jpeg"
-            className="w-screen lg:px-4 xl:px-16"
+            className="w-screen lg:px-4 xl:px-12"
           />
-          <div className="h-2 sm:h-4" />
           <CustomImage
             src="/images/rhetoric_opencurating_5.jpeg"
-            className="w-screen lg:px-4 xl:px-16"
+            className="w-screen lg:px-4 xl:px-12"
           />
         </div>
         <div className="h-12 text-center text-2xs lg:text-xs text-black">

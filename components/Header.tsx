@@ -1,31 +1,36 @@
-import CustomImage from '../components/CustomImage';
-import Link from 'next/link';
+import CustomImage from "../components/CustomImage";
+import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="fixed z-50 w-screen px-6 lg:px-12 bg-transparent">
-      <div className="h-5 md:h-6 lg:h-8"></div>
-      <div className="flex items-start -my-1">
-        <Link href="/#">
-          <CustomImage src="/images/logo_joon_black.png" className="h-3 md:h-4 lg:h-5 w-auto" />
+    <div className="fixed z-50 w-screen bg-transparent font-hrot px-3 sm:px-4 lg:px-5s">
+      <div className="h-1" />
+      <div className="flex justify-between">
+        <Link
+          href="/"
+          className="flex text-xs lg:text-sm text-black hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold"
+        >
+          ←← work
         </Link>
-        <div className="grow"></div>
-        <div className="flex items-end gap-6 md:gap-10 lg:gap-12 -my-[4px] lg:-my-2">
-          <Link
-            href="/about"
-            className="font-hrot text-2xs lg:text-xs"
-          >
-            ABOUT
-          </Link>
-          <Link
-            href="/contact"
-            className="font-hrot text-2xs lg:text-xs"
-          >
-            CONTACT
-          </Link>
-        </div>
+        <Link
+          href="/"
+          className="flex text-xs lg:text-sm text-black hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold"
+        >
+          ← words
+        </Link>
+        <Link
+          href="/about"
+          className="flex text-xs lg:text-sm text-black hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold"
+        >
+          about →
+        </Link>
+        <Link
+          href="/contact"
+          className="flex text-xs lg:text-sm text-black hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold"
+        >
+          contact →→
+        </Link>
       </div>
-      <div className="h-2"></div>
     </div>
   );
 };

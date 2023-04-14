@@ -1,32 +1,11 @@
 import CustomImage from "../components/CustomImage";
 import Link from "next/link";
+import Header from "../components/Header";
 
 const Page = () => {
   return (
     <div className="bg-white text-black">
-      <div className="fixed font-hrot z-50 w-screen px-3 sm:px-4 lg:px-5">
-        <div className="h-1" />
-        <div className="flex justify-between">
-          <Link
-            href="/about"
-            className="flex text-xs lg:text-sm text-black hover:-rotate-6 active:-rotate-12"
-          >
-            ← about
-          </Link>
-          <Link
-            href="/"
-            className="flex font-bold text-xs lg:text-sm text-black hover:scale-95 pt-[1px] md:pt-0"
-          >
-            WORKS
-          </Link>
-          <Link
-            href="/contact"
-            className="flex text-xs lg:text-sm text-black hover:rotate-6 active:rotate-12"
-          >
-            contact →
-          </Link>
-        </div>
-      </div>
+      <Header />
       <div className="h-7 lg:mb-[2px]" />
       <div className="bg-white text-black flex flex-col h-screen items-center">
         <div className="w-screen">
@@ -66,20 +45,20 @@ const Page = () => {
                     <Link href="/rhetoric_opencurating">
                       <span className="underline">See More</span>
                     </Link>
-                    →
+                    &nbsp;→
                   </button>
                   <div className="h-4" />
                   <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
                     <Link href="http://3.35.83.107/pharosapp/templates/pharosapp/start.html">
                       <span className="underline">Digital 3D Booth</span>
                     </Link>
-                    →
+                    &nbsp;→
                   </button>
                   <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
-                    <a href="http://pharosk.com">
+                    <Link href="http://pharosk.com">
                       <span className="underline">Website</span>
-                    </a>{" "}
-                    →
+                    </Link>
+                    &nbsp;→
                   </button>
                 </div>
               </div>
@@ -117,15 +96,15 @@ const Page = () => {
               </button>
               <div className="h-4" />
               <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
-                <a href="http://3.35.83.107/pharosapp/templates/pharosapp/start.html">
+                <Link href="http://3.35.83.107/pharosapp/templates/pharosapp/start.html">
                   <span className="underline">Digital 3D Booth</span>
-                </a>{" "}
+                </Link>
                 →
               </button>
               <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
-                <a href="http://pharosk.com">
+                <Link href="http://pharosk.com">
                   <span className="underline">Website</span>
-                </a>{" "}
+                </Link>
                 →
               </button>
             </div>
@@ -166,9 +145,14 @@ const Page = () => {
                   essentially unchanged.
                 </div>
                 <div className="h-6" />
-                <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
-                  <span className="underline">See More</span> →
-                </button>
+                <div className="flex flex-col items-start">
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                    <Link href="/scooter">
+                      <span className="underline">See More</span>
+                    </Link>
+                    →
+                  </button>
+                </div>
               </div>
             </div>
             <div className="h-20" />
@@ -195,13 +179,17 @@ const Page = () => {
               connectivity and expand into wonderful patterns.
             </div>
             <div className="h-6" />
-            <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
-              <span className="underline">See More</span> →
-            </button>
+            <div className="flex flex-col items-start">
+              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                <Link href="/scooter">
+                  <span className="underline">See More</span>
+                </Link>
+                →
+              </button>
+            </div>
           </div>
           <div className="h-64" />
         </div>
-
         <div>
           <div className="md:hidden">
             <CustomImage
@@ -280,7 +268,6 @@ const Page = () => {
             <div className="h-64" />
           </div>
         </div>
-
         <div>
           <div className="border-t-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
           <CustomImage
@@ -315,8 +302,16 @@ const Page = () => {
                   essentially unchanged.
                 </div>
                 <div className="h-6" />
-                <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
-                  <span className="underline">See More</span> →
+                <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                  <Link href="http://inblog.ai">
+                    <span className="underline">
+                      Visit
+                      <span className="font-Pridi font-medium text-lg">
+                        &nbsp;inblog
+                      </span>
+                    </span>
+                  </Link>
+                  &nbsp;→
                 </button>
               </div>
             </div>
@@ -345,7 +340,15 @@ const Page = () => {
             </div>
             <div className="h-6" />
             <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
-              <span className="underline">See More</span> →
+              <Link href="http://inblog.ai">
+                <span className="underline">
+                  Visit
+                  <span className="font-Pridi font-medium text-lg">
+                    &nbsp;inblog
+                  </span>
+                </span>
+              </Link>
+              &nbsp;→
             </button>
           </div>
           <div className="h-64" />
@@ -380,9 +383,27 @@ const Page = () => {
                   essentially unchanged.
                 </div>
                 <div className="h-6" />
-                <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
-                  <span className="underline">See More</span> →
-                </button>
+                <div className="flex flex-col items-start">
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                    <Link href="/">
+                      <span className="underline">See More</span>
+                    </Link>
+                    →
+                  </button>
+                  <div className="h-4" />
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                    <Link href="http://3.35.83.107/pharosapp/templates/pharosapp/start.html">
+                      <span className="underline">Digital 3D Booth</span>
+                    </Link>
+                    →
+                  </button>
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                    <Link href="http://pharosk.com">
+                      <span className="underline">Website</span>
+                    </Link>
+                    &nbsp;→
+                  </button>
+                </div>
               </div>
             </div>
             <div className="h-20" />
@@ -410,7 +431,10 @@ const Page = () => {
             </div>
             <div className="h-6" />
             <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
-              <span className="underline">See More</span> →
+              <Link href="http://inblog.ai">
+                <span className="underline">Website</span>
+              </Link>
+              &nbsp;→
             </button>
           </div>
           <div className="h-64" />

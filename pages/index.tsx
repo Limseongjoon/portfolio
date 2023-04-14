@@ -30,7 +30,10 @@ const Page = () => {
       <div className="h-7 lg:mb-[2px]" />
       <div className="bg-white text-black flex flex-col h-screen items-center">
         <div className="w-screen">
-          <CustomImage src="/images/rhetoric_main.jpeg" className="w-full" />
+          <CustomImage
+            src="/images/rhetoric_opencurating_main.jpeg"
+            className="w-full"
+          />
           <div className="h-6" />
           <div className="hidden md:flex px-4 lg:px-10 w-full">
             <div className="flex flex-row w-full items-baseline">
@@ -59,12 +62,24 @@ const Page = () => {
                 </div>
                 <div className="h-6" />
                 <div className="flex flex-col items-start">
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
-                    <span className="underline">See More</span> →
-                  </button>
-                  <div className="h-1"></div>
                   <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
-                    <span className="underline">Digital Booth</span> →
+                    <a href="/rhetoric_opencurating">
+                      <span className="underline">See More</span>
+                    </a>{" "}
+                    →
+                  </button>
+                  <div className="h-4" />
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                    <a href="http://3.35.83.107/pharosapp/templates/pharosapp/start.html">
+                      <span className="underline">Digital 3D Booth</span>
+                    </a>{" "}
+                    →
+                  </button>
+                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                    <a href="http://pharosk.com">
+                      <span className="underline">Website</span>
+                    </a>{" "}
+                    →
                   </button>
                 </div>
               </div>
@@ -93,9 +108,27 @@ const Page = () => {
               connectivity and expand into wonderful patterns.
             </div>
             <div className="h-6" />
-            <button className="font-hrot text-tiny pr-2 lg:pr-4  hover:pl-2 active:pl-4">
-              <span className="underline">See More</span> →
-            </button>
+            <div className="flex flex-col items-start">
+              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                <a href="/rhetoric_opencurating">
+                  <span className="underline">See More</span>
+                </a>{" "}
+                →
+              </button>
+              <div className="h-4" />
+              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                <a href="http://3.35.83.107/pharosapp/templates/pharosapp/start.html">
+                  <span className="underline">Digital 3D Booth</span>
+                </a>{" "}
+                →
+              </button>
+              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
+                <a href="http://pharosk.com">
+                  <span className="underline">Website</span>
+                </a>{" "}
+                →
+              </button>
+            </div>
           </div>
           <div className="h-64" />
         </div>

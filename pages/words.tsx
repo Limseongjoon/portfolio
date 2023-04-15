@@ -55,23 +55,40 @@ const Page = () => {
                 </p>
               </Accordion.Title>
               <Accordion.Content>
-                <div className="md:w-4/5 break-keep ml-6">
+                <div className="md:w-4/5 break-keep ml-6 flex flex-col gap-4">
                   <div>
-                    1. <span className="font-semibold">레거시</span>와{" "}
-                    <span className="font-semibold">보편</span>을 구성하는
-                    요소들을 추출하여 조형으로 읽어내기.
+                    <div>
+                      1. <span className="font-semibold">레거시</span>와{" "}
+                      <span className="font-semibold">보편</span>을 구성하는
+                      요소들을 추출하여 조형으로 읽어내기.
+                    </div>
+                    <div className="text-xs leading-snug ml-3">
+                      (어느 시점과 어느 범위까지 통시적/ 공시적, 또는 그 이외의
+                      관점에서 리서치를 할 것인지에 대한 스케쥴링과 판단이
+                      필요하므로 직관과 경험의 누적이 필요한 부분이다.)
+                    </div>
                   </div>
-                  <div className="h-2" />
                   <div>
-                    2. 위 조형 요소들을 이용하여 과도하지 않으나 통용될 수 있는,
-                    새롭고 강렬한 충격을 주는{" "}
-                    <span className="font-semibold">적절한 지형도</span>{" "}
-                    그려내기.
+                    <div>
+                      2. 위 조형 요소들을 이용하여 과도하지 않으나 통용될 수
+                      있는, 새롭고 강렬한 충격을 주는{" "}
+                      <span className="font-semibold">적절한 지형도</span>{" "}
+                      그려내기.
+                    </div>
+                    <div className="text-xs leading-snug ml-3">
+                      (1번과 마찬가지로 직관과 경험의 누적이 필요한 부분이라고
+                      생각한다.)
+                    </div>
                   </div>
-                  <div className="h-2" />
                   <div>
                     3. 프로젝트 성격에 부합하는{" "}
-                    <span className="font-semibold">이성-감각</span> 비율 조정.
+                    <span className="font-semibold">이성-감각</span> 비율 판단.
+                  </div>
+                  <div>
+                    4. <span className="font-semibold">오퍼레이터</span>로서
+                    작업할 것인지, 또는{" "}
+                    <span className="font-semibold">디렉터</span>로서 지시할
+                    것인 지를 판단.
                   </div>
                 </div>
               </Accordion.Content>

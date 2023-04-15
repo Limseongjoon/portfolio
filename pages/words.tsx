@@ -97,7 +97,7 @@ const Page = () => {
             <Accordion.Panel>
               <Accordion.Title color="black">
                 <p className="font-hrot font-semibold text-lg text-black">
-                  Phrase hit me hard
+                  Phrase Hit Me Hard
                 </p>
               </Accordion.Title>
               <Accordion.Content>

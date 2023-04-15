@@ -20,9 +20,23 @@ const Page = () => {
                 </div>
               </Accordion.Title>
               <Accordion.Content>
-                <div className="md:w-4/5 break-keep ml-6">
-                  프로젝트 매체의 규격과 포맷에 상관없이 최적의 포트폴리오 구성
-                  환경을 조직하기 위하여 제작하였다.
+                <div className="md:w-4/5 break-keep ml-6 flex flex-col gap-4">
+                  <div>
+                    웹페이지는 아래의 이유들로 직접 개발의 필요성을 느껴
+                    제작하게 되었습니다.
+                  </div>
+                  <div>
+                    (1) 프로젝트 매체의 규격과 포맷에 제한되지 않아 높은
+                    자유도를 갖는 포트폴리오 구성 환경을 조직하기 위하여
+                  </div>
+                  <div>
+                    (2) 단순한 큐레이션을 넘어 각 프로젝트마다의 성질과 목소리를
+                    유지하기 위하여
+                  </div>
+                  <div>
+                    (3) 구조, 편집, 모양새, 폰트 등 웹페이지를 구성하는 모든
+                    요소들의 총체 또한, 또는 까지 표현이므로
+                  </div>
                 </div>
               </Accordion.Content>
             </Accordion.Panel>
@@ -79,18 +93,19 @@ const Page = () => {
                       그려내기.
                     </div>
                     <div className="text-xs leading-snug ml-3">
-                      (1번과 마찬가지로 직관과 경험의 누적이 필요한 부분이라고
-                      생각한다.)
+                      (1번과 마찬가지로 직관과 경험의 누적이 필요한 부분이며,
+                      시각뿐만 아니라 후각, 청각 등의 다양한 감각을 적)
                     </div>
                   </div>
                   <div>
                     3. 프로젝트 성격에 부합하는{" "}
-                    <span className="font-bold">이성-감각</span> 비율 판단.
+                    <span className="font-bold">이성-감각</span>의 적정한 비율을
+                    규정한다.
                   </div>
                   <div>
                     4. <span className="font-bold">오퍼레이터</span>로서 작업할
                     것인지, 또는 <span className="font-bold">디렉터</span>로서
-                    지시할 것인 지를 판단.
+                    지시할 것인 지를 판단한다.
                   </div>
                 </div>
               </Accordion.Content>

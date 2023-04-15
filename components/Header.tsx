@@ -14,7 +14,7 @@ const Header = () => {
             ←←<span className="px-[1px]"></span>yours
           </Link>
           <Link
-            href="/words"
+            href="/color"
             className="flex text-xs lg:text-sm text-black hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold tracking-tight"
           >
             ←<span className="px-[1px]"></span>color
@@ -22,10 +22,10 @@ const Header = () => {
         </div>
         <div className="flex gap-3 sm:gap-8 lg:gap-10">
           <Link
-            href="/about"
+            href="/words"
             className="flex flex-row text-xs lg:text-sm text-black hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold tracking-tight"
           >
-            about<span className="px-[1px]"></span>→
+            words<span className="px-[1px]"></span>→
           </Link>
           <Link
             href="/touch"

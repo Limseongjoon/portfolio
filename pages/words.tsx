@@ -33,18 +33,19 @@ const Page = () => {
                 </p>
               </Accordion.Title>
               <Accordion.Content>
-                <div className="md:w-4/5 break-keep ml-6">
+                <div className="md:w-4/5 break-keep ml-6 flex flex-col gap-4">
                   <div>
                     디자인은 필요로 시작하여 논리와 근거를 바탕으로 감각의
-                    총체로 맞이하도록 만드는 방법론이라고 생각한다. 따라서
-                    명확한 필요, 논리, 근거가 있다면 그럴 수 밖에 없는 결과가
-                    도출된다.
+                    총체로 맞이하도록 만드는 방법론이다. 따라서 명확한 필요,
+                    논리, 근거가 있다면 그럴 수 밖에 없는 결과가 도출된다.
                   </div>
-                  <div className="h-3" />
                   <div>
                     필요로써 예술과 구별되고 논리와 근거로써 비로소 모방에서
-                    벗어난다. 나아가 넛지함의 권력을 가질 수 있으므로 조심스럽게
-                    다뤄야 한다.
+                    벗어난다.{" "}
+                    <div>
+                      나아가 넛지함의 권력을 가질 수 있으므로 조심스럽게 다뤄야
+                      한다.
+                    </div>
                   </div>
                 </div>
               </Accordion.Content>
@@ -71,8 +72,8 @@ const Page = () => {
                   </div>
                   <div>
                     <div>
-                      2. 위 조형 요소들을 이용하여 과도하지 않으나 통용될 수
-                      있는, 새롭고 강렬한 충격을 주는{" "}
+                      2. 위 조형 요소들을 이용하여 지나치게 과하지 않으며,
+                      새롭고 강렬한 충격을 주는{" "}
                       <span className="font-semibold">적절한 지형도</span>{" "}
                       그려내기.
                     </div>

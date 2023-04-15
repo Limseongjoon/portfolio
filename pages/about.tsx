@@ -14,13 +14,13 @@ const Page = () => {
               href="/"
               className="flex text-xs lg:text-sm text-[#ffcde5] hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold tracking-tight"
             >
-              ←←works
+              ←←<span className="px-[1px]"></span>yours
             </Link>
             <Link
               href="/words"
               className="flex text-xs lg:text-sm text-[#ffcde5] hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold tracking-tight"
             >
-              ←words
+              ←<span className="px-[1px]"></span>color
             </Link>
           </div>
           <div className="flex gap-3 sm:gap-8 lg:gap-10">
@@ -28,13 +28,13 @@ const Page = () => {
               href="/about"
               className="flex flex-row text-xs lg:text-sm text-[#ffcde5] hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold tracking-tight"
             >
-              about→
+              about<span className="px-[1px]"></span>→
             </Link>
             <Link
               href="/touch"
               className="flex text-xs lg:text-sm text-[#ffcde5] hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold tracking-tight"
             >
-              touch→→
+              touch<span className="px-[1px]"></span>→→
             </Link>
           </div>
         </div>

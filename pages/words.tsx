@@ -138,7 +138,7 @@ const Page = () => {
                     <Timeline.Content>
                       <Timeline.Time>March 2011 - August 2018</Timeline.Time>
                       <Timeline.Title>
-                        Bachelor of Biology Degree
+                        Bachelor&apos;s Degree in Biology
                       </Timeline.Title>
                       <Timeline.Body>Korea Uni.</Timeline.Body>
                     </Timeline.Content>

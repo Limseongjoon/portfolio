@@ -2,7 +2,7 @@ import Header from "../components/Header";
 
 const Page = () => {
   return (
-    <div className="bg-[#f8ff34] bg-gradient-to-t from-[#e9e9e9]">
+    <div className="bg-[#f8ff34] bg-gradient-to-t from-[#fff]">
       <div className="fixed z-50 w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px]">
         너와
       </div>
@@ -33,7 +33,7 @@ const Page = () => {
         <div className="flex flex-col items-center">
           <a
             href="mailto:sungjun170@gmail.com"
-            className="font-hrot text-tiny text-black text-center hover:pt-2 active:pt-4"
+            className="font-hrot text-tiny text-black text-center hover:pt-1 active:pt-4"
           >
             Send email
           </a>

@@ -74,13 +74,13 @@ const Page = () => {
                   portable appliances, etc.
                 </div>
                 <div className="h-6" />
-                <div className="flex flex-col items-start">
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
-                    <Link href="/scooter">
+                <div className="flex flex-row items-start hover:gap-1 active:gap-4">
+                  <button className="font-hrot text-tiny pr-1 hover:font-semibold hover:rotate-6 active:rotate-12">
+                    <Link href="/">
                       <span className="underline">See More</span>
                     </Link>
-                    →
                   </button>
+                  <span>→</span>
                 </div>
               </div>
             </div>
@@ -116,13 +116,13 @@ const Page = () => {
               </div>
             </div>
             <div className="h-6" />
-            <div className="flex flex-col items-start">
-              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
-                <Link href="/scooter">
+            <div className="flex flex-row items-start hover:gap-1 active:gap-4">
+              <button className="font-hrot text-tiny pr-1 hover:font-semibold hover:rotate-6 active:rotate-12">
+                <Link href="/">
                   <span className="underline">See More</span>
                 </Link>
-                →
               </button>
+              <span>→</span>
             </div>
           </div>
           <div className="h-48 sm:h-64" />
@@ -169,9 +169,14 @@ const Page = () => {
                     essentially unchanged.
                   </div>
                   <div className="h-6" />
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
-                    <span className="underline">See More</span> →
-                  </button>
+                  <div className="flex flex-row items-start hover:gap-1 active:gap-4">
+                    <button className="font-hrot text-tiny pr-1 hover:font-semibold hover:rotate-6 active:rotate-12">
+                      <Link href="/">
+                        <span className="underline">See More</span>
+                      </Link>
+                    </button>
+                    <span>→</span>
+                  </div>
                 </div>
               </div>
               <div className="h-48 sm:h-64" />
@@ -199,9 +204,14 @@ const Page = () => {
               connectivity and expand into wonderful patterns.
             </div>
             <div className="h-6" />
-            <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
-              <span className="underline">See More</span> →
-            </button>
+            <div className="flex flex-row items-start hover:gap-1 active:gap-4">
+              <button className="font-hrot text-tiny pr-1 hover:font-semibold hover:rotate-6 active:rotate-12">
+                <Link href="/">
+                  <span className="underline">See More</span>
+                </Link>
+              </button>
+              <span>→</span>
+            </div>
           </div>
           <div className="h-48 sm:h-20" />
 
@@ -238,11 +248,14 @@ const Page = () => {
                     essentially unchanged.
                   </div>
                   <div className="h-6" />
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
-                    <Link href="http://inblog.ai">
-                      <span className="underline">See More</span> →
-                    </Link>
-                  </button>
+                  <div className="flex flex-row items-start hover:gap-1 active:gap-4">
+                    <button className="font-hrot text-tiny pr-1 hover:font-semibold hover:rotate-6 active:rotate-12">
+                      <Link href="/">
+                        <span className="underline">See More</span>
+                      </Link>
+                    </button>
+                    <span>→</span>
+                  </div>
                 </div>
               </div>
               <div className="h-20" />
@@ -269,11 +282,14 @@ const Page = () => {
                 to express connectivity and expand into wonderful patterns.
               </div>
               <div className="h-6" />
-              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
-                <Link href="http://inblog.ai">
-                  <span className="underline">See More</span> →
-                </Link>
-              </button>
+              <div className="flex flex-row items-start hover:gap-1 active:gap-4">
+                <button className="font-hrot text-tiny pr-1 hover:font-semibold hover:rotate-6 active:rotate-12">
+                  <Link href="/">
+                    <span className="underline">See More</span>
+                  </Link>
+                </button>
+                <span>→</span>
+              </div>
             </div>
           </div>
           <div className="h-48 sm:h-64" />

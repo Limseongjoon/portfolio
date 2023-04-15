@@ -1,9 +1,10 @@
 import Header from "../components/Header";
 import { Accordion } from "flowbite-react";
+import { Timeline } from "flowbite-react";
 
 const Page = () => {
   return (
-    <div className="bg-white text-black w-screen max-h-screen overflow-hidden">
+    <div className="bg-[#51DA4A] text-black w-screen max-h-screen overflow-hidden">
       <div className="fixed z-50 w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px]">
         나는
       </div>
@@ -20,9 +21,9 @@ const Page = () => {
               </Accordion.Title>
               <Accordion.Content>
                 <div className="md:w-4/5 break-keep ml-6">
-                  결과물을 담는 도구일뿐인 매체를 절대적으로 배제하여 현재의
-                  가치에 몰입하고, 프로젝트 작업 매체의 규격과 포맷에 상관없이
-                  최적의 포트폴리오 구성 환경을 조직하기 위하여.
+                  도출된 결과를 담는 도구일뿐인 매체를 절대적으로 배제하여
+                  현재의 가치에 몰입하고, 프로젝트 작업 매체의 규격과 포맷에
+                  상관없이 최적의 포트폴리오 구성 환경을 조직하기 위하여.
                 </div>
               </Accordion.Content>
             </Accordion.Panel>
@@ -42,10 +43,10 @@ const Page = () => {
                   <div>
                     필요로써 예술과 구별되고 논리와 근거로써 비로소 모방에서
                     벗어난다.
-                    <div>
-                      나아가 넛지함의 권력을 가질 수 있으므로 조심스럽게 다뤄야
-                      한다.
-                    </div>
+                  </div>
+                  <div>
+                    나아가 넛지함의 권력을 가질 수 있으므로 조심스럽게 다뤄야
+                    한다.
                   </div>
                 </div>
               </Accordion.Content>
@@ -60,8 +61,8 @@ const Page = () => {
                 <div className="md:w-4/5 break-keep ml-6 flex flex-col gap-4">
                   <div>
                     <div>
-                      1. <span className="font-semibold">레거시</span>와{" "}
-                      <span className="font-semibold">보편</span>을 구성하는
+                      1. <span className="font-bold">레거시</span>와{" "}
+                      <span className="font-bold">보편</span>을 구성하는
                       요소들을 추출하여 조형으로 읽어내기.
                     </div>
                     <div className="text-xs leading-snug ml-3">
@@ -84,19 +85,18 @@ const Page = () => {
                   </div>
                   <div>
                     3. 프로젝트 성격에 부합하는{" "}
-                    <span className="font-semibold">이성-감각</span> 비율 판단.
+                    <span className="font-bold">이성-감각</span> 비율 판단.
                   </div>
                   <div>
-                    4. <span className="font-semibold">오퍼레이터</span>로서
-                    작업할 것인지, 또는{" "}
-                    <span className="font-semibold">디렉터</span>로서 지시할
-                    것인 지를 판단.
+                    4. <span className="font-bold">오퍼레이터</span>로서 작업할
+                    것인지, 또는 <span className="font-bold">디렉터</span>로서
+                    지시할 것인 지를 판단.
                   </div>
                 </div>
               </Accordion.Content>
             </Accordion.Panel>
             <Accordion.Panel>
-              <Accordion.Title>
+              <Accordion.Title color="black">
                 <p className="font-hrot font-semibold text-lg text-black">
                   Phrase hit me hard
                 </p>
@@ -106,7 +106,7 @@ const Page = () => {
                   Essentially ahead of itself, it has projected itself upon its
                   potentiality-for-Being before going on to any mere
                   consideration of itself.{" "}
-                  <span className="font-semibold">Being-in-the-world</span> has
+                  <span className="font-bold">Being-in-the-world</span> has
                   always expressed itself, and as Being alongside entities
                   encountered within-the-world, it constantly expresses itself
                   in addressing itself to the very object of its concern and
@@ -116,9 +116,40 @@ const Page = () => {
                 <div className="font-hrot text-sm ml-6">― Martin Heidegger</div>
               </Accordion.Content>
             </Accordion.Panel>
+            <Accordion.Panel>
+              <Accordion.Title>
+                <p className="font-hrot font-semibold text-lg text-black">
+                  Journey
+                </p>
+              </Accordion.Title>
+              <Accordion.Content>
+                <Timeline>
+                  <Timeline.Item>
+                    <Timeline.Point className="bg-secondary" />
+                    <Timeline.Content>
+                      <Timeline.Time>March 2022</Timeline.Time>
+                      <Timeline.Title>
+                        Bachelor&apos;s Degree in Design
+                      </Timeline.Title>
+                      <Timeline.Body>Seoul Nat&apos;l Uni.</Timeline.Body>
+                    </Timeline.Content>
+                  </Timeline.Item>
+                  <Timeline.Item>
+                    <Timeline.Point />
+                    <Timeline.Content>
+                      <Timeline.Time>March 2011 - August 2018</Timeline.Time>
+                      <Timeline.Title>
+                        Bachelor of Biology Degree
+                      </Timeline.Title>
+                      <Timeline.Body>Korea Uni.</Timeline.Body>
+                    </Timeline.Content>
+                  </Timeline.Item>
+                </Timeline>
+              </Accordion.Content>
+            </Accordion.Panel>
           </Accordion>
         </div>
-        <div className="h-64 sm:h-64" />
+        <div className="grow" />
         <div className="w-full border-t-[0.5px] border-black opacity-60" />
         <div className="h-5 font-light text-center text-2xs lg:text-xs text-black my-[1px]">
           Copyright © JOON. All rights Reserved.

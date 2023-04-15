@@ -16,6 +16,10 @@ module.exports = {
         Pridi: ["Pridi", "serif"],
       },
     },
+    colors: {
+      primary: "blue",
+      secondary: "red",
+    },
     fontSize: {
       "2xs": ".625rem",
       xs: ".75rem",

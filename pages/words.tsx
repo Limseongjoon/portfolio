@@ -17,7 +17,7 @@ const Page = () => {
                 <div className="font-hrot text-black">My Norms</div>
               </Accordion.Title>
               <Accordion.Content>
-                <div className="mb-2">
+                <div className="mt-2">
                   Essentially ahead of itself, it has projected itself upon its
                   potentiality-for-Being before going on to any mere
                   consideration of itself. Being-in-the-world has always
@@ -25,7 +25,8 @@ const Page = () => {
                   within-the-world, it constantly expresses itself in addressing
                   itself to the very object of its concern and discussing it.
                 </div>
-                <div> ⎯ Martin Heidegger</div>
+                <div className="h-0 sm:h-4"></div>
+                <div className="text-sm"> ⎯ Martin Heidegger</div>
               </Accordion.Content>
             </Accordion.Panel>
             <Accordion.Panel>
@@ -35,7 +36,7 @@ const Page = () => {
                 </p>
               </Accordion.Title>
               <Accordion.Content>
-                <p className="mb-2 ">
+                <p className="my-3">
                   Flowbite is first conceptualized and designed using the Figma
                   software so everything you see in the library has a design
                   equivalent in our Figma file.
@@ -45,8 +46,8 @@ const Page = () => {
           </Accordion>
         </div>
         <div className="grow" />
-        <div className="w-full border-t-[0.5px] border-white" />
-        <div className="h-5 font-light text-center text-2xs lg:text-xs text-white my-[1px]">
+        <div className="w-full border-t-[0.5px] border-black opacity-60" />
+        <div className="h-5 font-light text-center text-2xs lg:text-xs text-black my-[1px]">
           Copyright © JOON. All rights Reserved.
         </div>
       </div>

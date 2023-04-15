@@ -20,11 +20,12 @@ const Page = () => {
               </Accordion.Title>
               <Accordion.Content>
                 <div className="my-2">
-                  Started for my portfolio. 프로젝트에만 몰입하고자.
-                  포트폴리오는 결과물을 담는 지면일 뿐인데, 결과물의 모습에
-                  집중하는 나를 발견했다. 도구인 매체가 목적보다 우선하게 되는
-                  순간 현재에 몰입하지 못하는 나를 발견했다. 자료 업로드 시의
-                  규격부터 생각하게 되고, 제한.
+                  <div>현재에 몰입하여 매순간 Top-Notch 달성하고자.</div>
+                  <div className="h-2"></div>포트폴리오는 결과물을 담는 지면일
+                  뿐인데, 결과물의 모습을 그리고 상상하는 나를 발견했던 적이
+                  있다. 결과물을 담는 도구인 매체가 고객과 프로젝트의 목적보다
+                  우선하게 되는 순간들은 현재에의 몰입을 방해한다. 규격, 구성,
+                  형태, 룩보다 더 중요한 가치들이 존재한다.
                 </div>
               </Accordion.Content>
             </Accordion.Panel>

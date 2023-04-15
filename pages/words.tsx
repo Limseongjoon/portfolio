@@ -21,8 +21,8 @@ const Page = () => {
               </Accordion.Title>
               <Accordion.Content>
                 <div className="md:w-4/5 break-keep ml-6">
-                  프로젝트 작업 매체의 규격과 포맷에 상관없이 최적의 포트폴리오
-                  구성 환경을 조직하기 위하여.
+                  프로젝트 매체의 규격과 포맷에 상관없이 최적의 포트폴리오 구성
+                  환경을 조직하기 위하여 제작하였다.
                 </div>
               </Accordion.Content>
             </Accordion.Panel>
@@ -44,8 +44,9 @@ const Page = () => {
                     벗어난다.
                   </div>
                   <div>
-                    나아가 넛지로써의 권력 요소를 지니므로 반드시 조심스럽게
-                    설계되어져야만 한다.
+                    나아가 넛지하는 권력으로 작용하므로 반드시 조심스럽게
+                    설계하려는 마음을 지녀야 한다. 존재는 있다는 사실만으로도
+                    실로 엄청난 힘을 가진다.
                   </div>
                 </div>
               </Accordion.Content>
@@ -53,7 +54,7 @@ const Page = () => {
             <Accordion.Panel>
               <Accordion.Title>
                 <p className="font-hrot font-semibold text-lg text-black">
-                  Design Methodology
+                  My Methodology
                 </p>
               </Accordion.Title>
               <Accordion.Content>

@@ -14,7 +14,7 @@ const Page = () => {
           <Accordion flush={true}>
             <Accordion.Panel>
               <Accordion.Title>
-                <div className="font-hrot text-black">My Norms</div>
+                <div className="font-hrot text-black">In-der-Welt-sein</div>
               </Accordion.Title>
               <Accordion.Content>
                 <div className="mt-2">
@@ -26,7 +26,10 @@ const Page = () => {
                   itself to the very object of its concern and discussing it.
                 </div>
                 <div className="h-0 sm:h-4"></div>
-                <div className="text-sm"> ⎯ Martin Heidegger</div>
+                <div className="text-sm mb-2 font-hrot">
+                  {" "}
+                  ⎯ Martin Heidegger
+                </div>
               </Accordion.Content>
             </Accordion.Panel>
             <Accordion.Panel>

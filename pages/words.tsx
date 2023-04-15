@@ -3,7 +3,7 @@ import { Accordion } from "flowbite-react";
 
 const Page = () => {
   return (
-    <div className="bg-white text-black w-screen">
+    <div className="bg-white text-black w-screen max-h-screen overflow-hidden">
       <div className="fixed z-50 w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px]">
         나는
       </div>
@@ -43,8 +43,6 @@ const Page = () => {
                   within-the-world, it constantly expresses itself in addressing
                   itself to the very object of its concern and discussing it.
                 </div>
-                <div className="h-2 sm:h-4"></div>
-                <div className="text-sm mb-2 font-hrot">⎯ Martin Heidegger</div>
               </Accordion.Content>
             </Accordion.Panel>
             <Accordion.Panel>
@@ -55,15 +53,12 @@ const Page = () => {
               </Accordion.Title>
               <Accordion.Content>
                 <div className="mt-2">
-                  Essentially ahead of itself, it has projected itself upon its
-                  potentiality-for-Being before going on to any mere
-                  consideration of itself. Being-in-the-world has always
-                  expressed itself, and as Being alongside entities encountered
-                  within-the-world, it constantly expresses itself in addressing
-                  itself to the very object of its concern and discussing it.
+                  디자인은 필요로 시작하여 논리와 근거를 바탕으로 감각의 총체로
+                  맞이하도록 만드는 방법론이다. 필요로써 예술과 구별되고 논리와
+                  근거로써 비로소 모방에서 벗어난다. 나아가 넛지함의 권력을
+                  가지기 쉬우므로 절대 함부로 다뤄서는 안된다. 명확한 필요,
+                  논리, 근거가 있다면 그럴 수 밖에 없는 결과가 도출된다.
                 </div>
-                <div className="h-2 sm:h-4"></div>
-                <div className="text-sm mb-2 font-hrot">⎯ Martin Heidegger</div>
               </Accordion.Content>
             </Accordion.Panel>
             <Accordion.Panel>
@@ -100,14 +95,12 @@ const Page = () => {
                   within-the-world, it constantly expresses itself in addressing
                   itself to the very object of its concern and discussing it.
                 </div>
-                <div className="h-2 sm:h-4"></div>
-                <div className="text-sm mb-2 font-hrot">⎯ Martin Heidegger</div>
               </Accordion.Content>
             </Accordion.Panel>
             <Accordion.Panel>
               <Accordion.Title>
                 <p className="font-hrot font-semibold text-lg text-black">
-                  My Norms
+                  Norms
                 </p>
               </Accordion.Title>
               <Accordion.Content>
@@ -119,8 +112,6 @@ const Page = () => {
                   within-the-world, it constantly expresses itself in addressing
                   itself to the very object of its concern and discussing it.
                 </div>
-                <div className="h-2 sm:h-4"></div>
-                <div className="text-sm mb-2 font-hrot">⎯ Martin Heidegger</div>
               </Accordion.Content>
             </Accordion.Panel>
             <Accordion.Panel>
@@ -138,13 +129,11 @@ const Page = () => {
                   within-the-world, it constantly expresses itself in addressing
                   itself to the very object of its concern and discussing it.
                 </div>
-                <div className="h-2 sm:h-4"></div>
-                <div className="text-sm mb-2 font-hrot">⎯ Martin Heidegger</div>
               </Accordion.Content>
             </Accordion.Panel>
           </Accordion>
         </div>
-        <div className="grow" />
+        <div className="h-64 sm:h-64" />
         <div className="w-full border-t-[0.5px] border-black opacity-60" />
         <div className="h-5 font-light text-center text-2xs lg:text-xs text-black my-[1px]">
           Copyright © JOON. All rights Reserved.

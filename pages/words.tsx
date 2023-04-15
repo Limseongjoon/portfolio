@@ -16,14 +16,13 @@ const Page = () => {
             <Accordion.Panel>
               <Accordion.Title>
                 <div className="font-hrot font-semibold text-lg text-black">
-                  Why I developed?
+                  Developed for...
                 </div>
               </Accordion.Title>
               <Accordion.Content>
                 <div className="md:w-4/5 break-keep ml-6">
-                  도출된 결과를 담는 도구일뿐인 매체를 절대적으로 배제하여
-                  현재의 가치에 몰입하고, 프로젝트 작업 매체의 규격과 포맷에
-                  상관없이 최적의 포트폴리오 구성 환경을 조직하기 위하여.
+                  프로젝트 작업 매체의 규격과 포맷에 상관없이 최적의 포트폴리오
+                  구성 환경을 조직하기 위하여.
                 </div>
               </Accordion.Content>
             </Accordion.Panel>

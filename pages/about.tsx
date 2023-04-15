@@ -3,44 +3,38 @@ import Link from "next/link";
 const Page = () => {
   return (
     <div className="bg-[#090909] text-[#ffcde5]">
-      <div className="fixed font-hrot font-semibold text-2xs lg:text-xs text-center w-full pt-[7px]">
-        ABOUT
+      <div className="fixed z-50 w-screen bg-transparent text-[#ffcde5] text-center font-hrot font-bold text-xs lg:text-sm pt-[5px]">
+        나는
       </div>
-      <Link
-        href="/"
-        className="fixed font-hrot font-semibold text-2xs lg:text-xs text-center w-full pt-[7px]"
-      >
-        ABOUT
-      </Link>
       <div className="fixed z-50 w-screen bg-transparent font-hrot px-3 sm:px-4 lg:px-5">
         <div className="h-1" />
         <div className="flex flex-row justify-between">
-          <div className="flex gap-2 sm:gap-12 lg:gap-16">
+          <div className="flex gap-6 sm:gap-8 lg:gap-10">
             <Link
               href="/"
-              className="flex text-xs lg:text-sm text-[#ffcde5] hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold"
+              className="flex text-xs lg:text-sm text-[#ffcde5] hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold tracking-tight"
             >
-              ←← works
+              ← works
             </Link>
             <Link
-              href="/"
-              className="flex text-xs lg:text-sm text-[#ffcde5] hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold"
+              href="/words"
+              className="flex text-xs lg:text-sm text-[#ffcde5] hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold tracking-tight"
             >
               ← words
             </Link>
           </div>
-          <div className="flex gap-2 sm:gap-12 lg:gap-16">
+          <div className="flex gap-6 sm:gap-8 lg:gap-10">
             <Link
               href="/about"
-              className="flex flex-row text-xs lg:text-sm text-[#ffcde5] hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold"
+              className="flex flex-row text-xs lg:text-sm text-[#ffcde5] hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold tracking-tight"
             >
               about →
             </Link>
             <Link
               href="/touch"
-              className="flex text-xs lg:text-sm text-[#ffcde5] hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold"
+              className="flex text-xs lg:text-sm text-[#ffcde5] hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold tracking-tight"
             >
-              touch →→
+              touch →
             </Link>
           </div>
         </div>
@@ -64,8 +58,8 @@ const Page = () => {
           ⎯ Martin Heidegger
         </div>
         <div className="grow" />
-        <div className="h-36" />
-        <div className="h-12 text-center text-2xs lg:text-xs text-[#ffc8e3]">
+        <div className="w-full border-t-[0.1px] border-[#ffc8e3] opacity-60" />
+        <div className="h-5 font-thin text-center text-2xs lg:text-xs text-[#ffc8e3] my-[1px]">
           Copyright © JOON. All rights Reserved.
         </div>
       </div>

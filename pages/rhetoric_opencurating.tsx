@@ -23,7 +23,7 @@ const Page = () => {
             <div className="flex flex-row w-full items-baseline">
               <div className="flex flex-col w-1/2">
                 <div className="flex items-baseline">
-                  <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
+                  <div className="font-hrot text-2xl pr-2 lg:pr-4">
                     rhetoric
                   </div>
                   <div className="text-xs lg:text-sm">2023</div>
@@ -44,29 +44,16 @@ const Page = () => {
                   basic shapes are organized to express connectivity and expand
                   into wonderful patterns.
                 </div>
-                <div className="h-6" />
-                <div className="flex flex-col items-start">
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
-                    <span className="underline">See More</span> →
-                  </button>
-                  <div className="h-1"></div>
-                  <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
-                    <span className="underline">Digital Booth</span> →
-                  </button>
-                </div>
               </div>
             </div>
-            <div className="h-20" />
           </div>
-          <div className="md:hidden px-4 lg:px-10 -mt-2">
+          <div className="md:hidden px-4 lg:px-10">
             <div className="flex items-baseline">
-              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
-                rhetoric
-              </div>
-              <div className="text-xs lg:text-sm">2023</div>
+              <div className="font-hrot text-2xl pr-2 lg:pr-4">rhetoric</div>
+              <div className="text-xs">2023</div>
             </div>
             <div className="h-2" />
-            <div className="font-hrot text-2xs pr-2 lg:pr-4">
+            <div className="font-hrot text-xs pr-2 lg:pr-4">
               Dongdaemoon Design Plaza (DDP)<br></br>Opencurating vol.23
             </div>
             <div className="h-6" />
@@ -79,23 +66,8 @@ const Page = () => {
               and care. Those 2 flat and basic shapes are organized to express
               connectivity and expand into wonderful patterns.
             </div>
-            <div className="h-6" />
-            <div className="flex flex-col items-start">
-              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:font-semibold hover:rotate-6 active:rotate-12">
-                <a href="http://3.35.83.107/pharosapp/templates/pharosapp/start.html">
-                  <span className="underline">Digital 3D Booth</span>
-                </a>{" "}
-                →
-              </button>
-              <button className="font-hrot text-tiny pr-2 lg:pr-4 hover:pl-2 active:pl-4">
-                <a href="http://pharosk.com">
-                  <span className="underline">Website</span>
-                </a>{" "}
-                →
-              </button>
-            </div>
           </div>
-          <div className="h-10" />
+          <div className="h-12" />
         </div>
         <div className="h-3 sm:h-8 border-t-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
         <div className="flex flex-col gap-4">

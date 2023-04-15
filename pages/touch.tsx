@@ -4,8 +4,8 @@ import Link from "next/link";
 const Page = () => {
   return (
     <div className="bg-[#f8ff34] bg-gradient-to-t from-[#e9e9e9]">
-      <div className="fixed font-hrot font-bold text-2xs lg:text-xs text-center w-full pt-[7px]">
-        TOUCH
+      <div className="fixed z-50 w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px]">
+        만남
       </div>
       <Header />
       <div className="flex flex-col h-screen items-center">
@@ -41,7 +41,8 @@ const Page = () => {
           <div>↓</div>
         </div>
         <div className="grow" />
-        <div className="h-12 text-black text-center text-2xs lg:text-xs">
+        <div className="w-full border-t-[0.5px] border-black opacity-60" />
+        <div className="h-5 font-light text-center text-2xs lg:text-xs text-black my-[1px]">
           Copyright © JOON. All rights Reserved.
         </div>
       </div>

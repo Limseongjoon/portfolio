@@ -5,7 +5,7 @@ const Page = () => {
   return (
     <div className="bg-[#f8ff34] bg-gradient-to-t from-[#e9e9e9]">
       <div className="fixed z-50 w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px]">
-        만남
+        너와
       </div>
       <Header />
       <div className="flex flex-col h-screen items-center">

@@ -29,7 +29,7 @@ const Page = () => {
         </svg>
       </button>
       <div className="fixed z-50 w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px]">
-        요청
+        너의
       </div>
       <Header />
       <div className="h-7 lg:mb-[2px]" />

@@ -11,13 +11,13 @@ const Header = () => {
             href="/"
             className="flex text-xs lg:text-sm text-black hover:-rotate-6 hover:font-bold focus:-rotate-12 focus:font-bold active:rotate-0 tracking-tight"
           >
-            ←←<span className="px-[1px]"></span>yours
+            ←←<span className="px-[1px]"></span>colors
           </Link>
           <Link
-            href="/color"
+            href="/voice"
             className="flex text-xs lg:text-sm text-black hover:-rotate-6 hover:font-bold focus:-rotate-12 focus:font-bold active:rotate-0 tracking-tight"
           >
-            ←<span className="px-[1px]"></span>colors
+            ←<span className="px-[1px]"></span>voice
           </Link>
         </div>
         <div className="flex gap-3 sm:gap-8 lg:gap-10">

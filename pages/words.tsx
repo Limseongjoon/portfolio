@@ -53,7 +53,7 @@ const Page = () => {
             <Accordion.Panel>
               <Accordion.Title>
                 <p className="font-hrot font-semibold text-lg text-black">
-                  Methodology
+                  Design Methodology
                 </p>
               </Accordion.Title>
               <Accordion.Content>
@@ -118,7 +118,7 @@ const Page = () => {
             <Accordion.Panel>
               <Accordion.Title>
                 <p className="font-hrot font-semibold text-lg text-black">
-                  Journey
+                  My Journey
                 </p>
               </Accordion.Title>
               <Accordion.Content>

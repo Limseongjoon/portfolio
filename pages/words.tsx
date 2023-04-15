@@ -34,8 +34,9 @@ const Page = () => {
                     유지하기 위하여
                   </div>
                   <div>
-                    (3) 구조, 편집, 모양새, 폰트 등 웹페이지를 구성하는 모든
-                    요소들의 총체 또한, 또는 까지 표현이므로
+                    (3) 구조, 편집, 형태, 모양, 꼴, 생김새, 타입페이스, 색깔,
+                    자간 등 웹페이지를 구성하는 모든 요소들의 총체 또한 (또는
+                    까지) 표현이므로
                   </div>
                 </div>
               </Accordion.Content>
@@ -62,6 +63,7 @@ const Page = () => {
                     반드시 조심스럽게 다루려는 마음을 지녀야 한다. 존재는 있다는
                     사실만으로도 실로 엄청난 힘을 가진다.
                   </div>
+                  <div>하지만 무엇보다 중요한 것은 고객의 기쁨과 만족이다.</div>
                 </div>
               </Accordion.Content>
             </Accordion.Panel>
@@ -103,9 +105,10 @@ const Page = () => {
                     규정한다.
                   </div>
                   <div>
-                    4. <span className="font-bold">오퍼레이터</span>로서 작업할
+                    4. 해당 프로젝트에서 어느 범위까지{" "}
+                    <span className="font-bold">오퍼레이터</span>로서 기능할
                     것인지, 또는 <span className="font-bold">디렉터</span>로서
-                    지시할 것인 지를 판단한다.
+                    기능할 것인 지를 판단한다.
                   </div>
                 </div>
               </Accordion.Content>

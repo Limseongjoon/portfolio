@@ -5,6 +5,9 @@ import Header from "../components/Header";
 const Page = () => {
   return (
     <div className="bg-white text-black w-screen">
+      <div className="fixed z-50 w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px]">
+        너의
+      </div>
       <Header />
       <div className="h-7 lg:mb-[2px]" />
       <div className="bg-white text-black flex flex-col h-screen items-center">
@@ -14,11 +17,11 @@ const Page = () => {
             className="w-full"
           />
           <div className="h-6" />
-          <div className="hidden md:flex px-4 lg:px-10 w-full">
+          <div className="hidden md:flex px-4 md:px-10 w-full">
             <div className="flex flex-row w-full items-baseline">
               <div className="flex flex-col w-1/2">
                 <div className="flex items-baseline">
-                  <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
+                  <div className="font-hrot text-xl lg:text-2xl pr-2 lg:pr-4">
                     rhetoric
                   </div>
                   <div className="text-xs lg:text-sm">2023</div>
@@ -52,7 +55,7 @@ const Page = () => {
             </div>
             <div className="h-20" />
           </div>
-          <div className="md:hidden px-4 lg:px-10 -mt-2">
+          <div className="md:hidden px-4 md:px-10 -mt-2">
             <div className="flex items-baseline">
               <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                 rhetoric
@@ -136,7 +139,7 @@ const Page = () => {
                   </div>
                 </div>
               </div>
-              <div className="md:hidden px-4 lg:px-10 -mt-2">
+              <div className="md:hidden px-4 md:px-10 -mt-2">
                 <div className="flex items-baseline">
                   <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                     café Moodae
@@ -174,7 +177,7 @@ const Page = () => {
           />
           <div className="border-b-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
           <div className="h-6" />
-          <div className="hidden md:flex px-4 lg:px-10 w-full">
+          <div className="hidden md:flex px-4 md:px-10 w-full">
             <div className="flex flex-row w-full items-baseline">
               <div className="h-6" />
               <div className="flex flex-col w-1/2">
@@ -215,7 +218,7 @@ const Page = () => {
             </div>
             <div className="h-20" />
           </div>
-          <div className="md:hidden px-4 lg:px-10 -mt-2">
+          <div className="md:hidden px-4 md:px-10 -mt-2">
             <div className="flex items-baseline">
               <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                 inblog
@@ -255,7 +258,7 @@ const Page = () => {
         <div>
           <CustomImage src="/images/pharos_main.png" className="w-screen" />
           <div className="h-6" />
-          <div className="hidden md:flex px-4 lg:px-10 w-full">
+          <div className="hidden md:flex px-4 md:px-10 w-full">
             <div className="flex flex-row w-full items-baseline">
               <div className="h-6" />
               <div className="flex flex-col w-1/2">
@@ -306,7 +309,7 @@ const Page = () => {
             </div>
             <div className="h-20" />
           </div>
-          <div className="md:hidden px-4 lg:px-10 -mt-2">
+          <div className="md:hidden px-4 md:px-10 -mt-2">
             <div className="flex items-baseline">
               <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                 Pharos Co.,Ltd.
@@ -403,7 +406,7 @@ const Page = () => {
               <div className="h-20" />
             </div>
           </div>
-          <div className="md:hidden px-4 lg:px-10 -mt-2">
+          <div className="md:hidden px-4 md:px-10 -mt-2">
             <div className="flex items-baseline">
               <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                 café Moodae
@@ -441,7 +444,7 @@ const Page = () => {
                 className="h-full w-full left: -100%; top: 0%"
               ></iframe>
             </div>
-            <div className="hidden md:flex px-4 lg:px-10 w-full">
+            <div className="hidden md:flex px-4 md:px-10 w-full">
               <div className="flex flex-row w-full items-baseline">
                 <div className="flex flex-col w-1/2">
                   <div className="flex items-baseline">
@@ -472,7 +475,7 @@ const Page = () => {
               </div>
               <div className="h-20" />
             </div>
-            <div className="md:hidden px-4 lg:px-10">
+            <div className="md:hidden px-4 md:px-10">
               <div className="flex items-baseline">
                 <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
                   rhetoric

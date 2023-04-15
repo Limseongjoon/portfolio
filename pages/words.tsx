@@ -5,7 +5,7 @@ const Page = () => {
   return (
     <div className="bg-white text-black w-screen">
       <div className="fixed z-50 w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px]">
-        나의
+        나는
       </div>
       <Header />
       <div className="flex flex-col h-screen items-center">
@@ -14,7 +14,9 @@ const Page = () => {
           <Accordion flush={true}>
             <Accordion.Panel>
               <Accordion.Title>
-                <div className="font-hrot text-black">In-der-Welt-sein</div>
+                <div className="font-hrot font-semibold text-lg text-black">
+                  In-der-Welt-sein
+                </div>
               </Accordion.Title>
               <Accordion.Content>
                 <div className="mt-2">
@@ -25,24 +27,25 @@ const Page = () => {
                   within-the-world, it constantly expresses itself in addressing
                   itself to the very object of its concern and discussing it.
                 </div>
-                <div className="h-0 sm:h-4"></div>
-                <div className="text-sm mb-2 font-hrot">
-                  {" "}
-                  ⎯ Martin Heidegger
-                </div>
+                <div className="h-2 sm:h-4"></div>
+                <div className="text-sm mb-2 font-hrot">⎯ Martin Heidegger</div>
               </Accordion.Content>
             </Accordion.Panel>
             <Accordion.Panel>
               <Accordion.Title>
-                <p className="font-hrot text-black">
-                  Is there a Figma file available?
+                <p className="font-hrot font-semibold text-lg text-black">
+                  My Norms
                 </p>
               </Accordion.Title>
               <Accordion.Content>
                 <p className="my-3">
-                  Flowbite is first conceptualized and designed using the Figma
-                  software so everything you see in the library has a design
-                  equivalent in our Figma file.
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged.
                 </p>
               </Accordion.Content>
             </Accordion.Panel>

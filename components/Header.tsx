@@ -9,27 +9,27 @@ const Header = () => {
         <div className="flex gap-3 sm:gap-8 lg:gap-10">
           <Link
             href="/"
-            className="flex text-xs lg:text-sm text-black hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold tracking-tight"
+            className="flex text-xs lg:text-sm text-black hover:-rotate-6 hover:font-bold focus:-rotate-12 focus:font-bold active:rotate-0 tracking-tight"
           >
             ←←<span className="px-[1px]"></span>yours
           </Link>
           <Link
             href="/color"
-            className="flex text-xs lg:text-sm text-black hover:-rotate-6 hover:font-bold active:-rotate-12 active:font-bold tracking-tight"
+            className="flex text-xs lg:text-sm text-black hover:-rotate-6 hover:font-bold focus:-rotate-12 focus:font-bold active:rotate-0 tracking-tight"
           >
-            ←<span className="px-[1px]"></span>color
+            ←<span className="px-[1px]"></span>colors
           </Link>
         </div>
         <div className="flex gap-3 sm:gap-8 lg:gap-10">
           <Link
             href="/words"
-            className="flex flex-row text-xs lg:text-sm text-black hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold tracking-tight"
+            className="flex flex-row text-xs lg:text-sm text-black hover:rotate-6 hover:font-bold focus:rotate-12 focus:font-bold active:rotate-0 tracking-tight"
           >
             words<span className="px-[1px]"></span>→
           </Link>
           <Link
             href="/touch"
-            className="flex text-xs lg:text-sm text-black hover:rotate-6 hover:font-bold active:rotate-12 active:font-bold tracking-tight"
+            className="flex text-xs lg:text-sm text-black hover:rotate-6 hover:font-bold focus:rotate-12 focus:font-bold active:rotate-0 tracking-tight"
           >
             touch<span className="px-[1px]"></span>→→
           </Link>

@@ -96,7 +96,7 @@ const Page = () => {
             src="/images/smeg_4.png"
             className="w-screen lg:px-4 xl:px-12"
           />
-          <div className="w-full justify-center px-12">
+          <div className="w-full justify-center lg:px-6 xl:px-14">
             <div className="flex flex-row gap-4 justify-center">
               <CustomImage src="/images/smeg_5.png" className="w-1/2 h-auto" />
               <CustomImage src="/images/smeg_6.png" className="w-1/2 h-auto" />
@@ -114,9 +114,11 @@ const Page = () => {
             src="/images/smeg_9.png"
             className="w-screen lg:px-4 xl:px-12"
           />
-          <div className="flex flex-row gap-4">
-            <CustomImage src="/images/smeg_10.png" className="w-1/2 h-auto" />
-            <CustomImage src="/images/smeg_11.png" className="w-1/2 h-auto" />
+          <div className="w-full justify-center lg:px-6 xl:px-14">
+            <div className="flex flex-row gap-4 justify-center">
+              <CustomImage src="/images/smeg_10.png" className="w-1/2 h-auto" />
+              <CustomImage src="/images/smeg_11.png" className="w-1/2 h-auto" />
+            </div>
           </div>
           <CustomImage
             src="/images/smeg_12.png"
@@ -126,13 +128,17 @@ const Page = () => {
             src="/images/smeg_13.png"
             className="w-screen lg:px-4 xl:px-12"
           />
-          <div className="flex flex-row gap-4">
-            <CustomImage src="/images/smeg_14.png" className="w-1/2 h-auto" />
-            <CustomImage src="/images/smeg_15.png" className="w-1/2 h-auto" />
+          <div className="w-full justify-center lg:px-6 xl:px-14">
+            <div className="flex flex-row gap-4 justify-center">
+              <CustomImage src="/images/smeg_14.png" className="w-1/2 h-auto" />
+              <CustomImage src="/images/smeg_15.png" className="w-1/2 h-auto" />
+            </div>
           </div>
-          <div className="flex flex-row gap-4">
-            <CustomImage src="/images/smeg_16.png" className="w-1/2 h-auto" />
-            <CustomImage src="/images/smeg_17.png" className="w-1/2 h-auto" />
+          <div className="w-full justify-center lg:px-6 xl:px-8">
+            <div className="flex flex-row gap-4 justify-center">
+              <CustomImage src="/images/smeg_16.png" className="w-1/2 h-auto" />
+              <CustomImage src="/images/smeg_17.png" className="w-1/2 h-auto" />
+            </div>
           </div>
         </div>
         <div className="flex lg:hidden flex-col gap-2 lg:gap-4">

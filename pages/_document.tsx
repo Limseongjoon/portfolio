@@ -1,4 +1,6 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
+import "flowbite";
 
 export default function Document() {
   return (
@@ -7,6 +9,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <Script src="../path/to/flowbite/dist/flowbite.min.js" />
       </body>
     </Html>
   );

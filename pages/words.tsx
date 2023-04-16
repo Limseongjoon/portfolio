@@ -16,7 +16,7 @@ const Page = () => {
             <Accordion.Panel>
               <Accordion.Title>
                 <div className="font-hrot font-semibold text-lg text-black pb-[0.8px]">
-                  I Developed Page for...
+                  Developed Page for...
                 </div>
               </Accordion.Title>
               <Accordion.Content>
@@ -100,12 +100,12 @@ const Page = () => {
                     <div className="h-1" />
                     <div className="text-sm md:text-tiny leading-snug ml-6">
                       : 통시적/ 공시적, 또는 그 이외의 관점에서 어느 시점과 어느
-                      범위까지 리서치 할 것인지 생각한다.
+                      범위까지 리서치 할 것인지 생각합니다.
                     </div>
                     <div className="h-1" />
                     <div className="text-sm md:text-tiny leading-snug ml-6">
                       : 스케쥴링과 판단이 필요하므로 직관과 경험의 누적이 필요한
-                      부분이다.
+                      부분이라고 생각합니다.
                     </div>
                   </div>
                   <div>
@@ -114,9 +114,13 @@ const Page = () => {
                       <span className="font-semibold">지형도</span> 그려내기.
                     </div>
                     <div className="h-1" />
-                    <div className="text-sm md:text-tiny leading-snug ml-3 ml-6">
+                    <div className="text-sm md:text-tiny leading-snug ml-6">
                       : 마찬가지로 직관과 경험의 누적이 필요한 부분이며, 여러
-                      감각을 적절하게 활용한다.
+                      감각을 적절하게 활용합니다.
+                    </div>
+                    <div className="h-1" />
+                    <div className="text-sm md:text-tiny leading-snug ml-6">
+                      : 예상치 못한 등장은 언제나 흥미롭습니다.
                     </div>
                   </div>
                   <div>
@@ -128,11 +132,24 @@ const Page = () => {
                     (4) 어느 수준까지{" "}
                     <span className="font-bold">오퍼레이터</span>로서 기능할
                     것인지, 또는 <span className="font-bold">디렉터</span>로서
-                    기능할 것인지를 판단한다.
+                    기능할 것인지를 판단하기.
                   </div>
                   <div>
-                    (5) 결을 따르는 음악을 찾아내 반복하여 듣고, 최대한 많이
-                    걷는다.
+                    <div>
+                      (5) 결을 따르는 음악을 찾아내어 반복하여 듣고, 최대한 많이
+                      걷기
+                    </div>
+                    <div className="h-1" />
+                    <div className="text-sm md:text-tiny leading-snug ml-6">
+                      : 시간이 흘러도 그려진 이미지가 흐트러지지 않고 유지되는지
+                      계속 점검하고 살핍니다.
+                    </div>
+                    <div className="h-1" />
+                    <div className="text-sm md:text-tiny leading-snug ml-6">
+                      : 시간에 따라 보다 적절한 요소로 대체된 경우, 이를
+                      기록하여 다음 프로젝트 시 이를 유념하고 반영할 수 있도록
+                      합니다.
+                    </div>
                   </div>
                 </div>
               </Accordion.Content>

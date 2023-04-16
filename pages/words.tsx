@@ -20,6 +20,7 @@ const Page = () => {
                 </div>
               </Accordion.Title>
               <Accordion.Content>
+                <div className="h-2" />
                 <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-4">
                   <div>
                     웹페이지는 다음의 이유들로 직접 개발의 필요성을 느껴
@@ -58,6 +59,7 @@ const Page = () => {
                 </p>
               </Accordion.Title>
               <Accordion.Content>
+                <div className="h-2" />
                 <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-4">
                   <div>
                     • 디자인은 <span className="font-bold">필요로 시작</span>
@@ -92,6 +94,7 @@ const Page = () => {
                 </p>
               </Accordion.Title>
               <Accordion.Content>
+                <div className="h-2" />
                 <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-6">
                   <div>
                     <div>
@@ -157,7 +160,8 @@ const Page = () => {
               </Accordion.Content>
             </Accordion.Panel>
             <Accordion.Panel>
-              <Accordion.Title color="black">
+              <Accordion.Title>
+                <div className="h-2" />
                 <p className="font-hrot font-semibold sm:text-lg text-black pb-[0.8px]">
                   Phrase Hit Me Hard
                 </p>
@@ -189,8 +193,9 @@ const Page = () => {
               <Accordion.Content>
                 <Timeline>
                   <Timeline.Item>
-                    <Timeline.Point className="bg-secondary" />
+                    <Timeline.Point />
                     <Timeline.Content>
+                      <div className="h-2" />
                       <Timeline.Time>March 2019 - March 2022</Timeline.Time>
                       <Timeline.Title>
                         Bachelor&apos;s Degree in Design

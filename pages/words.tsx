@@ -47,6 +47,7 @@ const Page = () => {
                     </span>
                     하므로.
                   </div>
+                  <div className="h-6" />
                 </div>
               </Accordion.Content>
             </Accordion.Panel>
@@ -76,10 +77,11 @@ const Page = () => {
                     거기 있다는 사실만으로도 무거운 중력을 지니기 때문입니다.
                   </div>
                   <div>
-                    • 하지만 무엇보다 중요한 것은 고객의 취향을 존중하고, 고객의
-                    기쁨과 만족을 목표로 하며, 고객이 추구하는 바를 달성할 수
-                    있도록 돕는 전투적인 마음입니다.
+                    • 무엇보다 중요한 것은 고객의 취향을 존중하고, 고객의 기쁨과
+                    만족을 목표로 하며, 고객이 추구하는 바를 달성할 수 있도록
+                    돕는 전투적인 마음입니다.
                   </div>
+                  <div className="h-6" />
                 </div>
               </Accordion.Content>
             </Accordion.Panel>
@@ -95,7 +97,7 @@ const Page = () => {
                     <div>
                       (1) <span className="font-bold">레거시</span>와{" "}
                       <span className="font-bold">보편</span>을 구성하는
-                      요소들을 추출하여 조형으로 읽어내기.
+                      요소들을 추출하여 조형으로 읽어냅니다.
                     </div>
                     <div className="h-1" />
                     <div className="text-sm md:text-tiny leading-snug ml-6">
@@ -111,7 +113,7 @@ const Page = () => {
                   <div>
                     <div>
                       (2) 지나치게 과하지 않으며, 새롭고 강렬한 충격을 주는{" "}
-                      <span className="font-semibold">지형도</span> 그려내기.
+                      <span className="font-semibold">지형도</span> 그려냅니다.
                     </div>
                     <div className="h-1" />
                     <div className="text-sm md:text-tiny leading-snug ml-6">
@@ -125,19 +127,19 @@ const Page = () => {
                   </div>
                   <div>
                     (3) 프로젝트 성격에 부합하는{" "}
-                    <span className="font-bold">이성-감각</span>의 적정한 비율
-                    정의하기.
+                    <span className="font-bold">이성-감각</span>의 적정한 비율을
+                    정의합니다.
                   </div>
                   <div>
                     (4) 어느 수준까지{" "}
                     <span className="font-bold">오퍼레이터</span>로서 기능할
                     것인지, 또는 <span className="font-bold">디렉터</span>로서
-                    기능할 것인지를 판단하기.
+                    기능할 것인지를 판단합니다.
                   </div>
                   <div>
                     <div>
-                      (5) 결을 따르는 음악을 찾아내어 반복하여 듣고, 최대한 많이
-                      걷기
+                      (5) 프로젝트의 방향성과 결을 같이하는 음악을 찾아내어
+                      반복하여 듣고, 최대한 많이 걸으며, 많이 바라봅니다.
                     </div>
                     <div className="h-1" />
                     <div className="text-sm md:text-tiny leading-snug ml-6">
@@ -147,10 +149,10 @@ const Page = () => {
                     <div className="h-1" />
                     <div className="text-sm md:text-tiny leading-snug ml-6">
                       : 시간에 따라 보다 적절한 요소로 대체된 경우, 이를
-                      기록하여 다음 프로젝트 시 이를 유념하고 반영할 수 있도록
-                      합니다.
+                      기록하여 이를 유념하고 반영할 수 있도록 합니다.
                     </div>
                   </div>
+                  <div className="h-6" />
                 </div>
               </Accordion.Content>
             </Accordion.Panel>
@@ -175,6 +177,7 @@ const Page = () => {
                 </span>
                 <div className="h-4" />
                 <div className="font-hrot text-sm ml-4">― Martin Heidegger</div>
+                <div className="h-6" />
               </Accordion.Content>
             </Accordion.Panel>
             <Accordion.Panel>

@@ -16,7 +16,7 @@ const Page = () => {
             <Accordion.Panel>
               <Accordion.Title>
                 <div className="font-hrot font-semibold text-lg text-black pb-[0.8px]">
-                  Developed Page for...
+                  i Developed Page for...
                 </div>
               </Accordion.Title>
               <Accordion.Content>
@@ -86,7 +86,7 @@ const Page = () => {
             <Accordion.Panel>
               <Accordion.Title>
                 <p className="font-hrot font-semibold text-lg text-black pb-[0.8px]">
-                  The Way I Do...
+                  The Way i Work...
                 </p>
               </Accordion.Title>
               <Accordion.Content>
@@ -180,7 +180,7 @@ const Page = () => {
             <Accordion.Panel>
               <Accordion.Title>
                 <p className="font-hrot font-semibold text-lg text-black pb-[0.8px]">
-                  I Walked Along...
+                  i Walked Along...
                 </p>
               </Accordion.Title>
               <Accordion.Content>

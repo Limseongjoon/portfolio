@@ -24,14 +24,17 @@ const Page = () => {
           <div className="px-4 lg:px-10 flex flex-col items-center">
             <div className="flex flex-col items-center">
               <div className="text-xs md:text-sm">2023</div>
-              <div className="h-1" />
-              <div className="font-hrot text-2xl md:text-3xl">rhetoric</div>
+              <div className="h-3 sm:h-4" />
+              <CustomImage
+                src="/images/rhetoric_logo.png"
+                className="w-32 sm:w-44 h-auto"
+              />
             </div>
-            <div className="sm:h-1" />
+            <div className="sm:h-2" />
             <div className="hidden sm:flex">⎯⎯</div>
             <div className="flex sm:hidden">⎯</div>
-            <div className="h-1" />
-            <div className="font-hrot text-xs md:text-sm text-center">
+            <div className="sm:h-1" />
+            <div className="font-hrot text-2xs md:text-sm text-center">
               Dongdaemoon Design Plaza (DDP)<br></br>Opencurating vol.23
             </div>
             <div className="h-8 md:h-10" />
@@ -39,17 +42,18 @@ const Page = () => {
               <Accordion.Panel>
                 <Accordion.Title>
                   <div className="font-hrot font-semibold text-lg text-black">
-                    rhetoric is...
+                    ABOUT
                   </div>
                 </Accordion.Title>
                 <Accordion.Content>
                   <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-4">
                     <div>
-                      rhetoric delivers the message through a lunch box kit that
-                      a life of self-care through daily practices is directly
-                      connected to environment. The visual identity of DDP
-                      exhibition focuses on the message based on unique visual
-                      assets of rhetoric.
+                      <span className="font-bold">rhetoric</span> delivers the
+                      message through a lunch box kit that a life of self-care
+                      through daily practices is directly connected to
+                      environment. The visual identity of DDP exhibition focuses
+                      on the message based on unique visual assets of{" "}
+                      <span className="font-bold">rhetoric</span>.
                     </div>
                   </div>
                 </Accordion.Content>
@@ -57,7 +61,7 @@ const Page = () => {
               <Accordion.Panel>
                 <Accordion.Title>
                   <p className="font-hrot font-semibold text-lg text-black">
-                    Legacy
+                    LEGACY
                   </p>
                 </Accordion.Title>
                 <Accordion.Content>

@@ -86,7 +86,7 @@ const Page = () => {
             <Accordion.Panel>
               <Accordion.Title>
                 <p className="font-hrot font-semibold text-lg text-black pb-[0.8px]">
-                  The Way I Do is...
+                  The Way I Do...
                 </p>
               </Accordion.Title>
               <Accordion.Content>

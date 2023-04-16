@@ -5,7 +5,7 @@ import Header from "../components/Header";
 const Page = () => {
   return (
     <div className="bg-white text-black w-screen">
-      <div className="fixed z-50 w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px]">
+      <div className="fixed z-50 w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px] pr-[4px]">
         너의
       </div>
       <Header />
@@ -37,10 +37,7 @@ const Page = () => {
                   life of self-care through daily practices is directly
                   connected to environment. The visual identity of DDP
                   exhibition focuses on the message based on unique visual
-                  assets of rhetoric. Circle symbolizes routine and circulation,
-                  and square symbolizes recovery and care. Those 2 flat and
-                  basic shapes are organized to express connectivity and expand
-                  into wonderful patterns.
+                  assets of rhetoric.
                 </div>
                 <div className="h-6" />
                 <div className="flex flex-row items-start hover:gap-1 active:gap-4">
@@ -71,10 +68,7 @@ const Page = () => {
               rhetoric delivers the message through a lunch box kit that a life
               of self-care through daily practices is directly connected to
               environment. The visual identity of DDP exhibition focuses on the
-              message based on unique visual assets of rhetoric. Circle
-              symbolizes routine and circulation, and square symbolizes recovery
-              and care. Those 2 flat and basic shapes are organized to express
-              connectivity and expand into wonderful patterns.
+              message based on unique visual assets of rhetoric.
             </div>
             <div className="h-6" />
             <div className="flex flex-row items-start hover:gap-1 active:gap-4">
@@ -181,6 +175,8 @@ const Page = () => {
           </div>
         </div>
         <div>
+          <div className="hidden sm:flex border-b-[0.5px] border-black opacity-60 mr-10" />
+          <div className="sm:hidden h-4 sm:h-8 border-b-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
           <CustomImage
             src="/images/inblog_main.png"
             className="w-screen lg:px-4 xl:px-16"

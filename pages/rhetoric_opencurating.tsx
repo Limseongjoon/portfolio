@@ -1,5 +1,7 @@
 import CustomImage from "../components/CustomImage";
 import Link from "next/link";
+import { Accordion } from "flowbite-react";
+import { Timeline } from "flowbite-react";
 
 const Page = () => {
   return (
@@ -18,56 +20,58 @@ const Page = () => {
       <div className="h-7 lg:mb-[2px]" />
       <div className="bg-white text-black flex flex-col h-screen items-center">
         <div className="w-screen">
-          <div className="h-6" />
-          <div className="hidden md:flex px-4 lg:px-16 w-full">
-            <div className="flex flex-row w-full items-baseline">
-              <div className="flex flex-col w-1/2">
-                <div className="flex items-baseline">
-                  <div className="font-hrot text-2xl pr-2 lg:pr-4">
-                    rhetoric
-                  </div>
-                  <div className="text-xs lg:text-sm">2023</div>
-                </div>
-                <div className="h-3" />
-                <div className="font-hrot text-xs pr-2 lg:pr-4">
-                  Dongdaemoon Design Plaza (DDP)<br></br>Opencurating vol.23
-                </div>
-              </div>
-              <div className="w-1/2">
-                <div className="font-light">
-                  rhetoric delivers the message through a lunch box kit that a
-                  life of self-care through daily practices is directly
-                  connected to environment. The visual identity of DDP
-                  exhibition focuses on the message based on unique visual
-                  assets of rhetoric. Circle symbolizes routine and circulation,
-                  and square symbolizes recovery and care. Those 2 flat and
-                  basic shapes are organized to express connectivity and expand
-                  into wonderful patterns.
-                </div>
-              </div>
+          <div className="h-4 md:h-12" />
+          <div className="px-4 lg:px-10 flex flex-col items-center">
+            <div className="flex flex-col items-center">
+              <div className="text-xs md:text-sm">2023</div>
+              <div className="h-1" />
+              <div className="font-hrot text-2xl md:text-3xl">rhetoric</div>
             </div>
-          </div>
-          <div className="md:hidden px-4 lg:px-10">
-            <div className="flex items-baseline">
-              <div className="font-hrot text-2xl pr-2 lg:pr-4">rhetoric</div>
-              <div className="text-xs">2023</div>
-            </div>
-            <div className="h-2" />
-            <div className="font-hrot text-xs pr-2 lg:pr-4">
+            <div className="sm:h-1" />
+            <div className="hidden sm:flex">⎯⎯</div>
+            <div className="flex sm:hidden">⎯</div>
+            <div className="h-1" />
+            <div className="font-hrot text-xs md:text-sm text-center">
               Dongdaemoon Design Plaza (DDP)<br></br>Opencurating vol.23
             </div>
-            <div className="h-6" />
-            <div className="font-light lg:w-1/2">
-              rhetoric delivers the message through a lunch box kit that a life
-              of self-care through daily practices is directly connected to
-              environment. The visual identity of DDP exhibition focuses on the
-              message based on unique visual assets of rhetoric. Circle
-              symbolizes routine and circulation, and square symbolizes recovery
-              and care. Those 2 flat and basic shapes are organized to express
-              connectivity and expand into wonderful patterns.
-            </div>
+            <div className="h-8 md:h-10" />
+            <Accordion flush={true}>
+              <Accordion.Panel>
+                <Accordion.Title>
+                  <div className="font-hrot font-semibold text-lg text-black">
+                    rhetoric is...
+                  </div>
+                </Accordion.Title>
+                <Accordion.Content>
+                  <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-4">
+                    <div>
+                      rhetoric delivers the message through a lunch box kit that
+                      a life of self-care through daily practices is directly
+                      connected to environment. The visual identity of DDP
+                      exhibition focuses on the message based on unique visual
+                      assets of rhetoric.
+                    </div>
+                  </div>
+                </Accordion.Content>
+              </Accordion.Panel>
+              <Accordion.Panel>
+                <Accordion.Title>
+                  <p className="font-hrot font-semibold text-lg text-black">
+                    Legacy
+                  </p>
+                </Accordion.Title>
+                <Accordion.Content>
+                  <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-4">
+                    Circle symbolizes routine and circulation, and square
+                    symbolizes recovery and care. Those 2 flat and basic shapes
+                    are organized to express connectivity and expand into
+                    wonderful patterns.
+                  </div>
+                </Accordion.Content>
+              </Accordion.Panel>
+            </Accordion>
           </div>
-          <div className="h-12" />
+          <div className="h-4 sm:h-6" />
         </div>
         <div className="h-3 sm:h-8 border-t-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
         <div className="flex flex-col gap-4">

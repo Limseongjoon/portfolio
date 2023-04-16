@@ -26,7 +26,7 @@ const Page = () => {
                     제작하게 되었습니다.
                   </div>
                   <div className="">
-                    프로젝트{" "}
+                    • 프로젝트{" "}
                     <span className="font-bold">
                       매체의 규격과 포맷에 제한되지 않고
                     </span>{" "}

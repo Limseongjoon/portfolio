@@ -15,7 +15,7 @@ const Page = () => {
           <Accordion flush={true}>
             <Accordion.Panel>
               <Accordion.Title>
-                <div className="font-hrot font-semibold text-lg text-black">
+                <div className="font-hrot font-semibold text-lg text-black pb-[0.8px]">
                   Developed for...
                 </div>
               </Accordion.Title>
@@ -25,57 +25,69 @@ const Page = () => {
                     웹페이지는 다음의 이유들로 직접 개발의 필요성을 느껴
                     제작하게 되었습니다.
                   </div>
-                  <div className="ml-4">
-                    ▪️&nbsp;&nbsp;프로젝트 매체의 규격과 포맷에 제한되지 않고
+                  <div className="">
+                    프로젝트{" "}
+                    <span className="font-bold">
+                      매체의 규격과 포맷에 제한되지 않고
+                    </span>{" "}
                     높은 자유도를 갖는 포트폴리오 구성 환경을 조직해두기 위하여.
                   </div>
-                  <div className="ml-4">
-                    ▪️&nbsp;&nbsp;단순한 큐레이션을 넘어 각 프로젝트마다의
-                    성질과 목소리를 유지하기 위하여.
+                  <div className="">
+                    • 단순한 큐레이션을 넘어{" "}
+                    <span className="font-bold">
+                      각 프로젝트마다의 성질과 목소리
+                    </span>
+                    를 유지하기 위하여.
                   </div>
-                  <div className="ml-4">
-                    ▪️&nbsp;&nbsp;구조, 편집, 형태, 모양, 꼴, 생김새,
-                    타입페이스, 색깔, 자간 등 웹페이지를 구성하는 모든 요소들
-                    또한 (또는 까지) 표현의 총체를 구성하므로.
+                  <div className="">
+                    • 구조, 편집, 형태, 모양, 꼴, 생김새, 타입페이스, 색깔, 자간
+                    등 웹페이지를 구성하는{" "}
+                    <span className="font-bold">
+                      모든 요소들은 표현의 총체를 구성
+                    </span>
+                    하므로.
                   </div>
                 </div>
               </Accordion.Content>
             </Accordion.Panel>
             <Accordion.Panel>
               <Accordion.Title>
-                <p className="font-hrot font-semibold text-lg text-black">
+                <p className="font-hrot font-semibold text-lg text-black pb-[0.8px]">
                   Designing is..
                 </p>
               </Accordion.Title>
               <Accordion.Content>
                 <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-4">
                   <div>
-                    디자인은 필요로 시작하여 논리와 근거를 바탕으로 감각의
-                    총체로 맞이하도록 만드는 방법론이다. 따라서 명확한 필요,
-                    논리, 근거가 있다면 그럴 수 밖에 없는 결과가 도출된다.
+                    • 디자인은 <span className="font-bold">필요로 시작</span>
+                    하여
+                    <span className="font-bold"> 논리와 근거를 바탕</span>으로
+                    <span className="font-bold"> 감각의 총체로 맞이</span>하도록
+                    만드는 방법론입니다. 따라서 명확한 필요, 논리, 근거가 있다면
+                    그럴 수 밖에 없는 결과가 도출된다고 믿습니다.
                   </div>
                   <div>
-                    디자인은 필요로써 예술과 구별되고 논리와 근거로써 비로소
-                    모방에서 벗어난다.
+                    • 디자인은 필요로써 예술과 구별되고 논리와 근거로써 비로소
+                    모방에서 벗어날 수 있습니다.
                   </div>
                   <div>
-                    나아가 촘촘히 설계된 그 무엇은 넛지하는 권력으로 작용하므로
-                    반드시 조심스럽게 다루려는 마음을 지녀야 한다. 존재는 거기
-                    있다는 사실만으로도 무거운 중력을 지니기 때문이다.
+                    • 나아가 촘촘히 설계된 그 무엇은 넛지하는 권력으로
+                    작용하므로 반드시 조심스럽게 다루려는 마음을 지녀야 한다고
+                    생각합니다. 존재는 거기 있다는 사실만으로도 무거운 중력을
+                    지니기 때문입니다.
                   </div>
                   <div>
-                    하지만 무엇보다 중요한 것은 고객의 취향을 존중하고, 고객의
+                    • 하지만 무엇보다 중요한 것은 고객의 취향을 존중하고, 고객의
                     기쁨과 만족을 목표로 하여 고객이 추구하는 바를 달성할 수
-                    있도록 돕는 전투적인 마음이다. 디자이너는 오로지 논리로서
-                    뒤에서 존재해야한다.
+                    있도록 돕는 전투적인 마음이라고 생각합니다.
                   </div>
                 </div>
               </Accordion.Content>
             </Accordion.Panel>
             <Accordion.Panel>
               <Accordion.Title>
-                <p className="font-hrot font-semibold text-lg text-black">
-                  My Methodology
+                <p className="font-hrot font-semibold text-lg text-black pb-[0.8px]">
+                  The Way I Do is...
                 </p>
               </Accordion.Title>
               <Accordion.Content>
@@ -87,44 +99,49 @@ const Page = () => {
                       요소들을 추출하여 조형으로 읽어내기.
                     </div>
                     <div className="h-1" />
-                    <div className="text-sm md:text-tiny leading-snug ml-3">
-                      (어느 시점과 어느 범위까지 통시적/ 공시적, 또는 그 이외의
-                      관점에서 리서치를 할 것인지에 대한 스케쥴링과 판단이
-                      필요하므로 직관과 경험의 누적이 필요한 부분이다.)
+                    <div className="text-sm md:text-tiny leading-snug ml-6">
+                      : 통시적/ 공시적, 또는 그 이외의 관점에서 어느 시점과 어느
+                      범위까지 리서치 할 것인지 생각한다.
+                    </div>
+                    <div className="h-1" />
+                    <div className="text-sm md:text-tiny leading-snug ml-6">
+                      : 스케쥴링과 판단이 필요하므로 직관과 경험의 누적이 필요한
+                      부분이다.
                     </div>
                   </div>
                   <div>
                     <div>
-                      (2) 위 조형 요소들을 이용하여 지나치게 과하지 않으며,
-                      새롭고 강렬한 충격을 주는{" "}
-                      <span className="font-semibold">적절한 지형도</span>{" "}
-                      그려내기.
+                      (2) 지나치게 과하지 않으며, 새롭고 강렬한 충격을 주는{" "}
+                      <span className="font-semibold">지형도</span> 그려내기.
                     </div>
                     <div className="h-1" />
-                    <div className="text-sm md:text-tiny leading-snug ml-3">
-                      (1번과 마찬가지로 직관과 경험의 누적이 필요한 부분이며,
-                      시각뿐만 아니라 후각, 청각 등의 다양한 감각을 적절하게
-                      활용한다.)
+                    <div className="text-sm md:text-tiny leading-snug ml-3 ml-6">
+                      : 마찬가지로 직관과 경험의 누적이 필요한 부분이며, 여러
+                      감각을 적절하게 활용한다.
                     </div>
                   </div>
                   <div>
                     (3) 프로젝트 성격에 부합하는{" "}
-                    <span className="font-bold">이성-감각</span>의 적정한 비율을
-                    규정한다.
+                    <span className="font-bold">이성-감각</span>의 적정한 비율
+                    정의하기.
                   </div>
                   <div>
-                    (4) 해당 프로젝트에서 내가 어느 수준까지{" "}
+                    (4) 어느 수준까지{" "}
                     <span className="font-bold">오퍼레이터</span>로서 기능할
                     것인지, 또는 <span className="font-bold">디렉터</span>로서
                     기능할 것인지를 판단한다.
+                  </div>
+                  <div>
+                    (5) 결을 따르는 음악을 찾아내 반복하여 듣고, 최대한 많이
+                    걷는다.
                   </div>
                 </div>
               </Accordion.Content>
             </Accordion.Panel>
             <Accordion.Panel>
               <Accordion.Title color="black">
-                <p className="font-hrot font-semibold text-lg text-black">
-                  Phrase Hit Me Hard
+                <p className="font-hrot font-semibold text-lg text-black pb-[0.8px]">
+                  Phrase Hit Me Hard is...
                 </p>
               </Accordion.Title>
               <Accordion.Content>
@@ -146,8 +163,8 @@ const Page = () => {
             </Accordion.Panel>
             <Accordion.Panel>
               <Accordion.Title>
-                <p className="font-hrot font-semibold text-lg text-black">
-                  My Journey
+                <p className="font-hrot font-semibold text-lg text-black pb-[0.8px]">
+                  My Journey is...
                 </p>
               </Accordion.Title>
               <Accordion.Content>
@@ -155,7 +172,7 @@ const Page = () => {
                   <Timeline.Item>
                     <Timeline.Point className="bg-secondary" />
                     <Timeline.Content>
-                      <Timeline.Time>March 2022</Timeline.Time>
+                      <Timeline.Time>March 2019 - March 2022</Timeline.Time>
                       <Timeline.Title>
                         Bachelor&apos;s Degree in Design
                       </Timeline.Title>

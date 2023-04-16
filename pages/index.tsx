@@ -21,8 +21,11 @@ const Page = () => {
             <div className="flex flex-row w-full items-baseline">
               <div className="flex flex-col w-1/2">
                 <div className="flex items-baseline">
-                  <div className="font-hrot text-xl lg:text-2xl pr-2 lg:pr-4">
-                    rhetoric
+                  <div className="pr-2 lg:pr-4">
+                    <CustomImage
+                      src="/images/rhetoric_logo.png"
+                      className="w-36 h-auto"
+                    />
                   </div>
                   <div className="text-xs lg:text-sm">2023</div>
                 </div>
@@ -52,10 +55,13 @@ const Page = () => {
             </div>
             <div className="h-20" />
           </div>
-          <div className="md:hidden px-4 md:px-10 -mt-2">
+          <div className="md:hidden px-4 md:px-10 -mt-1 sm:-mt-2">
             <div className="flex items-baseline">
-              <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
-                rhetoric
+              <div className="pr-2 lg:pr-4">
+                <CustomImage
+                  src="/images/rhetoric_logo.png"
+                  className="w-28 h-auto"
+                />
               </div>
               <div className="text-xs lg:text-sm">2023</div>
             </div>

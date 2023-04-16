@@ -15,8 +15,8 @@ const Page = () => {
           <Accordion flush={true}>
             <Accordion.Panel>
               <Accordion.Title>
-                <div className="font-hrot font-semibold text-lg text-black pb-[0.8px]">
-                  i Developed Page for...
+                <div className="font-hrot font-semibold sm:text-lg text-black pb-[0.8px]">
+                  i Developed Page for
                 </div>
               </Accordion.Title>
               <Accordion.Content>
@@ -52,8 +52,8 @@ const Page = () => {
             </Accordion.Panel>
             <Accordion.Panel>
               <Accordion.Title>
-                <p className="font-hrot font-semibold text-lg text-black pb-[0.8px]">
-                  Designing is..
+                <p className="font-hrot font-semibold sm:text-lg text-black pb-[0.8px]">
+                  Designing is
                 </p>
               </Accordion.Title>
               <Accordion.Content>
@@ -85,8 +85,8 @@ const Page = () => {
             </Accordion.Panel>
             <Accordion.Panel>
               <Accordion.Title>
-                <p className="font-hrot font-semibold text-lg text-black pb-[0.8px]">
-                  The Way i Work...
+                <p className="font-hrot font-semibold sm:text-lg text-black pb-[0.8px]">
+                  The Way i Work
                 </p>
               </Accordion.Title>
               <Accordion.Content>
@@ -156,8 +156,8 @@ const Page = () => {
             </Accordion.Panel>
             <Accordion.Panel>
               <Accordion.Title color="black">
-                <p className="font-hrot font-semibold text-lg text-black pb-[0.8px]">
-                  Phrase Hit Me Hard is...
+                <p className="font-hrot font-semibold sm:text-lg text-black pb-[0.8px]">
+                  Phrase Hit Me Hard
                 </p>
               </Accordion.Title>
               <Accordion.Content>
@@ -179,8 +179,8 @@ const Page = () => {
             </Accordion.Panel>
             <Accordion.Panel>
               <Accordion.Title>
-                <p className="font-hrot font-semibold text-lg text-black pb-[0.8px]">
-                  i Walked Along...
+                <p className="font-hrot font-semibold sm:text-lg text-black pb-[0.8px]">
+                  i Walked Along
                 </p>
               </Accordion.Title>
               <Accordion.Content>

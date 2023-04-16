@@ -41,7 +41,7 @@ const Page = () => {
             <Accordion flush={true}>
               <Accordion.Panel>
                 <Accordion.Title>
-                  <div className="font-hrot font-semibold text-lg text-black">
+                  <div className="font-hrot font-semibold sm:text-lg text-black sm:">
                     ABOUT
                   </div>
                 </Accordion.Title>
@@ -60,7 +60,7 @@ const Page = () => {
               </Accordion.Panel>
               <Accordion.Panel>
                 <Accordion.Title>
-                  <p className="font-hrot font-semibold text-lg text-black">
+                  <p className="font-hrot font-semibold sm:text-lg text-black">
                     LEGACY
                   </p>
                 </Accordion.Title>

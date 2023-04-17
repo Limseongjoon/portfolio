@@ -193,7 +193,9 @@ const Page = () => {
                     <Timeline.Point />
                     <Timeline.Content>
                       <div className="h-2" />
-                      <Timeline.Time>March 2019 - March 2022</Timeline.Time>
+                      <Timeline.Time className="text-xs">
+                        March 2019 - March 2022
+                      </Timeline.Time>
                       <Timeline.Title>
                         Bachelor&apos;s Degree in Design
                       </Timeline.Title>
@@ -205,7 +207,9 @@ const Page = () => {
                   <Timeline.Item>
                     <Timeline.Point />
                     <Timeline.Content>
-                      <Timeline.Time>March 2011 - August 2018</Timeline.Time>
+                      <Timeline.Time className="text-xs">
+                        March 2011 - August 2018
+                      </Timeline.Time>
                       <Timeline.Title>
                         Bachelor&apos;s Degree in Biology
                       </Timeline.Title>

@@ -34,7 +34,7 @@ const Page = () => {
                   <div className="">
                     • 단순한 큐레이션을 넘어{" "}
                     <span className="font-bold">
-                      각 프로젝트마다의 성질과 목소리
+                      프로젝트 각각의 성질과 목소리
                     </span>
                     를 유지하기 위하여.
                   </div>

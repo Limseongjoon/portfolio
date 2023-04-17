@@ -32,9 +32,9 @@ const Page = () => {
                     조직해두기 위하여.
                   </div>
                   <div className="">
-                    • 단순한 큐레이션을 넘어 프로젝트 각각의
-                    <span className="font-bold">성질</span>과&nbsp;
-                    <span className="font-bold">목소리</span>를 유지하기 위하여.
+                    • 단순한 큐레이션을 넘어 프로젝트 개개의{" "}
+                    <span className="font-bold">성질과 목소리</span>를 유지하기
+                    위하여.
                   </div>
                   <div className="">
                     • 구조, 편집, 형태, 모양, 꼴, 생김새, 타입페이스, 색깔, 자간

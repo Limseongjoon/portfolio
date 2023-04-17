@@ -16,7 +16,7 @@ const Page = () => {
             <Accordion.Panel>
               <Accordion.Title>
                 <div className="font-hrot font-semibold sm:text-lg text-black pb-[0.8px]">
-                  i Developed Page for
+                  Developed for
                 </div>
               </Accordion.Title>
               <Accordion.Content>

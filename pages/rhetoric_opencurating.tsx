@@ -24,16 +24,16 @@ const Page = () => {
           <div className="px-4 lg:px-10 flex flex-col items-center">
             <div className="flex flex-col items-center">
               <div className="text-xs md:text-sm">2023</div>
-              <div className="h-3 sm:h-4" />
+              <div className="h-3 sm:h-4 md:h-6" />
               <CustomImage
                 src="/images/rhetoric_logo.png"
-                className="w-32 sm:w-44 h-auto"
+                className="w-28 sm:w-36 md:w-40 h-auto"
               />
             </div>
-            <div className="sm:h-2" />
+            <div className="sm:h-2 md:h-3" />
             <div className="hidden sm:flex">⎯⎯</div>
             <div className="flex sm:hidden">⎯</div>
-            <div className="sm:h-1" />
+            <div className="sm:h-1 md:h-2" />
             <div className="font-hrot text-2xs md:text-sm text-center">
               Dongdaemoon Design Plaza (DDP)<br></br>Opencurating vol.23
             </div>
@@ -62,7 +62,7 @@ const Page = () => {
                 <Accordion.Panel>
                   <Accordion.Title>
                     <div className="font-hrot font-semibold sm:text-lg text-black sm:">
-                      What i Did
+                      Responsibility
                     </div>
                   </Accordion.Title>
                   <Accordion.Content>

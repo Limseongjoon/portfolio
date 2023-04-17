@@ -38,7 +38,7 @@ const Page = () => {
                   </div>
                   <div className="">
                     • 구조, 편집, 형태, 모양, 꼴, 생김새, 타입페이스, 색깔, 자간
-                    등 웹페이지를 구성하는{" "}
+                    등 웹페이지 내의{" "}
                     <span className="font-bold">
                       모든 요소들은 표현의 총체를 구성
                     </span>

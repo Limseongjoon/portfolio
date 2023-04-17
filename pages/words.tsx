@@ -21,7 +21,7 @@ const Page = () => {
               </Accordion.Title>
               <Accordion.Content>
                 <div className="h-2" />
-                <div className="md:text-lg md:w-4/5 break-keep sm:ml-4 flex flex-col gap-4">
+                <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-4">
                   <div>다음의 이유들로 웹페이지를 개발하게 되었습니다.</div>
                   <div className="">
                     • 프로젝트{" "}
@@ -57,7 +57,7 @@ const Page = () => {
               </Accordion.Title>
               <Accordion.Content>
                 <div className="h-2" />
-                <div className="md:text-lg md:w-4/5 break-keep sm:ml-4 flex flex-col gap-4">
+                <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-4">
                   <div>
                     • 디자인은 <span className="font-bold">필요로 시작</span>
                     하여
@@ -92,7 +92,7 @@ const Page = () => {
               </Accordion.Title>
               <Accordion.Content>
                 <div className="h-2" />
-                <div className="md:text-lg md:w-4/5 break-keep sm:ml-4 flex flex-col gap-6">
+                <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-6">
                   <div>
                     <div>
                       (1) <span className="font-bold">레거시</span>와{" "}

@@ -192,7 +192,7 @@ const Page = () => {
               </Accordion.Title>
               <Accordion.Content>
                 <div className="md:text-lg md:w-5/6">
-                  필요가 마땅하다면 기꺼이 쓰이겠습니다.<br></br>
+                  저의 필요가 마땅하다면 기꺼이 쓰이겠습니다.<br></br>
                   부던하게, 명료하게, 우아하게, 그리고 진실하게.
                 </div>
                 <div className="h-4" />

@@ -21,7 +21,7 @@ const Page = () => {
               </Accordion.Title>
               <Accordion.Content>
                 <div className="h-2" />
-                <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-4">
+                <div className="md:text-lg md:w-5/6 break-keep ml-4 flex flex-col gap-4">
                   <div>다음의 이유들로 웹페이지를 개발하게 되었습니다.</div>
                   <div className="">
                     • 프로젝트{" "}
@@ -58,7 +58,7 @@ const Page = () => {
               </Accordion.Title>
               <Accordion.Content>
                 <div className="h-2" />
-                <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-4">
+                <div className="md:text-lg md:w-5/6 break-keep ml-4 flex flex-col gap-4">
                   <div>
                     • 디자인은 <span className="font-bold">필요로 시작</span>
                     하여
@@ -93,7 +93,7 @@ const Page = () => {
               </Accordion.Title>
               <Accordion.Content>
                 <div className="h-2" />
-                <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-6">
+                <div className="md:text-lg md:w-5/6 break-keep ml-4 flex flex-col gap-6">
                   <div>
                     <div>
                       (1) <span className="font-bold">레거시</span>와{" "}
@@ -123,7 +123,7 @@ const Page = () => {
                     </div>
                     <div className="h-1" />
                     <div className="text-sm md:text-tiny leading-snug ml-6">
-                      : 예상치 못한 등장은 언제나 흥미롭습니다.
+                      : 강렬한 경험, 예상치 못한 등장은 언제나 흥미롭습니다.
                     </div>
                   </div>
                   <div>
@@ -142,15 +142,17 @@ const Page = () => {
                       (5) 프로젝트의 방향성과 결을 같이하는 음악을 찾아내어
                       반복하여 듣고, 최대한 많이 걸으며, 많이 바라봅니다.
                     </div>
-                    <div className="h-1" />
-                    <div className="text-sm md:text-tiny leading-snug ml-6">
-                      : 시간이 흘러도 그려진 이미지가 흐트러지지 않고 유지되는지
+            
+                  </div>
+                  <div>
+                    <div>
+                      (6) 시간이 흘러도 그려진 이미지가 흐트러지지 않고 유지되는지
                       계속 점검하고 살핍니다.
                     </div>
                     <div className="h-1" />
                     <div className="text-sm md:text-tiny leading-snug ml-6">
                       : 시간에 따라 보다 적절한 요소로 대체된 경우, 이를
-                      기록하여 이를 유념하고 반영할 수 있도록 합니다.
+                      기록하여 이를 유념하고 반영합니다.
                     </div>
                   </div>
                   <div className="h-6" />
@@ -159,13 +161,13 @@ const Page = () => {
             </Accordion.Panel>
             <Accordion.Panel>
               <Accordion.Title>
-                <div className="h-2" />
+                <div className="h-1" />
                 <p className="font-hrot font-semibold sm:text-lg text-black pb-[0.8px]">
                   Phrase Hit Me Hard
                 </p>
               </Accordion.Title>
               <Accordion.Content>
-                <span className="md:text-lg md:w-4/5">
+                <span className="md:text-lg md:w-5/6">
                   Essentially ahead of itself, it has projected itself upon its
                   potentiality-for-Being before going on to any mere
                   consideration of itself.

@@ -24,7 +24,7 @@ const Page = () => {
                   <div className="pr-2 lg:pr-4">
                     <CustomImage
                       src="/images/rhetoric_logo.png"
-                      className="w-36 h-auto"
+                      className="w-32 h-auto"
                     />
                   </div>
                   <div className="text-xs lg:text-sm">2023</div>
@@ -60,7 +60,7 @@ const Page = () => {
               <div className="pr-2 lg:pr-4">
                 <CustomImage
                   src="/images/rhetoric_logo.png"
-                  className="w-28 h-auto"
+                  className="w-24 h-auto"
                 />
               </div>
               <div className="text-xs lg:text-sm">2023</div>

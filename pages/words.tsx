@@ -88,7 +88,7 @@ const Page = () => {
             <Accordion.Panel>
               <Accordion.Title>
                 <p className="font-hrot font-semibold sm:text-lg text-black pb-[0.8px]">
-                  The Way i Work
+                  Way i Work
                 </p>
               </Accordion.Title>
               <Accordion.Content>
@@ -114,7 +114,8 @@ const Page = () => {
                   <div>
                     <div>
                       (2) 지나치게 과하지 않으며, 새롭고 강렬한 충격을 주는{" "}
-                      <span className="font-semibold">지형도</span> 그려냅니다.
+                      <span className="font-semibold">지형도</span>를
+                      그려냅니다.
                     </div>
                     <div className="h-1" />
                     <div className="text-sm md:text-tiny leading-snug ml-6">
@@ -162,7 +163,7 @@ const Page = () => {
               <Accordion.Title>
                 <div className="h-1" />
                 <p className="font-hrot font-semibold sm:text-lg text-black pb-[0.8px]">
-                  Phrase Hit Me Hard
+                  Hit Me Hard
                 </p>
               </Accordion.Title>
               <Accordion.Content>
@@ -187,7 +188,7 @@ const Page = () => {
               <Accordion.Title>
                 <div className="h-1" />
                 <p className="font-hrot font-semibold sm:text-lg text-black pb-[0.8px]">
-                  i will
+                  i Will
                 </p>
               </Accordion.Title>
               <Accordion.Content>

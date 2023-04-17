@@ -38,42 +38,90 @@ const Page = () => {
               Dongdaemoon Design Plaza (DDP)<br></br>Opencurating vol.23
             </div>
             <div className="h-8 md:h-10" />
-            <Accordion flush={true}>
-              <Accordion.Panel>
-                <Accordion.Title>
-                  <div className="font-hrot font-semibold sm:text-lg text-black sm:">
-                    ABOUT
-                  </div>
-                </Accordion.Title>
-                <Accordion.Content>
-                  <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-4">
-                    <div>
-                      <span className="font-bold">rhetoric</span> delivers the
-                      message through a lunch box kit that a life of self-care
-                      through daily practices is directly connected to
-                      environment. The visual identity of DDP exhibition focuses
-                      on the message based on unique visual assets of{" "}
-                      <span className="font-bold">rhetoric</span>.
+            <div className="w-full sm:px-2">
+              <Accordion flush={true}>
+                <Accordion.Panel>
+                  <Accordion.Title>
+                    <div className="font-hrot font-semibold sm:text-lg text-black sm:">
+                      About
                     </div>
-                  </div>
-                </Accordion.Content>
-              </Accordion.Panel>
-              <Accordion.Panel>
-                <Accordion.Title>
-                  <p className="font-hrot font-semibold sm:text-lg text-black">
-                    LEGACY
-                  </p>
-                </Accordion.Title>
-                <Accordion.Content>
-                  <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-4">
-                    Circle symbolizes routine and circulation, and square
-                    symbolizes recovery and care. Those 2 flat and basic shapes
-                    are organized to express connectivity and expand into
-                    wonderful patterns.
-                  </div>
-                </Accordion.Content>
-              </Accordion.Panel>
-            </Accordion>
+                  </Accordion.Title>
+                  <Accordion.Content>
+                    <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-4">
+                      <div>
+                        <span className="font-bold">rhetoric</span> delivers the
+                        message through a lunch box kit that a life of self-care
+                        through daily practices is directly connected to
+                        environment. The visual identity of DDP exhibition
+                        focuses on the message based on unique visual assets of{" "}
+                        <span className="font-bold">rhetoric</span>.
+                      </div>
+                    </div>
+                  </Accordion.Content>
+                </Accordion.Panel>
+                <Accordion.Panel>
+                  <Accordion.Title>
+                    <div className="font-hrot font-semibold sm:text-lg text-black sm:">
+                      What i Did
+                    </div>
+                  </Accordion.Title>
+                  <Accordion.Content>
+                    <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-4">
+                      <div>
+                        • Key visual identity Graphics
+                        <div className="text-sm md:text-tiny leading-snug ml-6">
+                          : Main Poster, Visual assets
+                        </div>
+                      </div>
+                      <div>• Motion Graphics</div>
+                      <div>
+                        • Exhibitional Space Planning
+                        <div className="text-sm md:text-tiny leading-snug ml-6">
+                          : DDP, Seoul Design Festival
+                        </div>
+                        <div className="text-sm md:text-tiny leading-snug ml-6">
+                          : DDP, Seoul Design Festival
+                        </div>
+                      </div>
+                      <div>
+                        • Workshop
+                        <div className="text-sm md:text-tiny leading-snug ml-6">
+                          : Poster, MC
+                        </div>
+                      </div>
+                      <div>
+                        • Part3
+                        <div className="text-sm md:text-tiny leading-snug ml-6">
+                          : compilation of 16 recipes, 긴 종이, Kinetic
+                          Typogrphy
+                        </div>
+                      </div>
+                      <div>
+                        • Part4
+                        <div className="text-sm md:text-tiny leading-snug ml-6">
+                          : Kinetic Typogrphy for Slogan
+                        </div>
+                      </div>
+                    </div>
+                  </Accordion.Content>
+                </Accordion.Panel>
+                <Accordion.Panel>
+                  <Accordion.Title>
+                    <p className="font-hrot font-semibold sm:text-lg text-black">
+                      Legacy
+                    </p>
+                  </Accordion.Title>
+                  <Accordion.Content>
+                    <div className="md:text-lg md:w-4/5 break-keep ml-4 flex flex-col gap-4">
+                      Circle symbolizes routine and circulation, and square
+                      symbolizes recovery and care. Those 2 flat and basic
+                      shapes are organized to express connectivity and expand
+                      into wonderful patterns.
+                    </div>
+                  </Accordion.Content>
+                </Accordion.Panel>
+              </Accordion>
+            </div>
           </div>
           <div className="h-4 sm:h-6" />
         </div>

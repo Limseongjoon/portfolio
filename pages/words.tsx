@@ -20,7 +20,7 @@ const Page = () => {
                 </div>
               </Accordion.Title>
               <Accordion.Content>
-                <div className="h-2" />
+                <div className="h-1" />
                 <div className="md:text-lg md:w-5/6 break-keep ml-4 flex flex-col gap-4">
                   <div>다음의 이유들로 웹페이지를 개발하게 되었습니다.</div>
                   <div className="">
@@ -46,7 +46,7 @@ const Page = () => {
                     </span>
                     하므로.
                   </div>
-                  <div className="h-6" />
+                  <div className="h-4" />
                 </div>
               </Accordion.Content>
             </Accordion.Panel>
@@ -57,7 +57,7 @@ const Page = () => {
                 </p>
               </Accordion.Title>
               <Accordion.Content>
-                <div className="h-2" />
+                <div className="h-1" />
                 <div className="md:text-lg md:w-5/6 break-keep ml-4 flex flex-col gap-4">
                   <div>
                     • 디자인은 <span className="font-bold">필요로 시작</span>
@@ -81,7 +81,7 @@ const Page = () => {
                     만족을 목표로 하며, 고객이 추구하는 바를 달성할 수 있도록
                     도우려는 전투적인 마음입니다.
                   </div>
-                  <div className="h-6" />
+                  <div className="h-4" />
                 </div>
               </Accordion.Content>
             </Accordion.Panel>
@@ -92,7 +92,7 @@ const Page = () => {
                 </p>
               </Accordion.Title>
               <Accordion.Content>
-                <div className="h-2" />
+                <div className="h-1" />
                 <div className="md:text-lg md:w-5/6 break-keep ml-4 flex flex-col gap-6">
                   <div>
                     <div>
@@ -142,12 +142,11 @@ const Page = () => {
                       (5) 프로젝트의 방향성과 결을 같이하는 음악을 찾아내어
                       반복하여 듣고, 최대한 많이 걸으며, 많이 바라봅니다.
                     </div>
-            
                   </div>
                   <div>
                     <div>
-                      (6) 시간이 흘러도 그려진 이미지가 흐트러지지 않고 유지되는지
-                      계속 점검하고 살핍니다.
+                      (6) 시간이 흘러도 그려진 이미지가 흐트러지지 않고
+                      유지되는지 계속 점검하고 살핍니다.
                     </div>
                     <div className="h-1" />
                     <div className="text-sm md:text-tiny leading-snug ml-6">
@@ -155,7 +154,7 @@ const Page = () => {
                       기록하여 이를 유념하고 반영합니다.
                     </div>
                   </div>
-                  <div className="h-6" />
+                  <div className="h-4" />
                 </div>
               </Accordion.Content>
             </Accordion.Panel>
@@ -181,7 +180,22 @@ const Page = () => {
                 </span>
                 <div className="h-4" />
                 <div className="font-hrot text-sm ml-4">― Martin Heidegger</div>
-                <div className="h-6" />
+                <div className="h-4" />
+              </Accordion.Content>
+            </Accordion.Panel>
+            <Accordion.Panel>
+              <Accordion.Title>
+                <div className="h-1" />
+                <p className="font-hrot font-semibold sm:text-lg text-black pb-[0.8px]">
+                  i will
+                </p>
+              </Accordion.Title>
+              <Accordion.Content>
+                <div className="md:text-lg md:w-5/6">
+                  필요가 마땅하다면 기꺼이 쓰이겠습니다.<br></br>
+                  부던하게, 명료하게, 우아하게, 그리고 진실하게.
+                </div>
+                <div className="h-4" />
               </Accordion.Content>
             </Accordion.Panel>
             <Accordion.Panel>
@@ -195,7 +209,7 @@ const Page = () => {
                   <Timeline.Item>
                     <Timeline.Point />
                     <Timeline.Content>
-                      <div className="h-2" />
+                      <div className="h-1" />
                       <Timeline.Time className="text-xs">
                         March 2019 - March 2022
                       </Timeline.Time>

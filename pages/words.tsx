@@ -22,7 +22,7 @@ const Page = () => {
               <Accordion.Content>
                 <div className="h-1" />
                 <div className="md:text-lg md:w-5/6 break-keep ml-4 flex flex-col gap-4">
-                  <div>다음의 이유들로 웹페이지를 개발하게 되었습니다.</div>
+                  <div>페이지를 개발한 이유들은 아래와 같습니다:</div>
                   <div className="">
                     • 프로젝트{" "}
                     <span className="font-bold">

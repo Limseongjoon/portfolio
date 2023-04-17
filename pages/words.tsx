@@ -150,7 +150,7 @@ const Page = () => {
                     <div className="h-1" />
                     <div className="text-sm md:text-tiny leading-snug ml-6">
                       : 시간에 따라 보다 적절한 요소로 대체된 경우, 이를
-                      기록하여 이를 유념하고 반영합니다.
+                      기록하여 유념하고 반영합니다.
                     </div>
                   </div>
                   <div className="h-4" />

@@ -15,47 +15,11 @@ const Page = () => {
           <Accordion flush={true}>
             <Accordion.Panel>
               <Accordion.Title>
-                <div className="font-hrot font-semibold sm:text-lg text-black pb-[0.8px]">
-                  Developed for
-                </div>
-              </Accordion.Title>
-              <Accordion.Content>
-                <div className="h-1" />
-                <div className="md:text-lg md:w-5/6 break-keep ml-4 flex flex-col gap-4">
-                  <div>페이지를 개발한 이유들은 아래와 같습니다:</div>
-                  <div className="">
-                    • 프로젝트{" "}
-                    <span className="font-bold">
-                      매체의 규격과 포맷에 제한되지 않고
-                    </span>{" "}
-                    높은 자유도를 갖는 포트폴리오 구성 환경과 에셋들을
-                    조직해두기 위하여.
-                  </div>
-                  <div className="">
-                    • 단순한 큐레이션을 넘어 프로젝트{" "}
-                    <span className="font-bold">개개의 성질과 목소리</span>를
-                    유지하기 위하여.
-                  </div>
-                  <div className="">
-                    • 구조, 편집, 형태, 모양, 꼴, 생김새, 타입페이스, 색깔, 자간
-                    등 웹페이지 내의{" "}
-                    <span className="font-bold">
-                      모든 요소들은 표현의 총체를 구성
-                    </span>
-                    하므로.
-                  </div>
-                  <div className="h-4" />
-                </div>
-              </Accordion.Content>
-            </Accordion.Panel>
-            <Accordion.Panel>
-              <Accordion.Title>
-                <p className="font-hrot font-semibold sm:text-lg text-black pb-[0.8px]">
+                <p className="font-hrot font-semibold sm:text-lg text-black">
                   Designing is
                 </p>
               </Accordion.Title>
               <Accordion.Content>
-                <div className="h-1" />
                 <div className="md:text-lg md:w-5/6 break-keep ml-4 flex flex-col gap-4">
                   <div>
                     • 디자인은 <span className="font-bold">필요로 시작</span>
@@ -85,12 +49,11 @@ const Page = () => {
             </Accordion.Panel>
             <Accordion.Panel>
               <Accordion.Title>
-                <p className="font-hrot font-semibold sm:text-lg text-black pb-[0.8px]">
+                <p className="font-hrot font-semibold sm:text-lg text-black">
                   Way i Work
                 </p>
               </Accordion.Title>
               <Accordion.Content>
-                <div className="h-1" />
                 <div className="md:text-lg md:w-5/6 break-keep ml-4 flex flex-col gap-6">
                   <div>
                     <div>
@@ -159,8 +122,7 @@ const Page = () => {
             </Accordion.Panel>
             <Accordion.Panel>
               <Accordion.Title>
-                <div className="h-1" />
-                <p className="font-hrot font-semibold sm:text-lg text-black pb-[0.8px]">
+                <p className="font-hrot font-semibold sm:text-lg text-black">
                   Hit Me Hard
                 </p>
               </Accordion.Title>
@@ -185,7 +147,7 @@ const Page = () => {
 
             <Accordion.Panel>
               <Accordion.Title>
-                <p className="font-hrot font-semibold sm:text-lg text-black pb-[0.8px]">
+                <p className="font-hrot font-semibold sm:text-lg text-black">
                   i Walked Along
                 </p>
               </Accordion.Title>
@@ -219,6 +181,40 @@ const Page = () => {
                     </Timeline.Content>
                   </Timeline.Item>
                 </Timeline>
+              </Accordion.Content>
+            </Accordion.Panel>
+            <Accordion.Panel>
+              <Accordion.Title>
+                <div className="font-hrot font-semibold sm:text-lg text-black">
+                  Developed for
+                </div>
+              </Accordion.Title>
+              <Accordion.Content>
+                <div className="md:text-lg md:w-5/6 break-keep ml-4 flex flex-col gap-4">
+                  <div>페이지를 개발한 이유들은 아래와 같습니다:</div>
+                  <div className="">
+                    • 프로젝트{" "}
+                    <span className="font-bold">
+                      매체의 규격과 포맷에 제한되지 않고
+                    </span>{" "}
+                    높은 자유도를 갖는 포트폴리오 구성 환경과 에셋들을
+                    조직해두기 위하여.
+                  </div>
+                  <div className="">
+                    • 단순한 큐레이션을 넘어 프로젝트{" "}
+                    <span className="font-bold">개개의 성질과 목소리</span>를
+                    유지하기 위하여.
+                  </div>
+                  <div className="">
+                    • 구조, 편집, 형태, 모양, 꼴, 생김새, 타입페이스, 색깔, 자간
+                    등 웹페이지 내의{" "}
+                    <span className="font-bold">
+                      모든 요소들은 표현의 총체를 구성
+                    </span>
+                    하므로.
+                  </div>
+                  <div className="h-4" />
+                </div>
               </Accordion.Content>
             </Accordion.Panel>
           </Accordion>

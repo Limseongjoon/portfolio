@@ -8,10 +8,10 @@ const Page = () => {
       </div>
       <Header />
       <div className="flex flex-col h-screen items-center">
-        <div className="h-16 md:h-24" />
+        <div className="h-10 sm:h-16 md:h-24" />
         <div className="flex justify-center py-10 group">
-          <div className="relative flex items-center justify-end w-48 h-48 overflow-hidden bg-transparent border-2 border-black rounded-full ">
-            <div className="absolute w-1/2 h-1 bg-black rounded-full origin-left -rotate-12 group-hover:rotate-[215deg] duration-1000 ease-in-out" />
+          <div className="relative flex items-center justify-end w-40 sm:w-48 h-40 sm:h-48 overflow-hidden bg-transparent border-[1px] border-black rounded-full ">
+            <div className="absolute sm:w-1/2 h-1 bg-black rounded-full origin-left -rotate-12 group-hover:rotate-[215deg] duration-1000 ease-in-out" />
             <div className="absolute w-1/2 h-1 origin-left rotate-[70] group-hover:rotate-[340deg] duration-1000 ease-in-out">
               <div className="w-2/3 h-full bg-black rounded-full" />
             </div>

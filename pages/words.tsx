@@ -191,29 +191,26 @@ const Page = () => {
               </Accordion.Title>
               <Accordion.Content>
                 <div className="md:text-lg md:w-5/6 break-keep ml-4 flex flex-col gap-4">
-                  <div>페이지를 개발한 이유들은 아래와 같습니다:</div>
+                  <div>페이지를 제작한 이유들은 다음과 같습니다.</div>
                   <div className="">
                     • 프로젝트{" "}
                     <span className="font-bold">
                       매체의 규격과 포맷에 제한되지 않고
                     </span>{" "}
-                    높은 자유도를 갖는 포트폴리오 구성 환경과 에셋들을
-                    조직해두기 위하여.
+                    높은 자유도를 갖는 포트폴리오 조직 환경과 에셋들을
+                    구성해두기 위하여.
                   </div>
                   <div className="">
                     • 단순한 큐레이션을 넘어 프로젝트{" "}
                     <span className="font-bold">개개의 성질과 목소리</span>를
                     유지하기 위하여.
+                    <div className="h-1" />
+                    <div className="text-sm md:text-tiny leading-snug ml-6">
+                      : 웹페이지 내의 모든 요소들은 표현의 총체를 구성하므로
+                      편집의 측면에서의 실험 목적.
+                    </div>
+                    <div className="h-4" />
                   </div>
-                  <div className="">
-                    • 구조, 편집, 형태, 모양, 꼴, 생김새, 타입페이스, 색깔, 자간
-                    등 웹페이지 내의{" "}
-                    <span className="font-bold">
-                      모든 요소들은 표현의 총체를 구성
-                    </span>
-                    하므로.
-                  </div>
-                  <div className="h-4" />
                 </div>
               </Accordion.Content>
             </Accordion.Panel>

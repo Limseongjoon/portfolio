@@ -32,7 +32,7 @@ const Page = () => {
         <div className="h-8" />
         <div className="flex flex-col items-center">
           <a
-            href="mailto:sungjun170@gmail.com"
+            href="mailto:helloitsjoon@gmail.com"
             className="font-hrot text-tiny text-black text-center hover:pt-1 active:pt-4"
           >
             Send email

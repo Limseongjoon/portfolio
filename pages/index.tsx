@@ -87,6 +87,7 @@ const Page = () => {
             </div>
           </div>
           <div className="h-48 sm:h-64" />
+
           <div>
             <div className="md:hidden">
               <CustomImage
@@ -94,56 +95,6 @@ const Page = () => {
                 className="w-screen lg:px-4 xl:px-16"
               />
               <div className="h-6" />
-            </div>
-            <div className="w-full justify-center">
-              <div className="hidden md:flex flex-row gap-10 lg:gap-10 xl:gap-12 justify-center">
-                <div className="w-7/12">
-                  <CustomImage
-                    src="/images/cafemoodae_main.jpeg "
-                    className="w-screen"
-                  />
-                </div>
-                <div className="w-5/12">
-                  <div className="hidden md:flex border-t-[0.5px] border-black opacity-60 mr-10" />
-                  <div className="flex flex-col w-full items-baseline">
-                    <div className="h-6" />
-                    <div className="flex flex-col">
-                      <div className="flex items-baseline">
-                        <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
-                          café Moodae
-                        </div>
-                        <div className="text-xs lg:text-sm">2023</div>
-                      </div>
-                      <div className="h-3" />
-                      <div className="font-hrot text-xs pr-2 lg:pr-4">
-                        Dongdaemoon Design Plaza (DDP)<br></br>Opencurating
-                        vol.23
-                      </div>
-                      <div className="h-6" />
-                    </div>
-                    <div className="w-11/12">
-                      <div className="font-light">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the industry
-                        standard dummy text ever since the 1500s, when an
-                        unknown printer took a galley of type and scrambled it
-                        to make a type specimen book. It has survived not only
-                        five centuries, but also the leap into electronic
-                        typesetting, remaining essentially unchanged.
-                      </div>
-                      <div className="h-6" />
-                      <div className="flex flex-row items-start hover:gap-1 active:gap-4">
-                        <button className="font-hrot text-tiny pr-1 hover:font-semibold hover:rotate-6 active:rotate-12">
-                          <Link href="/">
-                            <span className="underline">See More</span>
-                          </Link>
-                        </button>
-                        <span>→</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div className="md:hidden px-4 md:px-10 -mt-2">
                 <div className="flex items-baseline">
                   <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
@@ -178,11 +129,54 @@ const Page = () => {
                 <div className="h-48 sm:h-64" />
               </div>
             </div>
+            <div className="hidden md:flex gap-8 :gap-10">
+              <div className="w-7/12">
+                <CustomImage
+                  src="/images/cafemoodae_main.jpeg "
+                  className="w-screen"
+                />
+              </div>
+              <div className="w-5/12">
+                <div className="flex flex-col items-baseline w-11/12 h-full border-t-[0.5px] border-b-[0.5px] border-black">
+                  <div className="h-6" />
+                  <div className="flex flex-col">
+                    <div className="flex items-baseline">
+                      <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
+                        café Moodae
+                      </div>
+                      <div className="text-xs lg:text-sm">2023</div>
+                    </div>
+                    <div className="h-3" />
+                    <div className="font-hrot text-xs pr-2 lg:pr-4">
+                      Dongdaemoon Design Plaza (DDP)<br></br>Opencurating vol.23
+                    </div>
+                    <div className="h-6" />
+                  </div>
+                  <div className="font-light">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining
+                    essentially unchanged.
+                  </div>
+                  <div className="h-6" />
+                  <div className="flex flex-row items-start hover:gap-1 active:gap-4">
+                    <button className="font-hrot text-tiny pr-1 hover:font-semibold hover:rotate-6 active:rotate-12">
+                      <Link href="/">
+                        <span className="underline">See More</span>
+                      </Link>
+                    </button>
+                    <span>→</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div>
-          <div className="hidden sm:flex border-b-[0.5px] border-black opacity-60 mr-10" />
-          <div className="sm:hidden h-4 sm:h-8 border-b-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
+          <div className="md:hidden border-t-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
           <CustomImage
             src="/images/inblog_main.png"
             className="w-screen lg:px-4 xl:px-16"

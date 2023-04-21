@@ -39,9 +39,9 @@ const Page = () => {
                     사실만으로도 무거운 중력을 지니기 때문입니다.
                   </div>
                   <div>
-                    • 무엇보다 중요한 것은 고객의 취향을 존중하고, 고객의 기쁨과
-                    만족을 목표로 하며, 고객이 추구하는 바를 달성할 수 있도록
-                    도우려는 전투적인 마음입니다.
+                    • 무엇보다 중요한 것은 고객의 취향을 존중하고, 고객의 만족을
+                    넘어 충만을 목표로 하며, 고객이 추구하는 바를 달성할 수
+                    있도록 도우려는 전투적인 마음입니다.
                   </div>
                   <div className="h-4" />
                 </div>
@@ -56,37 +56,13 @@ const Page = () => {
               <Accordion.Content>
                 <div className="md:text-lg md:w-5/6 break-keep ml-4 flex flex-col gap-6">
                   <div>
-                    <div>
-                      (1) <span className="font-bold">레거시</span>와{" "}
-                      <span className="font-bold">보편</span>을 구성하는
-                      요소들을 추출하여 조형으로 읽어냅니다.
-                    </div>
-                    <div className="h-1" />
-                    <div className="text-sm md:text-tiny leading-snug ml-6">
-                      : 통시적/ 공시적, 또는 그 이외의 관점에서 어느 시점과 어느
-                      범위까지 리서치 할 것인지 생각합니다.
-                    </div>
-                    <div className="h-1" />
-                    <div className="text-sm md:text-tiny leading-snug ml-6">
-                      : 스케쥴링과 판단이 필요하므로 직관과 경험의 누적이 필요한
-                      부분이라고 생각합니다.
-                    </div>
+                    (1) <span className="font-bold">레거시</span>와{" "}
+                    <span className="font-bold">보편</span>을 구성하는 요소들을
+                    추출하여 조형으로 읽어냅니다.
                   </div>
                   <div>
-                    <div>
-                      (2) 지나치게 과하지 않으며, 새롭고 강렬한 충격을 주는{" "}
-                      <span className="font-semibold">지형도</span>를
-                      그려냅니다.
-                    </div>
-                    <div className="h-1" />
-                    <div className="text-sm md:text-tiny leading-snug ml-6">
-                      : 마찬가지로 직관과 경험의 누적이 필요한 부분이며, 여러
-                      감각을 적절하게 활용합니다.
-                    </div>
-                    <div className="h-1" />
-                    <div className="text-sm md:text-tiny leading-snug ml-6">
-                      : 강렬한 경험, 예상치 못한 등장은 언제나 흥미롭습니다.
-                    </div>
+                    (2) 지나치게 과하지 않으며, 새롭고 강렬한 충격을 주는{" "}
+                    <span className="font-semibold">지형도</span>를 그려냅니다.
                   </div>
                   <div>
                     (3) 프로젝트 성격에 부합하는{" "}
@@ -100,21 +76,16 @@ const Page = () => {
                     기능할 것인지를 판단합니다.
                   </div>
                   <div>
-                    <div>
-                      (5) 프로젝트의 방향성과 결을 같이하는 음악을 찾아내어
-                      반복하여 듣고, 최대한 많이 걸으며, 많이 바라봅니다.
-                    </div>
+                    (5) 프로젝트의 방향성과 결을 같이하는 음악을 찾아내어
+                    반복하여 듣고, 최대한 많이 걸으며, 많이 바라봅니다.
                   </div>
                   <div>
-                    <div>
-                      (6) 시간이 흘러도 그려진 이미지가 흐트러지지 않고
-                      유지되는지 계속 점검하고 살핍니다.
-                    </div>
-                    <div className="h-1" />
-                    <div className="text-sm md:text-tiny leading-snug ml-6">
-                      : 시간에 따라 보다 적절한 요소로 대체된 경우, 이를
-                      기록하여 유념하고 철저히 반영합니다.
-                    </div>
+                    (6) 시간이 흘러도 그려진 이미지가 흐트러지지 않고 유지되는지
+                    계속 점검하고 살핍니다.
+                  </div>
+                  <div>
+                    (7) 시간에 따라 보다 적절한 요소로 대체된 경우, 이를
+                    기록하여 유념하고 철저히 반영합니다.
                   </div>
                   <div className="h-4" />
                 </div>

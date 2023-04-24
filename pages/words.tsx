@@ -203,7 +203,7 @@ const Page = () => {
                 </div>
                 <div className="h-4" />
                 <div className="text-right text-xs sm:text-sm">
-                  페이지를 제작하였습니다.
+                  페이지를 제작하게 되었습니다.
                 </div>
                 <div className="h-4" />
               </Accordion.Content>

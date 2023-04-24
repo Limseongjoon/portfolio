@@ -191,8 +191,7 @@ const Page = () => {
                   <div className="flex flex-row">
                     <span className="pr-2">•</span>
                     <span>
-                      프로젝트 단순한 큐레이션을 넘어 프로젝트 개개의 목소리를
-                      유지하기 위하여,
+                      큐레이션을 넘어 프로젝트 개개의 목소리를 유지하기 위하여,
                     </span>
                   </div>
                   <div className="flex flex-row">

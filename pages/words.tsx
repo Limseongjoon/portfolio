@@ -10,7 +10,7 @@ const Page = () => {
       </div>
       <Header />
       <div className="flex flex-col bg-[#51DA4A] items-center">
-        <div className="flex h-16 md:h-48 xl:h-36" />
+        <div className="flex h-16 md:h-24 xl:h-28" />
         <div className="w-11/12 sm:w-3/4 lg:w-3/5">
           <Accordion flush={true}>
             <Accordion.Panel>
@@ -20,28 +20,39 @@ const Page = () => {
                 </p>
               </Accordion.Title>
               <Accordion.Content>
-                <div className="md:text-lg md:w-5/6 break-keep ml-4 flex flex-col gap-4">
-                  <div>
-                    • 디자인은 <span className="font-bold">필요로 시작</span>
-                    하여
-                    <span className="font-bold"> 논리와 근거를 바탕</span>으로
-                    <span className="font-bold"> 감각의 총체로 맞이</span>하도록
-                    만드는 방법론입니다. 따라서 명확한 필요, 논리, 근거가 있다면
-                    그럴 수 밖에 없는 결과가 도출된다고 믿습니다.
+                <div className="md:text-lg md:w-5/6 break-keep ml-1 flex flex-col gap-4">
+                  <div className="flex flex-row">
+                    <span className="pr-2">•</span>
+                    <span>
+                      디자이닝은 <strong>필요로 시작</strong>
+                      하여 <strong>논리와 근거를 바탕</strong>으로{" "}
+                      <strong>감각의 총체로 맞이</strong>하도록 만드는
+                      방법론입니다. 명확한 필요, 논리, 근거가 있다면 그럴 수
+                      밖에 없는 결과가 도출됩니다.
+                    </span>
                   </div>
-                  <div>
-                    • 디자인은 필요로써 예술과 구별되고 논리와 근거로써 비로소
-                    모방에서 벗어날 수 있습니다.
+                  <div className="flex flex-row">
+                    <span className="pr-2">•</span>
+                    <span>
+                      디자인은 필요로써 예술과 구별되고 논리와 근거로써 비로소
+                      모방에서 벗어날 수 있습니다.
+                    </span>
                   </div>
-                  <div>
-                    • 나아가 촘촘히 설계된 결과물은 넛지하는 권력으로 기능하므로
-                    시작부터 조심스럽게 다루어야 합니다. 존재는 거기 있다는
-                    사실만으로도 무거운 중력을 지니기 때문입니다.
+                  <div className="flex flex-row">
+                    <span className="pr-2">•</span>
+                    <span>
+                      나아가 촘촘히 설계된 결과물은 넛지하는 권력으로 기능하므로
+                      시작부터 조심스럽게 다루어야 합니다. 거기 있다는
+                      사실만으로도 존재는 무거운 중력을 지니기 때문입니다.
+                    </span>
                   </div>
-                  <div>
-                    • 무엇보다 중요한 것은 고객의 취향을 존중하고, 고객의 만족을
-                    넘어 충만을 목표로 하며, 고객이 추구하는 바를 달성할 수
-                    있도록 도우려는 전투적인 마음입니다.
+                  <div className="flex flex-row">
+                    <span className="pr-2">•</span>
+                    <span>
+                      무엇보다 중요한 것은 고객의 취향을 존중하고, 고객의 만족을
+                      넘어 충만을 목표로 하며, 고객이 추구하는 바를 달성할 수
+                      있도록 도우려는 전투적인 마음입니다.
+                    </span>
                   </div>
                   <div className="h-4" />
                 </div>
@@ -54,38 +65,50 @@ const Page = () => {
                 </p>
               </Accordion.Title>
               <Accordion.Content>
-                <div className="md:text-lg md:w-5/6 break-keep ml-4 flex flex-col gap-6">
-                  <div>
-                    (1) <span className="font-bold">레거시</span>와{" "}
-                    <span className="font-bold">보편</span>을 구성하는 요소들을
-                    추출하여 조형으로 읽어냅니다.
+                <div className="md:text-lg md:w-5/6 break-keep ml-1 flex flex-col gap-6">
+                  <div className="flex flex-row">
+                    <span className="pr-2">1]</span>
+                    <span>
+                      <strong>레거시</strong>와 <strong>보편</strong>을 구성하는
+                      요소들을 추출하여 조형으로 읽어냅니다.
+                    </span>
                   </div>
-                  <div>
-                    (2) 지나치게 과하지 않으며, 새롭고 강렬한 충격을 주는{" "}
-                    <span className="font-semibold">지형도</span>를 그려냅니다.
+                  <div className="flex flex-row">
+                    <span className="pr-2">2]</span>
+                    <span>
+                      과하지 않으며 새롭고 강렬한 충격을 주는{" "}
+                      <strong>지형도</strong>를 그려냅니다.
+                    </span>
                   </div>
-                  <div>
-                    (3) 프로젝트 성격에 부합하는{" "}
-                    <span className="font-bold">이성-감각</span>의 적정한 비율을
-                    정의합니다.
+                  <div className="flex flex-row">
+                    <span className="pr-2">3]</span>
+                    <span>
+                      프로젝트 성격에 부합하는 <strong>이성-감각</strong>의
+                      적정한 비율을 정의합니다.
+                    </span>
                   </div>
-                  <div>
-                    (4) 어느 수준까지{" "}
-                    <span className="font-bold">오퍼레이터</span>로서 기능할
-                    것인지, 또는 <span className="font-bold">디렉터</span>로서
-                    기능할 것인지를 판단합니다.
+                  <div className="flex flex-row">
+                    <span className="pr-2">4]</span>
+                    <span>
+                      어느 수준까지 <strong>오퍼레이터</strong> 또는{" "}
+                      <strong>디렉터</strong>로서 기능할 것인지를 판단합니다.
+                    </span>
                   </div>
-                  <div>
-                    (5) 프로젝트의 방향성과 결을 같이하는 음악을 찾아내어
-                    반복하여 듣고, 최대한 많이 걸으며, 많이 바라봅니다.
+                  <div className="flex flex-row">
+                    <span className="pr-2">5]</span>
+                    <span>
+                      레퍼런스를 다양한 감각으로 수집하고 작업을 진행합니다.
+                    </span>
                   </div>
-                  <div>
-                    (6) 시간이 흘러도 그려진 이미지가 흐트러지지 않고 유지되는지
-                    계속 점검하고 살핍니다.
+                  <div className="flex flex-row">
+                    <span className="pr-2">6]</span>시간이 흘러감에 따라 도출된
+                    이미지가 흐트러지지 않고 유지되는지 지속적으로 점검하고
+                    살핍니다.
                   </div>
-                  <div>
-                    (7) 시간에 따라 보다 적절한 요소로 대체된 경우, 이를
-                    기록하여 유념하고 철저히 반영합니다.
+                  <div className="flex flex-row">
+                    <span className="pr-2">7]</span>시간이 지나 보다 적절한
+                    요소로 대체된 경우에는 이를 기록하여 유념할 수 있도록
+                    합니다.
                   </div>
                   <div className="h-4" />
                 </div>
@@ -98,24 +121,20 @@ const Page = () => {
                 </p>
               </Accordion.Title>
               <Accordion.Content>
-                <span className="md:text-lg md:w-5/6">
+                <div className="md:text-lg ml-1 md:w-5/6">
                   Essentially ahead of itself, it has projected itself upon its
                   potentiality-for-Being before going on to any mere
                   consideration of itself.
-                  <span className="font-bold">
-                    &nbsp;Being-in-the-world
-                  </span>{" "}
-                  has always expressed itself, and as Being alongside entities
-                  encountered within-the-world, it constantly expresses itself
-                  in addressing itself to the very object of its concern and
-                  discussing it.
-                </span>
+                  <strong>Being-in-the-world</strong> has always expressed
+                  itself, and as Being alongside entities encountered
+                  within-the-world, it constantly expresses itself in addressing
+                  itself to the very object of its concern and discussing it.
+                </div>
                 <div className="h-4" />
                 <div className="font-hrot text-sm ml-4">― Martin Heidegger</div>
                 <div className="h-4" />
               </Accordion.Content>
             </Accordion.Panel>
-
             <Accordion.Panel>
               <Accordion.Title>
                 <p className="font-hrot font-semibold sm:text-lg text-black">
@@ -161,28 +180,33 @@ const Page = () => {
                 </div>
               </Accordion.Title>
               <Accordion.Content>
-                <div className="md:text-lg md:w-5/6 break-keep ml-4 flex flex-col gap-4">
-                  <div>페이지를 제작한 이유들은 다음과 같습니다.</div>
-                  <div className="">
-                    • 프로젝트{" "}
-                    <span className="font-bold">
-                      매체의 규격과 포맷에 제한되지 않고
-                    </span>{" "}
-                    높은 자유도를 갖는 포트폴리오 조직 환경과 에셋들을
-                    구성해두기 위하여.
+                <div className="md:text-lg md:w-5/6 break-keep ml-1 flex flex-col gap-4">
+                  <div className="flex flex-row">
+                    <span className="pr-2">•</span>
+                    <span>
+                      매체의 규격과 포맷에 제한되지 않는 구성 환경과 에셋을
+                      조직하기 위하여,
+                    </span>
                   </div>
-                  <div className="">
-                    • 단순한 큐레이션을 넘어 프로젝트{" "}
-                    <span className="font-bold">개개의 성질과 목소리</span>를
-                    유지하기 위하여.
-                    <div className="h-1" />
-                    <div className="text-sm md:text-tiny leading-snug ml-6">
-                      : 웹페이지 내의 모든 요소들은 표현의 총체를 구성하므로
-                      편집의 측면에서의 실험 목적.
-                    </div>
-                    <div className="h-4" />
+                  <div className="flex flex-row">
+                    <span className="pr-2">•</span>
+                    <span>
+                      프로젝트 단순한 큐레이션을 넘어 프로젝트 개개의 목소리를
+                      유지하기 위하여,
+                    </span>
+                  </div>
+                  <div className="flex flex-row">
+                    <span className="pr-2">•</span>
+                    <span>
+                      웹페이지 내의 모든 요소들은 표현의 총체를 구성하므로,
+                    </span>
                   </div>
                 </div>
+                <div className="h-4" />
+                <div className="text-right text-xs sm:text-sm">
+                  페이지를 제작하였습니다.
+                </div>
+                <div className="h-4" />
               </Accordion.Content>
             </Accordion.Panel>
           </Accordion>

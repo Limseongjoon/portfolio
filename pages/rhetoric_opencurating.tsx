@@ -126,7 +126,7 @@ const Page = () => {
           <div className="h-4 sm:h-6" />
         </div>
         <div className="h-3 sm:h-8 border-t-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-2 sm:gap-4">
           <CustomImage
             src="/images/rhetoric_opencurating_1.jpeg"
             className="w-screen lg:px-4 xl:px-12"

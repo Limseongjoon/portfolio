@@ -5,7 +5,7 @@ import { Timeline } from "flowbite-react";
 const Page = () => {
   return (
     <div className="bg-[#51DA4A] text-black w-screen h-screen">
-      <div className="fixed z-50 w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px] pr-[4px]">
+      <div className="fixed italic z-50 w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px] pr-[4px]">
         나는
       </div>
       <Header />

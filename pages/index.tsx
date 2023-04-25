@@ -5,7 +5,7 @@ import Header from "../components/Header";
 const Page = () => {
   return (
     <div className="bg-white text-black w-screen">
-      <div className="fixed z-50 w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px] pr-[4px]">
+      <div className="fixed z-50 italic w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px] pr-[4px]">
         너의
       </div>
       <Header />

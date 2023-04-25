@@ -3,7 +3,7 @@ import Header from "../components/Header";
 const Page = () => {
   return (
     <div className="bg-[#f8ff34] bg-gradient-to-t from-[#fff]">
-      <div className="fixed z-50 w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px]">
+      <div className="fixed italic z-50 w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px]">
         너와
       </div>
       <Header />

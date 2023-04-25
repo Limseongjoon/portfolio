@@ -4,7 +4,7 @@ import Header from "../components/Header";
 
 const Page = () => {
   return (
-    <div className="bg-white text-black w-screen">
+    <div className="bg-white text-black w-screen h-screen">
       <div className="fixed italic z-50 w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px] pr-[4px]">
         나의
       </div>
@@ -24,7 +24,7 @@ const Page = () => {
               <div className="flex flex-col w-1/2">
                 <div className="flex items-baseline">
                   <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
-                    SMEG Scooter
+                    Scooter
                   </div>
                   <div className="text-xs lg:text-sm">2021</div>
                 </div>
@@ -66,7 +66,7 @@ const Page = () => {
           <div className="md:hidden px-4 lg:px-10 -mt-2">
             <div className="flex items-baseline">
               <div className="font-hrot text-lg lg:text-2xl pr-2 lg:pr-4">
-                SMEG Scooter
+                Scooter
               </div>
               <div className="text-xs lg:text-sm">2023</div>
             </div>
@@ -266,8 +266,12 @@ const Page = () => {
               <span>→</span>
             </div>
           </div>
+          <div className="h-48 sm:h-64" />
         </div>
-        <div className="h-48 sm:h-64" />
+        <div className="w-full border-t-[0.5px] border-black opacity-60" />
+        <div className="h-5 w-full font-light text-center text-2xs lg:text-xs text-black my-[1px]">
+          Copyright © JOON. All rights Reserved.
+        </div>
       </div>
     </div>
   );

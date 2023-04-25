@@ -4,7 +4,7 @@ import Header from "../components/Header";
 
 const Page = () => {
   return (
-    <div className="bg-white text-black w-screen">
+    <div className="bg-white text-black w-screen h-screen">
       <div className="fixed z-50 italic w-screen bg-transparent text-center font-hrot font-bold text-xs lg:text-sm pt-[5px] pr-[4px]">
         너의
       </div>
@@ -24,7 +24,7 @@ const Page = () => {
                   <div className="pr-2 lg:pr-4">
                     <CustomImage
                       src="/images/rhetoric_logo.png"
-                      className="w-32 h-auto"
+                      className="w-36 h-auto"
                     />
                   </div>
                   <div className="text-xs lg:text-sm">2023</div>
@@ -95,10 +95,13 @@ const Page = () => {
                 className="w-screen lg:px-4 xl:px-16"
               />
               <div className="h-6" />
-              <div className="md:hidden px-4 md:px-10 -mt-2">
+              <div className="md:hidden px-4 md:px-10 -mt-1 sm:-mt-2">
                 <div className="flex items-baseline">
-                  <div className="font-hrot text-lg pr-2 lg:pr-4">
-                    café Moodae
+                  <div className="pr-2 lg:pr-4">
+                    <CustomImage
+                      src="/images/moodae_logo.png"
+                      className="w-[100px] h-auto"
+                    />
                   </div>
                   <div className="text-xs lg:text-sm">2023</div>
                 </div>
@@ -134,13 +137,20 @@ const Page = () => {
                   </button>
                   <span>→</span>
                 </div>
-                <div className="h-48 sm:h-64" />
+                <div className="h-40 sm:h-60" />
+                <div className="flex flex-row">
+                  <div className="grow"></div>
+                  <CustomImage
+                    src="/images/moodae_symbol.png"
+                    className="w-5 h-auto pb-3"
+                  />
+                </div>
               </div>
             </div>
             <div className="hidden md:flex gap-8 lg:gap-10">
               <div className="w-7/12">
                 <CustomImage
-                  src="/images/cafemoodae_main.jpeg "
+                  src="/images/cafemoodae_main.jpeg"
                   className="w-screen"
                 />
               </div>
@@ -149,8 +159,11 @@ const Page = () => {
                   <div className="h-6" />
                   <div className="flex flex-col">
                     <div className="flex items-baseline">
-                      <div className="font-hrot text-xl lg:text-2xl pr-2 lg:pr-4">
-                        café Moodae
+                      <div className="pr-2 lg:pr-4">
+                        <CustomImage
+                          src="/images/moodae_logo.png"
+                          className="w-36 h-auto pt-1"
+                        />
                       </div>
                       <div className="text-xs lg:text-sm">2023</div>
                     </div>
@@ -186,6 +199,11 @@ const Page = () => {
                     </button>
                     <span>→</span>
                   </div>
+                  <div className="grow"></div>
+                  <CustomImage
+                    src="/images/moodae_symbol.png"
+                    className="flex self-end w-6 h-auto pb-5"
+                  />
                 </div>
               </div>
             </div>
@@ -193,21 +211,26 @@ const Page = () => {
         </div>
         <div>
           <div className="md:hidden border-t-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
-          <CustomImage
-            src="/images/inblog_main.png"
-            className="w-screen lg:px-4 xl:px-16"
-          />
+          <div className="flex flex-col items-center">
+            <CustomImage
+              src="/images/inblog_console.gif"
+              className="w-10/12 md:w-2/3 lg:px-4 xl:px-16 py-24 md:py-48"
+            />
+          </div>
           <div className="border-b-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
           <div className="h-6" />
           <div className="hidden md:flex px-4 md:px-10 w-full">
             <div className="flex flex-row w-full items-baseline">
               <div className="h-6" />
               <div className="flex flex-col w-1/2">
-                <div className="flex items-baseline">
-                  <div className="font-Pridi font-medium text-2xl lg:text-3xl pr-2 lg:pr-4">
-                    inblog
+                <div className="flex items-center">
+                  <div className="pr-2 lg:pr-4">
+                    <CustomImage
+                      src="/images/inblog_logo.png"
+                      className="w-[110px] h-auto"
+                    />
                   </div>
-                  <div className="text-xs lg:text-sm">2023</div>
+                  <div className="text-xs lg:text-sm pt-2">2023</div>
                 </div>
                 <div className="h-3" />
                 <div className="font-hrot text-xs pr-2 lg:pr-4">
@@ -243,11 +266,14 @@ const Page = () => {
             <div className="h-20" />
           </div>
           <div className="md:hidden px-4 md:px-10 -mt-2">
-            <div className="flex items-baseline">
-              <div className="font-Pridi font-medium text-xl pr-2 lg:pr-4">
-                inblog
+            <div className="flex items-center">
+              <div className="pr-2 lg:pr-4">
+                <CustomImage
+                  src="/images/inblog_logo.png"
+                  className="w-[86px] h-auto"
+                />
               </div>
-              <div className="text-xs lg:text-sm">2023</div>
+              <div className="text-xs lg:text-sm pt-2">2023</div>
             </div>
             <div className="h-2" />
             <div className="font-hrot text-2xs pr-2 lg:pr-4">
@@ -344,7 +370,7 @@ const Page = () => {
             </div>
             <div className="h-20" />
           </div>
-          <div className="md:hidden px-4 md:px-10 -mt-2">
+          <div className="md:hidden px-4 md:px-10 -mt-1">
             <div className="flex items-center">
               <div className="pr-2 lg:pr-4">
                 <CustomImage
@@ -566,6 +592,10 @@ const Page = () => {
               </div>
             </div>
             <div className="h-48 sm:h-64" />
+            <div className="w-full border-t-[0.5px] border-black opacity-60" />
+            <div className="h-5 w-full font-light text-center text-2xs lg:text-xs text-black my-[1px]">
+              Copyright © JOON. All rights Reserved.
+            </div>
           </div>
         </div>
       </div>

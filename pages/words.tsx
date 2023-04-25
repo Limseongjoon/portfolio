@@ -210,7 +210,7 @@ const Page = () => {
             </Accordion.Panel>
           </Accordion>
         </div>
-        <div className="h-48" />
+        <div className="h-48 sm:h-64" />
         <div className="w-full border-t-[0.5px] border-black opacity-60" />
         <div className="h-5 w-full font-light text-center text-2xs lg:text-xs text-black my-[1px]">
           Copyright © JOON. All rights Reserved.

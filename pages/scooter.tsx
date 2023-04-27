@@ -81,7 +81,7 @@ const Page = () => {
         <div className="h-3 sm:h-8 border-t-[0.5px] border-black opacity-60 mx-4 lg:mx-10" />
         <div className="hidden lg:flex flex-col gap-4 w-screen">
           <div className="flex flex-row w-full items-center justify-center">
-            <div className="w-6/12">
+            <div className="w-1/2">
               <CustomImage src="/images/smeg_1.png" className="w-full h-auto" />
             </div>
             <div className="w-1/4">
@@ -211,7 +211,8 @@ const Page = () => {
             className="w-screen lg:px-4 xl:px-12"
           />
         </div>
-        <div className="h-12 text-center text-2xs lg:text-xs text-black">
+        <div className="w-full border-t-[0.5px] border-black opacity-60" />
+        <div className="h-5 w-full font-light text-center text-2xs lg:text-xs text-black my-[1px]">
           Copyright © JOON. All rights Reserved.
         </div>
       </div>

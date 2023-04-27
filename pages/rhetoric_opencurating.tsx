@@ -147,6 +147,74 @@ const Page = () => {
             src="/images/rhetoric_opencurating_5.jpeg"
             className="w-screen lg:px-4 xl:px-12"
           />
+          <CustomImage
+            src="/images/rhetoric_opencurating_6.jpeg"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/rhetoric_opencurating_7.jpeg"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/rhetoric_opencurating_8.jpeg"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/rhetoric_opencurating_9.jpeg"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/rhetoric_opencurating_10.jpeg"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/rhetoric_opencurating_11.jpeg"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/rhetoric_opencurating_12.jpeg"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/rhetoric_opencurating_13.jpeg"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <div className="hidden lg:flex w-full justify-center lg:px-6 xl:px-14">
+            <div className="flex flex-row gap-4 justify-center">
+              <CustomImage
+                src="/images/rhetoric_opencurating_14.jpeg"
+                className="w-1/2 h-auto"
+              />
+              <CustomImage
+                src="/images/rhetoric_opencurating_15.jpeg"
+                className="w-1/2 h-auto"
+              />
+            </div>
+          </div>
+          <CustomImage
+            src="/images/rhetoric_opencurating_14.jpeg"
+            className="flex lg:hidden w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/rhetoric_opencurating_15.jpeg"
+            className="flex lg:hidden w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/rhetoric_opencurating_16.jpeg"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/rhetoric_opencurating_17.jpeg"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/rhetoric_opencurating_18.jpeg"
+            className="w-screen lg:px-4 xl:px-12"
+          />
+          <CustomImage
+            src="/images/rhetoric_opencurating_19.jpeg"
+            className="w-screen lg:px-4 xl:px-12"
+          />
         </div>
         <div className="h-12 text-center text-2xs lg:text-xs text-black">
           Copyright © JOON. All rights Reserved.
